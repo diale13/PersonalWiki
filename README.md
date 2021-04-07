@@ -6,5 +6,7 @@ A destacar las secciones mas pulidas son las referentes a cursos, empezando por 
 
 La wiki siempre esta en construccion, siempre ha de mejorar y emprolijarse.
 
-[https://app.gitbook.com/@diegofranggi/s/personalwiki/](https://app.gitbook.com/@diegofranggi/s/personalwiki/)
+{% embed url="https://app.gitbook.com/@diegofranggi/s/personalwiki/" %}
+
+
 

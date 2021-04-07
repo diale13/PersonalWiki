@@ -6,7 +6,13 @@ A destacar las secciones mas pulidas son las referentes a cursos, empezando por 
 
 La wiki siempre esta en construccion, siempre ha de mejorar y emprolijarse.
 
+Es ideal leerlo directamente desde git book
+
+**Link que suele andar:**
+
 {% embed url="https://app.gitbook.com/@diegofranggi/s/personalwiki/" %}
+
+[L](https://github.com/diale13/PersonalWiki)ink para cuando gibook pelea y no se quiere sincronizar:
 
 
 

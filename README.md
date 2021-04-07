@@ -8,7 +8,5 @@ La wiki siempre esta en construccion, siempre ha de mejorar y emprolijarse.
 
 {% embed url="https://app.gitbook.com/@diegofranggi/s/personalwiki/" %}
 
-{% embed url="https://app.gitbook.com/@hello-48/s/personalwiki/" %}
-
 
 

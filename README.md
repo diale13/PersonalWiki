@@ -1,4 +1,4 @@
-# Initial page
+# 1 - Initial page
 
 Esta es una wiki en la que trabajo cada tanto. No reviso mucho la ortografia y el idioma real en el que esta escrita es spanglish 😄. Finalmente la hago para mi, no siempre es algo que invita a ser leida por un tercero pero la mantengo publica.
 

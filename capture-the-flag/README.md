@@ -1,2 +1,2 @@
-# Capture the flag
+# 6 - Capture the flag
 

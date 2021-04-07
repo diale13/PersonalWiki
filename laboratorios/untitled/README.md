@@ -1,14 +1,8 @@
+---
+description: Laboratorio 3 compuesto de dos partes. Linux y Windows
+---
+
 # Lab 3
 
-## Linux
-
-aaaaa
-
-### Variables de entorno
-
-#### Visualizar variables de entorno
-
-
-
-#### Visualizar de manera completa y filtrar salida por bash\_alias
+## 
 

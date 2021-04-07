@@ -2,6 +2,8 @@
 
 ## Linux
 
+aaaaa
+
 ### Variables de entorno
 
 #### Visualizar variables de entorno

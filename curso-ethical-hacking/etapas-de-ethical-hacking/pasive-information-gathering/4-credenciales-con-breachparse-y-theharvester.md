@@ -6,7 +6,7 @@
 
 Lo descargamos en conjunto a la lista de contraseñas via magnet. Pesa unos 40gb 
 
-![](../../../.gitbook/assets/imagen%20%28153%29.png)
+![](../../../.gitbook/assets/imagen%20%28134%29%20%281%29.png)
 
 Llegamos a esto, con la herramienta vemos nombres, la herramienta nos facilita tambien poder buscar por correo, por ejemplo **@tesla.com**
 

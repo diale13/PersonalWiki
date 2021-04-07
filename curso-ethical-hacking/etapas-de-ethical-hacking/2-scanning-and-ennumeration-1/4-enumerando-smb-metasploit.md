@@ -2,7 +2,7 @@
 
 SMB es un sistema de transferencia de archivos
 
-![](../../../.gitbook/assets/imagen%20%28206%29.png)
+![](../../../.gitbook/assets/imagen%20%28206%29%20%281%29.png)
 
 Comenta ademas que usan samba
 

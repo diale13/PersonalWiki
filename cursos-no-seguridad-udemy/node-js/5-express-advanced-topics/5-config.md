@@ -16,7 +16,7 @@ Te haces una carpeta llamada config y dentro de ella un default.json
 
 Y otra development.json para configuara eso
 
-![](../../../.gitbook/assets/imagen%20%28240%29.png)
+![](../../../.gitbook/assets/imagen%20%28242%29.png)
 
 ![](../../../.gitbook/assets/imagen%20%28229%29.png)
 
@@ -30,7 +30,7 @@ $ export usrPass=1234
 
 Creamos otro archivo dentro de la carpeta config llamado **custom-environment-variables.json** clave el nombre asi
 
-![](../../../.gitbook/assets/imagen%20%28236%29.png)
+![](../../../.gitbook/assets/imagen%20%28249%29.png)
 
 
 

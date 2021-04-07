@@ -12,7 +12,7 @@ Se siguen usando bastante, en todo lo que es menjo de obtencion de claves y padd
 
 Es una estructura para crear cyphers, no es uno en si mismo. Es mas bien un framework.
 
-![Estructura base](../.gitbook/assets/imagen%20%283%29%20%282%29%20%281%29.png)
+![Estructura base](../.gitbook/assets/imagen%20%283%29%20%282%29%20%282%29%20%281%29.png)
 
 **La gracia es que las funciones puedan caambiar, los + son XOR, al llegar al final podremos tomar L y R luego de todo el proceso y al ponerlos arriba, invertir las llaves llegar al resultado original!!.**
 

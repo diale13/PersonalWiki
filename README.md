@@ -14,5 +14,7 @@ Es ideal leerlo directamente desde git book
 
 [L](https://github.com/diale13/PersonalWiki)ink para cuando gibook pelea y no se quiere sincronizar:
 
+[https://app.gitbook.com/@hello-48/s/personalwiki/](https://app.gitbook.com/@hello-48/s/personalwiki/)
+
 
 

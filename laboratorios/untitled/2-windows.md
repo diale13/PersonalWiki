@@ -102,7 +102,7 @@ out-file -filepath C:\TestFolder3\Potato.txt -inputobject $a -encoding ASCII -wi
 
 ### Cuantos anillos tiene?
 
-![](../../.gitbook/assets/imagen%20%28282%29.png)
+![](../../.gitbook/assets/imagen%20%28284%29.png)
 
 ### API de windows
 

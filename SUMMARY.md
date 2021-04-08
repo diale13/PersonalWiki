@@ -157,6 +157,7 @@
     * [6 - Cambiando Callbacks a promises](cursos-no-seguridad-udemy/node-js/6-asynchronus-js/untitled.md)
     * [7 - Consumiendo promises](cursos-no-seguridad-udemy/node-js/6-asynchronus-js/7-consumiendo-promises.md)
     * [8 - Setteled Promise](cursos-no-seguridad-udemy/node-js/6-asynchronus-js/8-setteled-promise.md)
+    * [9 - Promesas en paralelo](cursos-no-seguridad-udemy/node-js/6-asynchronus-js/9-promesas-en-paralelo.md)
     * [9999 - Para ver terminado eso](cursos-no-seguridad-udemy/node-js/6-asynchronus-js/9999-para-ver-terminado-eso.md)
   * [9999 - Para ir haciendo el proyecto](cursos-no-seguridad-udemy/node-js/9999-para-ir-haciendo-el-proyecto.md)
 

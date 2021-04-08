@@ -12,7 +12,9 @@ Es ideal leerlo directamente desde git book
 
 {% embed url="https://app.gitbook.com/@diegofranggi/s/personalwiki/" %}
 
-[L](https://github.com/diale13/PersonalWiki)ink para cuando gibook pelea y no se quiere sincronizar:
+
+
+**Nota**: tengo el teclado en ingles y no voy a poner tildes. Lector avisado de faltas.
 
 
 

@@ -103,7 +103,8 @@
   * [Cheatsheet](linux/cheatsheet.md)
   * [index](linux/untitled.md)
   * [For new vm](linux/for-new-vm.md)
-* [9 - Paginas y herramientas](paginas-recomendadas.md)
+* [9 - Paginas y herramientas](paginas-recomendadas/README.md)
+  * [NMap Cheatsheet](paginas-recomendadas/nmap-cheatsheet.md)
 * [10 - Laboratorios](laboratorios/README.md)
   * [Lab 1 - Linux](laboratorios/lab-1-linux.md)
   * [Lab 2 - Linux 2](laboratorios/lab-2-linux-2.md)
@@ -160,6 +161,7 @@
     * [7 - Consumiendo promises](cursos-no-seguridad-udemy/node-js/6-asynchronus-js/7-consumiendo-promises.md)
     * [8 - Setteled Promise](cursos-no-seguridad-udemy/node-js/6-asynchronus-js/8-setteled-promise.md)
     * [9 - Promesas en paralelo](cursos-no-seguridad-udemy/node-js/6-asynchronus-js/9-promesas-en-paralelo.md)
+    * [10 - Async Await](cursos-no-seguridad-udemy/node-js/6-asynchronus-js/10-async-await.md)
     * [9999 - Para ver terminado eso](cursos-no-seguridad-udemy/node-js/6-asynchronus-js/9999-para-ver-terminado-eso.md)
   * [9999 - Para ir haciendo el proyecto](cursos-no-seguridad-udemy/node-js/9999-para-ir-haciendo-el-proyecto.md)
 

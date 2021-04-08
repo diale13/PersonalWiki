@@ -234,15 +234,37 @@ $ /etc/rsyslog.conf
 
 ### Que es logrotate?
 
-Esta utilidad en linux nos permite rotar, comprimir y renovar los ficheros de log de forma automatizada.
+Al ser administrador de linux manejas un monton de logs. 
+
+-Os
+
+ -Servidores \(como Nginx\)
+
+-Logs de base de datos 
+
+-App
+
+Un monton de logs de un monton de fuentes. Logrotate ayuda a manejar la cantidad de lgos. Rota los logs. Esto es crear nuevas carpetas y mueve, comprime o remueve los logs viejos.
+
+{% embed url="https://www.youtube.com/watch?v=0U2RMbzKUCY" %}
+
+### Intentar hacer sudo con un usuario que no este en sudoers
+
+No pasa.
+
+### Ingresa mal la contraseña de un user que este en sudoers
+
+Marca error 
+
+### Donde se almacenan los log?
+
+Se almacenan en **/var/log**
+
+### **Ver log de bad login**
+
+```text
+$ sudo grep "Failed password" /var/log/auth.log | head -3
+```
 
 
-
-✔️ Intenta hacer sudo con un usuario que no este en sudoers
-
-> No se puede
-
-✔️ Ingresa mal la contraseña de un user que este en sudoers
-
-> Indica que la contraseña está mal ingresada
 

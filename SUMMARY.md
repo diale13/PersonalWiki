@@ -110,6 +110,7 @@
   * [Lab 3](laboratorios/untitled/README.md)
     * [1 - Linux](laboratorios/untitled/1-linux.md)
     * [2 - Windows](laboratorios/untitled/2-windows.md)
+* [Virtualizacion](virtualizacion.md)
 
 ## Cursos no seguridad udemy
 

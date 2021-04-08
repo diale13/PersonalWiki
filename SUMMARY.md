@@ -86,6 +86,8 @@
       * [7 - Notas](curso-ethical-hacking/etapas-de-ethical-hacking/2-scanning-and-ennumeration-1/7-notas.md)
       * [8 - Herramientas adicionales. Masscan & Metasploit scann](curso-ethical-hacking/etapas-de-ethical-hacking/2-scanning-and-ennumeration-1/8-herramientas-adicionales.-masscan-and-metasploit-scann.md)
       * [9 - Nessus](curso-ethical-hacking/etapas-de-ethical-hacking/2-scanning-and-ennumeration-1/9-nessus.md)
+    * [3 - Explotation](curso-ethical-hacking/etapas-de-ethical-hacking/3-explotation/README.md)
+      * [Reverse shell vs Bind shell](curso-ethical-hacking/etapas-de-ethical-hacking/3-explotation/reverse-shell-vs-bind-shell.md)
 * [5 - Others](others/README.md)
   * [Informe cyber en empresas chicas](others/informe-cyber-en-empresas-chicas.md)
   * [Clean git commits](others/clean-git-commits.md)

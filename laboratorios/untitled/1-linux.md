@@ -266,5 +266,27 @@ Se almacenan en **/var/log**
 $ sudo grep "Failed password" /var/log/auth.log | head -3
 ```
 
+## Transferencia de archivos
 
+Crea un archivo en kali
+
+```text
+$ touch test.txt
+```
+
+ Transfiere el archivo mediante scp a Metasploitable
+
+```text
+$ scp ./test.txt msfadmin@10.0.2.16:/home/msfadmin
+```
+
+Transfiere el archivo mediante FTP a Metasploitable
+
+```text
+$ ftp 10.0.2.16
+$ msfadmin
+$ put test.txt 
+```
+
+>
 

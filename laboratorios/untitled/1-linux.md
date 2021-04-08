@@ -162,3 +162,87 @@ $ cat ports.txt | sed -e "s/:/ /" | while read ip port
     tar -czvf outputed.tar.gz ./ 
 ```
 
+## Storage device management
+
+### Listar particiones
+
+```text
+$ df -h  
+```
+
+**Fun fact**: la h es de human, ya que listarlo asi es mas legible por uno.
+
+Conectar usb 
+
+### Crear directorio para usb
+
+```text
+$ mkdir /media/usb
+```
+
+### Identificar nombre de unidad
+
+```text
+$ ls -l /dev/sd*
+```
+
+### Montar unidad
+
+```text
+$ mount -t vfat /dev/sdb1 /media/usb -o [securityoption]
+```
+
+> The security option is mandatory and allows you to give/gain access to the USB by specifying one of the following values for permission;
+>
+> _uid=1000_
+>
+> _gid=1000_
+>
+> _Utf8_
+>
+> _dmask=027_
+>
+> _fmask=137_
+
+_Yo use uid=1000_
+
+### Validar espacio disponible 
+
+```text
+$ df -h  
+```
+
+### Desmontar unidad
+
+```text
+$ umount /media/usb 
+```
+
+## Logging
+
+### ¿Que es rsyslog?
+
+Es una herramienta de codigo abierto para los sistemas UNIX que se encarga de enviar los logs en una red ip. Implementa un protocolo llamado syslog. Facilmente configurable con propiedades de filtrado que corre sobre TCP.
+
+> "The **r**ocket-fast **sys**tem for **log** processing" - RSYSLOG website
+
+###  Donde se encuentra el archivo de configuración de rsyslog?
+
+```text
+$ /etc/rsyslog.conf
+```
+
+### Que es logrotate?
+
+Esta utilidad en linux nos permite rotar, comprimir y renovar los ficheros de log de forma automatizada.
+
+
+
+✔️ Intenta hacer sudo con un usuario que no este en sudoers
+
+> No se puede
+
+✔️ Ingresa mal la contraseña de un user que este en sudoers
+
+> Indica que la contraseña está mal ingresada
+

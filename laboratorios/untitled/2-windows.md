@@ -98,15 +98,25 @@ Get-Content -Path .\Potato.txt
 out-file -filepath C:\TestFolder3\Potato.txt -inputobject $a -encoding ASCII -width 100
 ```
 
-
-
 ## Windows filesystem
 
-![](../../.gitbook/assets/imagen%20%28280%29.png)
+### Cuantos anillos tiene?
 
+![](../../.gitbook/assets/imagen%20%28282%29.png)
 
+### API de windows
 
+Es la interfaz de programacion de aplicaciones de Windows. Es usada por casi todos los programas.
 
+### dll
 
+Bibliotecas de binarios compilados. Permiten la ejecucion de codigo.
 
+### Registro de windows
+
+Base de datos que se sitúa en el disco duro, guarda ajustes de programas y de Windows, además de diversos drivers y también hardware del ordenador.
+
+### Ayuda en powershell
+
+get-help
 

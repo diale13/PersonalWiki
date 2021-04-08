@@ -40,7 +40,11 @@ Ahora al correr eso lo intenta pero falla en el proceso. Algo sucede con el payl
 
 Los 4444 en la vida real son atrapados por antivirus ya que son comunes para este tipo de ataques, para esto no importa mucho.
 
+Tratermos de modificarlo un poco haciendo set payload linux/x86/ tab tab y sale lo siguiente
+
 ![](../../../.gitbook/assets/imagen%20%28293%29.png)
+
+Probamos este
 
 ![WE WON](../../../.gitbook/assets/imagen%20%28292%29.png)
 

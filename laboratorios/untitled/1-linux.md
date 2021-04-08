@@ -104,11 +104,61 @@ WORLD BEST HACKER PS1 = $PS1_ORG
 
 ## Bash Script
 
+Descargamos **metasploitable** y nos aseguramos que este correctamente levantada haciendo ping desde la virutal machine de kali.
 
+### Realiza un script que permita tomar los puertos a escanear
 
+```text
+//Suponiendo ports.txt
+$ cat ports.txt | sed -e "s/:/ /" | while read ip port
+    do
+    nmap -T4 -p $port -oN $ip 'nmap'$port  
+    done
+```
 
+**Recordar**
 
-### 
+```text
+sed - is a stream editor for filtering and transforming text
+sed -e script, --expression=script
+add the script to the commands to be executed
+```
 
+###  Scan a la direccion ip de Metasploitable y envia a un archivo grepable
 
+```text
+$ nmap -sS 10.0.2.16 -p- -oG outScript -T4
+```
+
+### Fuera de eso filtrar salida a puerto 80
+
+```text
+$ cat outScript | grep 80/open > grepPort.txt
+```
+
+### Cuenta puertos abiertos con grep y awk
+
+**NO ES MIO LO SIGUIENTE DEBO CORRELO AUN**
+
+![](../../.gitbook/assets/imagen%20%2899%29.png)
+
+### Comprimir salida a tar
+
+```text
+$ tar -czvf grep.tar.gz ./
+```
+
+### Script de eso
+
+```text
+//Suponiendo ports.txt
+$ cat ports.txt | sed -e "s/:/ /" | while read ip port
+    do
+    nmap -T4 -p $port -oN $ip 'nmap'$port  
+    done
+
+    nmap -sS 10.0.2.16 -p- -oG outScript -T4
+    $ cat outScript | grep 80/open > grepPort.txt
+    tar -czvf outputed.tar.gz ./ 
+```
 

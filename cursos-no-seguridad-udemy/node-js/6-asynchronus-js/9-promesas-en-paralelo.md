@@ -10,5 +10,7 @@ Dos op async como p1 y p2. Luego:
 
 Podes agregar un catch abajo. Si UNA de las dos falla ya se va directo al error.
 
-Depende de como
+Depende de como termine pero marca solo el primer resultado. En este caso p1.
+
+
 

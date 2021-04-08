@@ -1,4 +1,4 @@
-# Reverse shell vs Bind shell
+# 1 - Reverse shell vs Bind shell
 
 ## Reverse shell
 

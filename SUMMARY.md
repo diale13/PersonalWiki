@@ -133,6 +133,7 @@
   * [10 - The value of blockchain and Cryptocurrencies](cursos-no-seguridad-udemy/blockchain-fundamentals/10-the-value-of-blockchain.md)
   * [11 - Blockchain and digital tokens](cursos-no-seguridad-udemy/blockchain-fundamentals/bitcoin-and-digital-tokens.md)
   * [12 - Blockchain smart contracts](cursos-no-seguridad-udemy/blockchain-fundamentals/12-blockchain-smart-contracts.md)
+  * [13 - DAOs and DACs](cursos-no-seguridad-udemy/blockchain-fundamentals/13-daos-and-dacs.md)
 * [Node js](cursos-no-seguridad-udemy/node-js/README.md)
   * [1- Node](cursos-no-seguridad-udemy/node-js/1-node.md)
   * [2- Node modules](cursos-no-seguridad-udemy/node-js/2-node-modules/README.md)

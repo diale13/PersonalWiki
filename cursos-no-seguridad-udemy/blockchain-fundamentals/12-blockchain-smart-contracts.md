@@ -4,5 +4,5 @@ Basados en blockchain los smart contracts son programas que aseguran el cumplimi
 
 ![](../../.gitbook/assets/imagen%20%28321%29.png)
 
-![](../../.gitbook/assets/imagen%20%28323%29.png)
+![](../../.gitbook/assets/imagen%20%28325%29.png)
 

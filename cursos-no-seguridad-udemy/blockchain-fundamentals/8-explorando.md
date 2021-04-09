@@ -12,7 +12,7 @@ Lo que se ve que se hace ahora son clonglomerados de minadores que se reparten e
 
 Aca le saque una foto a una transaccion random sin confirmar de la pagina:
 
-![](../../.gitbook/assets/imagen%20%28314%29.png)
+![](../../.gitbook/assets/imagen%20%28315%29.png)
 
 
 

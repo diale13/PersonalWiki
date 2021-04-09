@@ -129,6 +129,7 @@
   * [6 - Los 4 componentes de Btc](cursos-no-seguridad-udemy/blockchain-fundamentals/6-los-4-componentes-de-btc.md)
   * [7 - Coinbase](cursos-no-seguridad-udemy/blockchain-fundamentals/7-coinbase.md)
   * [8 - Explorando](cursos-no-seguridad-udemy/blockchain-fundamentals/8-explorando.md)
+  * [9 - Conceptos clave](cursos-no-seguridad-udemy/blockchain-fundamentals/9-conceptos-clave.md)
 * [Node js](cursos-no-seguridad-udemy/node-js/README.md)
   * [1- Node](cursos-no-seguridad-udemy/node-js/1-node.md)
   * [2- Node modules](cursos-no-seguridad-udemy/node-js/2-node-modules/README.md)

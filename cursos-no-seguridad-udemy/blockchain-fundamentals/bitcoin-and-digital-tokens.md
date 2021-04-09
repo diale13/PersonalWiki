@@ -12,3 +12,7 @@ Representan activos reales estos tokens.
 
 El gato es un asset virtual, solo lo puede tener el dueño aunque este puede ser vendido y transferido.
 
+{% embed url="https://www.cryptokitties.co/" %}
+
+
+

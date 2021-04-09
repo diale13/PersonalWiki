@@ -8,5 +8,5 @@ La alta seguridad de blockchain se basa en muchisimas redundancias en el registr
 
 Cada bloque se agrega de forma cronologica e inmutable.
 
-
+Ademas de ser este registro donde se pueden agregar mensajes es una forma de dinero, separada de cualquier entidad bancaria y admeas no respaldada por nada fisico.
 

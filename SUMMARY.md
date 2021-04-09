@@ -122,6 +122,7 @@
 
 * [Blockchain Fundamentals](cursos-no-seguridad-udemy/blockchain-fundamentals/README.md)
   * [1 - ¿Que es blockchain?](cursos-no-seguridad-udemy/blockchain-fundamentals/1-que-es-blockchain.md)
+  * [2 - ¿Que es bitcoin?](cursos-no-seguridad-udemy/blockchain-fundamentals/2-que-es-bitcoin.md)
 * [Node js](cursos-no-seguridad-udemy/node-js/README.md)
   * [1- Node](cursos-no-seguridad-udemy/node-js/1-node.md)
   * [2- Node modules](cursos-no-seguridad-udemy/node-js/2-node-modules/README.md)

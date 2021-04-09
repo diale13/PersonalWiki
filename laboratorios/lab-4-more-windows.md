@@ -78,6 +78,8 @@ choco install processhacker
 net localgroup group-name /add
 ```
 
+Con powershell es New-user-group
+
 ### Nuevo usuario y agregarlo al grupo
 
 ```text

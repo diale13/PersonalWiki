@@ -8,7 +8,7 @@ Introduce el concepto de colored coins, se le agrega a la transaccion de blockch
 
 Representan activos reales estos tokens.
 
-![](../../.gitbook/assets/imagen%20%28321%29.png)
+![](../../.gitbook/assets/imagen%20%28322%29.png)
 
 El gato es un asset virtual, solo lo puede tener el dueño aunque este puede ser vendido y transferido.
 

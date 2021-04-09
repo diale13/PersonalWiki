@@ -120,6 +120,7 @@
 
 ## Cursos no seguridad udemy
 
+* [Blockchain Fundamentals](cursos-no-seguridad-udemy/blockchain-fundamentals.md)
 * [Node js](cursos-no-seguridad-udemy/node-js/README.md)
   * [1- Node](cursos-no-seguridad-udemy/node-js/1-node.md)
   * [2- Node modules](cursos-no-seguridad-udemy/node-js/2-node-modules/README.md)

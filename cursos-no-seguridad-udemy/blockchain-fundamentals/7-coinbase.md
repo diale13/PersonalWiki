@@ -2,5 +2,5 @@
 
 {% embed url="https://btc.com/" %}
 
-![](../../.gitbook/assets/imagen%20%28309%29.png)
+![](../../.gitbook/assets/imagen%20%28310%29.png)
 

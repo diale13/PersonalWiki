@@ -1,6 +1,6 @@
 # 9 - Conceptos clave
 
-![](../../.gitbook/assets/imagen%20%28317%29.png)
+![](../../.gitbook/assets/imagen%20%28318%29.png)
 
 Al enviar dinero en BTC lo haces peer 2 peer. No hay tercer parte...excepto TODA LA BTC NETWORK. Esto se llama **disintermidated**.
 
@@ -10,5 +10,5 @@ No hay nada central eso implica que es decentralized. El trabajo es repartido en
 
 Trustless. No necesita un banco que diga que tan confiable es una transacción. ahí entra el concepto de "distributed trustless consesnus" donde todos los nodos se ponen de acuerdo que una transferencia es confiable
 
-![Vision del creador](../../.gitbook/assets/imagen%20%28315%29.png)
+![Vision del creador](../../.gitbook/assets/imagen%20%28316%29.png)
 

@@ -10,11 +10,11 @@
 
 {% embed url="https://demoblockchain.org/block" %}
 
-![](../../.gitbook/assets/imagen%20%28314%29.png)
+![](../../.gitbook/assets/imagen%20%28315%29.png)
 
 A notar como tiene cuatro 0 al principio, eso lo marca como bloque valido, pero si agregamos un solo dato invalido no retorna los cuatro 0 al comienzo dejandolo incorrecto.El nonce es number used once te determina un hash valido.
 
-![](../../.gitbook/assets/imagen%20%28311%29.png)
+![](../../.gitbook/assets/imagen%20%28312%29.png)
 
 Podes probar uno por uno los nonce pero es mejor usar una computadora para determinar eso mismo.
 

@@ -10,5 +10,9 @@ Lo que se ve que se hace ahora son clonglomerados de minadores que se reparten e
 
 ![Miles de transacciones por segundo](../../.gitbook/assets/imagen%20%28309%29.png)
 
+Aca le saque una foto a una transaccion random sin confirmar de la pagina:
+
+![](../../.gitbook/assets/imagen%20%28314%29.png)
+
 
 

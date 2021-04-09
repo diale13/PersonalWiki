@@ -1,4 +1,4 @@
-# Bitcoin and digital tokens
+# 11 - Blockchain and digital tokens
 
 ![](../../.gitbook/assets/imagen%20%28320%29.png)
 

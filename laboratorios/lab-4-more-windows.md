@@ -72,13 +72,38 @@ choco install processhacker
 
 ## Manejo de permisos
 
-Crear nuevo grupo de usuarios \(cmd y ps\)
+### Crear nuevo grupo de usuarios \(cmd y ps\)
 
-Nuevo usuario y agregarlo al grupo
+```text
+net localgroup group-name /add
+```
 
-Crear archivo en temp \(cmd y ps\)
+### Nuevo usuario y agregarlo al grupo
 
-Dar privilegios de escritura en un grupo especifico y usuario 
+```text
+C:\>net localgroup Group1 /add
+The command completed successfully.
+C:\>
+```
 
-Validar que no se pueda escribir al archivo con otro usuario 
+### Crear archivo en temp \(cmd y ps\)
+
+```text
+mkdir a
+```
+
+### Dar privilegios de escritura en un grupo especifico y usuario 
+
+```text
+C:\>icacls "D:\test" /grant John:(OI)(CI)F /T
+```
+
+* `F` = Full Control
+* `CI` = Container Inherit - This flag indicates that subordinate containers will inherit this ACE.
+* `OI` = Object Inherit - This flag indicates that subordinate files will inherit the ACE.
+* `/T` = Apply recursively to existing files and sub-folders. \(`OI` and `CI` only apply to new files and sub-folders\). 
+
+
+
+
 

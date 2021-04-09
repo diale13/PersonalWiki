@@ -1,6 +1,6 @@
 # Blockchain Fundamentals
 
- Instructed by [George Levy](https://deloittedevelopment.udemy.com/user/george-levy/)
+###  Instructed by [George Levy](https://deloittedevelopment.udemy.com/user/george-levy/)
 
 ### What you'll learn
 

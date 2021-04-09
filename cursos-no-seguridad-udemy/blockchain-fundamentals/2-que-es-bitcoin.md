@@ -14,7 +14,7 @@ Los mineros procesan y confirman transacciones. Todos pueden serlo pero requiere
 
 Basicamente forman el registro de blockchain PARA bitcoin.
 
-![Construyen esto basicamente](../../.gitbook/assets/imagen%20%28300%29.png)
+![Construyen esto basicamente](../../.gitbook/assets/imagen%20%28301%29.png)
 
 El primer block es llamado genesis block.
 

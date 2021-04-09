@@ -2,7 +2,7 @@
 
 ## Bitcoin Basics
 
-![](../../.gitbook/assets/imagen%20%28345%29.png)
+![](../../.gitbook/assets/imagen%20%28347%29.png)
 
 * Clave saber que no se puede cancelar un pago por bitcoin
 
@@ -14,7 +14,7 @@ Tambien tenemos una public key y una private key
 
 ## Choosing wallet
 
-![](../../.gitbook/assets/imagen%20%28335%29.png)
+![](../../.gitbook/assets/imagen%20%28336%29.png)
 
 Podes tener mas de una cartera, es hasta recomendado eso.
 

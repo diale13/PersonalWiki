@@ -144,6 +144,7 @@
   * [21 - Getting Started with Bitcoin](cursos-no-seguridad-udemy/blockchain-fundamentals/21-getting-started-with-bitcoin.md)
   * [22 - Una transaccion](cursos-no-seguridad-udemy/blockchain-fundamentals/22-una-transaccion.md)
   * [23 - Guardando nuestras criptomonedas de forma segura](cursos-no-seguridad-udemy/blockchain-fundamentals/23-guardando-nuestras-criptomonedas-de-forma-segura.md)
+  * [24 - Convirtiendo nuestras btc a fiat currency \(dinero fisico\)](cursos-no-seguridad-udemy/blockchain-fundamentals/24-convirtiendo-nuestras-btc-a-fiat-currency-dinero-fisico.md)
 * [Node js](cursos-no-seguridad-udemy/node-js/README.md)
   * [1- Node](cursos-no-seguridad-udemy/node-js/1-node.md)
   * [2- Node modules](cursos-no-seguridad-udemy/node-js/2-node-modules/README.md)

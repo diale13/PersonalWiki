@@ -195,6 +195,7 @@
     * [Untitled](cursos-no-seguridad-udemy/node-js/6-asynchronus-js/untitled-1.md)
     * [9999 - Para ver terminado eso](cursos-no-seguridad-udemy/node-js/6-asynchronus-js/9999-para-ver-terminado-eso.md)
   * [9999 - Para ir haciendo el proyecto](cursos-no-seguridad-udemy/node-js/9999-para-ir-haciendo-el-proyecto.md)
+  * [9999 - Visual Studio Code Extensions](cursos-no-seguridad-udemy/node-js/9999-visual-studio-code-extensions.md)
 
 ## Random
 

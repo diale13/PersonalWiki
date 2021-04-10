@@ -1,4 +1,4 @@
-# 9999 - Visual Studio Code Extensions
+# Visual Studio Code Extensions
 
 Theme: The best theme
 

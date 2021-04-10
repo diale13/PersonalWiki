@@ -1,4 +1,4 @@
-# 9999 - Para ir haciendo el proyecto
+# Para ir haciendo el proyecto
 
 ## Iniciando
 

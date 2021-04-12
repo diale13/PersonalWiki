@@ -1,6 +1,8 @@
 # Lab 6 - BufferOverflow
 
-Memory layout
+
+
+![](../.gitbook/assets/imagen%20%28393%29.png)
 
 
 

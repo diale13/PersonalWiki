@@ -94,6 +94,7 @@
       * [3 - First Explotation](curso-ethical-hacking/etapas-de-ethical-hacking/3-explotation/3-first-explotation.md)
       * [4 - Manual Explotation](curso-ethical-hacking/etapas-de-ethical-hacking/3-explotation/4-manual-explotation.md)
       * [5 - BruteForce attack](curso-ethical-hacking/etapas-de-ethical-hacking/3-explotation/5-bruteforce-attack.md)
+      * [6 -Password spray && Credential stuffing -Burpsuit](curso-ethical-hacking/etapas-de-ethical-hacking/3-explotation/6-password-spray-and-and-credential-stuffing-burpsuit.md)
 * [5 - Others](others/README.md)
   * [Informe cyber en empresas chicas](others/informe-cyber-en-empresas-chicas.md)
   * [Clean git commits](others/clean-git-commits.md)

@@ -39,7 +39,13 @@
 
 {% embed url="https://ipaddressguide.com/cidr" %}
 
+### Proxy
 
+1- Burpsuit 
+
+2 - Foxy Proxy
+
+![](../.gitbook/assets/imagen%20%28365%29.png)
 
 ## XSS:
 

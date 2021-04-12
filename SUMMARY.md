@@ -118,6 +118,9 @@
     * [1 - Linux](laboratorios/untitled/1-linux.md)
     * [2 - Windows](laboratorios/untitled/2-windows.md)
   * [Lab 4 - More Windows](laboratorios/lab-4-more-windows.md)
+  * [Lab 5](laboratorios/lab-5/README.md)
+    * [Windows](laboratorios/lab-5/windows.md)
+    * [Criptografia](laboratorios/lab-5/criptografia.md)
 * [Virtualizacion](virtualizacion.md)
 
 ## Cursos no seguridad udemy

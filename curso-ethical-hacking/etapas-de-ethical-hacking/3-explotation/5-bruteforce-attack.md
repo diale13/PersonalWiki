@@ -41,7 +41,7 @@ hydra -l root -P /usr/share/wordlists/metasploit/
 
 Luego comenzamos el ataque
 
-![](../../../.gitbook/assets/imagen%20%28375%29.png)
+![](../../../.gitbook/assets/imagen%20%28378%29.png)
 
 ## En simultaneo usando metasploit
 
@@ -49,5 +49,5 @@ Luego comenzamos el ataque
 
 Recordar el set verbose te va diciendo lo que intenta
 
-![](../../../.gitbook/assets/imagen%20%28371%29.png)
+![](../../../.gitbook/assets/imagen%20%28373%29.png)
 

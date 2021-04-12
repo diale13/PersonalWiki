@@ -2,7 +2,7 @@
 
 {% embed url="https://github.com/heltonWernik/OpenLuck" %}
 
-![](../../../.gitbook/assets/imagen%20%28366%29.png)
+![](../../../.gitbook/assets/imagen%20%28368%29.png)
 
 Abajo de eso te dice que usar contra cada objetivo de linux por ejemplo.
 
@@ -14,7 +14,7 @@ La ennumeration juega un monton aqui.
 root@kali: // ./open 0x6xb 192.168.57.134 -c 40
 ```
 
-![](../../../.gitbook/assets/imagen%20%28373%29.png)
+![](../../../.gitbook/assets/imagen%20%28375%29.png)
 
 Tenemos acceso:
 
@@ -22,7 +22,7 @@ Tenemos acceso:
 cat /etc/passwd
 ```
 
-![](../../../.gitbook/assets/imagen%20%28364%29.png)
+![](../../../.gitbook/assets/imagen%20%28365%29.png)
 
 Scroleando al final vemos los usuarios custom y no los que vienen
 

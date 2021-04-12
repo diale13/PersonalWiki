@@ -26,6 +26,7 @@
     * [Protocolo Needham-Schroeder](netsec/protocolo/protocolo-needham-schroeder.md)
   * [Ataques](netsec/ataques/README.md)
     * [Cross-site scripting XSS](netsec/ataques/cross-site-scripting.md)
+    * [Buffer Overflow Attack](netsec/ataques/buffer-overflow-attack.md)
     * [“Denial of Service” \(DoS\)](netsec/ataques/denial-of-service-dos/README.md)
       * [NTP Amplification](netsec/ataques/denial-of-service-dos/ntp-amplification.md)
       * [Syn Flooding](netsec/ataques/denial-of-service-dos/syn-flooding.md)
@@ -124,6 +125,7 @@
   * [Lab 5](laboratorios/lab-5/README.md)
     * [Windows](laboratorios/lab-5/windows.md)
     * [Criptografia](laboratorios/lab-5/criptografia.md)
+  * [Lab 6 - BufferOverflow](laboratorios/lab-6-bufferoverflow.md)
 * [Virtualizacion](virtualizacion.md)
 
 ## Cursos no seguridad udemy

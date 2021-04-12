@@ -45,7 +45,7 @@
 
 2 - Foxy Proxy
 
-![](../.gitbook/assets/imagen%20%28365%29.png)
+![](../.gitbook/assets/imagen%20%28367%29.png)
 
 ## XSS:
 

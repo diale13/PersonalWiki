@@ -126,6 +126,7 @@
     * [Windows](laboratorios/lab-5/windows.md)
     * [Criptografia](laboratorios/lab-5/criptografia.md)
   * [Lab 6 - BufferOverflow](laboratorios/lab-6-bufferoverflow.md)
+  * [Lab 7 - SO Memory](laboratorios/lab-7-so-memory.md)
 * [Virtualizacion](virtualizacion.md)
 
 ## Cursos no seguridad udemy

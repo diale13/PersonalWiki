@@ -1,16 +1,5 @@
 # Lab 6 - BufferOverflow
 
-
-
-![](../.gitbook/assets/imagen%20%28393%29.png)
-
-1. Como maneja linux la memoria de manera general?
-2. Idem windows
-3. Stack 
-4. Heap
-5. Bss
-6. Data
-
 ## Entendiendo la memoria \(linux\)
 
 ![](../.gitbook/assets/imagen%20%28376%29.png)

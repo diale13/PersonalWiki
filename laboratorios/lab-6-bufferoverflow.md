@@ -111,13 +111,9 @@ Memory corruption occurs in a computer program when the contents of a memory loc
 
 [**Disassembler**](https://reverseengineering.stackexchange.com/questions/tagged/disassemblers):
 
-> A disassembler is a software tool which transforms machine code into a human readable mnemonic representation called assembly language.
+> Convierte codigo de maquina en algo legible por un humano
 
 [**Debugger**](https://reverseengineering.stackexchange.com/questions/tagged/debuggers):
 
-> Debuggers allow the user to view and change the running state of a program.
-
-[**Decompiler**](https://reverseengineering.stackexchange.com/questions/tagged/decompiler):
-
-> Software used to revert the process of compilation. Decompiler takes a binary program file as input and output the same program expressed in a structured higher-level language.
+> Permite pausar y reanudar la ejecucion de un programa con el fin de analizar su estado.
 

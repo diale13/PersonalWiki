@@ -33,7 +33,7 @@ Vemos que el stack crece hacia esa direccion, los parametros que agregamos se po
 3. Page Replacement Algorithm that is used in Windows is First In First Out\(F.I.F.O\) where as Linux uses Least Recently Used\(L.R.U\) Algorithm.
 4. Windows on 32-bit uses 4GB of physical memory which allows each process to have its own 4GB logical address \(upper 2Gb-Kernel Mode, lower 2Gb-User Mode\). In regard to Linux, 3Gb-User mode & 1Gb-Kernel Mode.
 
-![](../.gitbook/assets/imagen%20%28403%29.png)
+![](../.gitbook/assets/imagen%20%28404%29.png)
 
 ## Buffer overflow
 

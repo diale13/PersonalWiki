@@ -203,7 +203,6 @@
     * [8 - Setteled Promise](cursos-no-seguridad-udemy/node-js/6-asynchronus-js/8-setteled-promise.md)
     * [9 - Promesas en paralelo](cursos-no-seguridad-udemy/node-js/6-asynchronus-js/9-promesas-en-paralelo.md)
     * [10 - Async Await](cursos-no-seguridad-udemy/node-js/6-asynchronus-js/10-async-await.md)
-    * [Untitled](cursos-no-seguridad-udemy/node-js/6-asynchronus-js/untitled-1.md)
     * [9999 - Para ver terminado eso](cursos-no-seguridad-udemy/node-js/6-asynchronus-js/9999-para-ver-terminado-eso.md)
   * [\*7 Repaso prueba IRL](cursos-no-seguridad-udemy/node-js/7-repaso-prueba-irl/README.md)
     * [Clousures](cursos-no-seguridad-udemy/node-js/7-repaso-prueba-irl/clousures.md)

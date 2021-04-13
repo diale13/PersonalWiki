@@ -19,7 +19,7 @@
 * **Text:** codigo de un programa, lo que compilamos \(read only\)
 * **Data**: variables sin inicializar y las inicializadas
 * **Heap**: area muy grande donde se agregan lo que va necesitando el programa. Lo mas grande de esto.
-* **Stack:** variables locales y funciones
+* **Stack:** variables locales y funciones. El stack tiene tamaño fijo.
 
 ```text
 static int i = 1 //Se guarda en el data

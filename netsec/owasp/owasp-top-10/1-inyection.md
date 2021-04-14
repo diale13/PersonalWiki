@@ -1,5 +1,7 @@
 # 1 - Inyection
 
+{% embed url="https://owasp.org/www-project-top-ten/2017/A1\_2017-Injection" %}
+
 **¿Que es?** Ocurre cuando un input del usuario es interpretado por el servidor y ejecutado sin ningún tipo de contención de seguridad.
 
 **¿Impacto?** Daño, robo o modificación de datos o información.

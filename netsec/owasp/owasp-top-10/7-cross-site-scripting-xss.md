@@ -15,7 +15,7 @@
 * Ultimos frameworks
 * Escape all untrasted input
 
-![](../../../.gitbook/assets/imagen%20%28421%29.png)
+![](../../../.gitbook/assets/imagen%20%28422%29.png)
 
 ![](../../../.gitbook/assets/imagen%20%28418%29.png)
 

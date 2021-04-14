@@ -12,13 +12,13 @@
 * Firmas digitales en objetos para mantener integridad
 * Uso restrictivo de serializacion y log de las excepciones de la misma
 
-![](../../../.gitbook/assets/imagen%20%28441%29.png)
+![](../../../.gitbook/assets/imagen%20%28446%29.png)
 
-![](../../../.gitbook/assets/imagen%20%28422%29.png)
+![](../../../.gitbook/assets/imagen%20%28423%29.png)
 
 
 
-![](../../../.gitbook/assets/imagen%20%28431%29.png)
+![](../../../.gitbook/assets/imagen%20%28433%29.png)
 
 
 

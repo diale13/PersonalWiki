@@ -18,7 +18,7 @@ El error humano al configurar el sistema \(por ejemplo dar un default password\)
 * Patchs continuos
 * Auditar regularmente el sistema en produccion
 
-![](../../../.gitbook/assets/imagen%20%28420%29.png)
+![](../../../.gitbook/assets/imagen%20%28421%29.png)
 
-![](../../../.gitbook/assets/imagen%20%28423%29.png)
+![](../../../.gitbook/assets/imagen%20%28424%29.png)
 

@@ -24,7 +24,7 @@
 
 ### Comparación con Firewalls
 
-Si bien ambos están relacionados con [seguridad en redes](https://es.wikipedia.org/wiki/Seguridad_de_la_informaci%C3%B3n) de información, un IDS, difiere de un cortafuegos, en que este último generalmente examina exteriormente por intrusiones para evitar que estas ocurran.
+Si bien ambos están relacionados con seguridad en redes de información, un IDS, difiere de un cortafuegos, en que este último generalmente examina exteriormente por intrusiones para evitar que estas ocurran.
 
 Un cortafuegos limita el acceso entre redes, para prevenir una intrusión, pero no determina un ataque que pueda estar ocurriendo internamente en la red. Un IDS, evalúa una intrusión cuando esta toma lugar, y genera una alarma. Un IDS además observa ataques que se originan dentro del sistema. Este normalmente se consigue examinando comunicaciones, e identificando mediante heurística, o patrones \(conocidos como firmas\), ataques comunes ya clasificados, y toma una acción para alertar a un operador. Los sistemas de detección de intrusiones son fundamentales para proteger adecuadamente en el perímetro de la red, muy cerca del cortafuegos, ya que trabajan conjuntamente para impedir que usuarios malintencionados puedan acceder a una organización.
 

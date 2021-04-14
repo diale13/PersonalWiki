@@ -22,6 +22,8 @@
   * [Firma digital](criptografia/firma-digital/README.md)
     * [Certificados](criptografia/firma-digital/certificados.md)
 * [3 - NetSec](netsec/README.md)
+  * [OWASP](netsec/owasp/README.md)
+    * [OWASP Top 10](netsec/owasp/owasp-top-10.md)
   * [Protocolo](netsec/protocolo/README.md)
     * [Protocolo Needham-Schroeder](netsec/protocolo/protocolo-needham-schroeder.md)
   * [Ataques](netsec/ataques/README.md)
@@ -127,6 +129,7 @@
     * [Criptografia](laboratorios/lab-5/criptografia.md)
   * [Lab 6 - BufferOverflow](laboratorios/lab-6-bufferoverflow.md)
   * [Lab 7 - SO Memory](laboratorios/lab-7-so-memory.md)
+  * [Lab 8 - OWASP](laboratorios/lab-8-owasp.md)
 * [Virtualizacion](virtualizacion.md)
 
 ## Cursos no seguridad udemy

@@ -138,7 +138,7 @@ volatility -f imagenAnalizar.vmem --profile=WinXPSP2x86 psxview
 
 ### Como obtener conexiones de red de volatility?
 
-![](../.gitbook/assets/imagen%20%28420%29.png)
+![](../.gitbook/assets/imagen%20%28421%29.png)
 
 ```text
 volatility -f imagenAnalizar.vmem --profile=WinXPSP2x86 connscan

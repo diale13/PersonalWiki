@@ -80,11 +80,13 @@ Son las instancias de funciones o programas **que estan corriendo en el momento*
 
 
 
+La figura de arriba es la estructura de los procesos en Windows.
+
 El proceso contiene:
 
 * **El código fuente del programa \(binario ejecutable\)** y datos adicionales para ejecutar el código en el proceso.
-* **Espacio de direcciones virtual privado\)** es un conjunto de direcciones de memoria virtual que se utilizan por código dentro de un proceso.
-* **El token principal** es el objeto que contiene el contexto de seguridad del proceso utilizado por los subprocesos que ejecutan código dentro del proceso \(a menos que el subproceso utilice un token diferente mediante la [suplantación](https://docs.microsoft.com/en-us/windows/desktop/com/impersonation) \). Es un token de acceso que identifica a un usuario, grupos de seguridad, privilegios, atributos, estado de virtualización de Control de cuentas de usuario \(UAC\), sesión y estado de cuenta de usuario restringido asociado con un proceso, y la ID de AppContainer y su información de espacio aislado.
+* **Espacio de direcciones virtual privado** que es un conjunto de direcciones de memoria virtual que se utilizan por código dentro de un proceso.
+* **El token principal** es el objeto que contiene el contexto de seguridad del proceso utilizado por los subprocesos que ejecutan código dentro del proceso. Identifica a un usuario, grupos de seguridad, privilegios, atributos, estado de virtualización de Control de cuentas de usuario \(UAC\), sesión y estado de cuenta de usuario restringido asociado con un proceso, y la ID de AppContainer y su información de espacio aislado.
 * **Tabla de control privada** : se utiliza para administrar objetos ejecutables como eventos, semáforos y archivos.
 * **Uno o más subprocesos de ejecución** : un proceso de modo de usuario normal se crea con un subproceso \(ejecutando la función clásica principal / WinMain\). Un proceso en modo de usuario sin subprocesos es casi inútil y normalmente el kernel lo mata.
 
@@ -96,11 +98,25 @@ El proceso contiene:
 
 
 
-* Que es volatility?
-* Instalar volatility en kali
-* Como obtener el perfil de l aimagen a analizar con volatility? \(ej Win7SPX64\)
-* Como obtener procesos en volatility
-* Como obtener conexiones de red de volatility?
+### Que es volatility?
+
+Volatility es un framework para la extraccion de artefactos digitales desde la memoria volatil \(RAM\). Introduce a la gente al area de forense. 
+
+### Instalar volatility en kali
+
+Lo bajas de la pagina oficial [https://www.volatilityfoundation.org/](https://www.volatilityfoundation.org/)
+
+Cambias el nombre del archivo con icono de ruedita por comodidad y lo ejecutas 
+
+```text
+./volatility -h
+```
+
+Como obtener el perfil de la imagen a analizar con volatility? \(ej Win7SPX64\)
+
+Como obtener procesos en volatility
+
+Como obtener conexiones de red de volatility?
 
 ## Ejercicio
 

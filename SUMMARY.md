@@ -33,6 +33,7 @@
       * [7 - Cross-Site Scripting \(XSS\)](netsec/owasp/owasp-top-10/7-cross-site-scripting-xss.md)
       * [8 - Insecure Deserialization](netsec/owasp/owasp-top-10/8-insecure-deserialization.md)
       * [9 - Using Components with Known Vulnerabilities](netsec/owasp/owasp-top-10/9-using-components-with-known-vulnerabilities.md)
+      * [10 - Insufficient logging and monitoring](netsec/owasp/owasp-top-10/10-insufficient-logging-and-monitoring.md)
   * [Protocolo](netsec/protocolo/README.md)
     * [Protocolo Needham-Schroeder](netsec/protocolo/protocolo-needham-schroeder.md)
   * [Ataques](netsec/ataques/README.md)

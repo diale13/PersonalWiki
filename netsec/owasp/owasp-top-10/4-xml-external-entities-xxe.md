@@ -13,7 +13,7 @@
 * Desabilitar XXE 
 * Detectar, resolver y verificar la implementacion para el XXE con aplicaciones estaticas y testing
 
-![](../../../.gitbook/assets/imagen%20%28441%29.png)
+![](../../../.gitbook/assets/imagen%20%28444%29.png)
 
-![](../../../.gitbook/assets/imagen%20%28430%29.png)
+![](../../../.gitbook/assets/imagen%20%28432%29.png)
 

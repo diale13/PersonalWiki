@@ -13,7 +13,7 @@
 * Mejorar continuamente el monitoreo y alertas
 * **Rotate**: cambiar credenciales , **Repave**: volver a ultimo estado de config valido \(golden image\), **Repair**: cuando hay patch lo aplicamos.
 
-![](../../../.gitbook/assets/imagen%20%28439%29.png)
+![](../../../.gitbook/assets/imagen%20%28442%29.png)
 
-![](../../../.gitbook/assets/imagen%20%28443%29.png)
+![](../../../.gitbook/assets/imagen%20%28446%29.png)
 

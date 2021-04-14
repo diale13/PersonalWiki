@@ -36,6 +36,8 @@
       * [10 - Insufficient logging and monitoring](netsec/owasp/owasp-top-10/10-insufficient-logging-and-monitoring.md)
     * [Old OWASP Top 10 attacks](netsec/owasp/old-owasp-top-10-attacks/README.md)
       * [Insufficient attack protection](netsec/owasp/old-owasp-top-10-attacks/insufficient-attack-protection.md)
+      * [Cross Site Request Forgery](netsec/owasp/old-owasp-top-10-attacks/cross-site-request-forgery.md)
+      * [Underprotected APIs](netsec/owasp/old-owasp-top-10-attacks/underprotected-apis.md)
     * [Extra - In depth security notion](netsec/owasp/extra-in-depth-security-notion.md)
   * [Protocolo](netsec/protocolo/README.md)
     * [Protocolo Needham-Schroeder](netsec/protocolo/protocolo-needham-schroeder.md)

@@ -18,5 +18,5 @@ Se pierde datos, se expone o se corrompen que pueden tener impactos y daños gra
 
 ![](../../../.gitbook/assets/imagen%20%28427%29.png)
 
-![](../../../.gitbook/assets/imagen%20%28431%29.png)
+![](../../../.gitbook/assets/imagen%20%28433%29.png)
 

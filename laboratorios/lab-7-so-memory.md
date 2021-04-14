@@ -120,7 +120,7 @@ Como obtener el perfil de la imagen a analizar con volatility? \(ej Win7SPX64\)
 
 ### Como obtener procesos en volatility
 
-![](../.gitbook/assets/imagen%20%28432%29.png)
+![](../.gitbook/assets/imagen%20%28434%29.png)
 
 
 
@@ -138,7 +138,7 @@ volatility -f imagenAnalizar.vmem --profile=WinXPSP2x86 psxview
 
 ### Como obtener conexiones de red de volatility?
 
-![](../.gitbook/assets/imagen%20%28437%29.png)
+![](../.gitbook/assets/imagen%20%28439%29.png)
 
 ```text
 volatility -f imagenAnalizar.vmem --profile=WinXPSP2x86 connscan

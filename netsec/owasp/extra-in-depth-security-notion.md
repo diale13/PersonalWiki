@@ -6,13 +6,13 @@
 
 ## STRIDE
 
-![](../../.gitbook/assets/imagen%20%28435%29.png)
+![](../../.gitbook/assets/imagen%20%28437%29.png)
 
 {% embed url="https://docs.microsoft.com/en-us/archive/blogs/heinrichg/stride-cia-and-the-modern-adversary" %}
 
 ## SECURE DEVELOPMENT
 
-![](../../.gitbook/assets/imagen%20%28436%29.png)
+![](../../.gitbook/assets/imagen%20%28438%29.png)
 
 
 

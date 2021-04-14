@@ -14,11 +14,11 @@
 * Logout automatico tras x tiempo
 * Cuidado con el remember me
 
-![](../../../.gitbook/assets/imagen%20%28432%29.png)
+![](../../../.gitbook/assets/imagen%20%28440%29.png)
 
-![](../../../.gitbook/assets/imagen%20%28434%29.png)
+![](../../../.gitbook/assets/imagen%20%28442%29.png)
 
-![](../../../.gitbook/assets/imagen%20%28433%29.png)
+![](../../../.gitbook/assets/imagen%20%28441%29.png)
 
 
 

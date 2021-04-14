@@ -17,7 +17,7 @@ Los atacantes pueden ver datos sensibles, modificarlos y borrarlos.
 * Denegar acceso por defecto a todo
 * La aplicacion debe mostrar elementos acorde a lo que puede hacer el usuario \(a nivel de UI\)
 
-![](../../../.gitbook/assets/imagen%20%28435%29.png)
+![](../../../.gitbook/assets/imagen%20%28443%29.png)
 
-![](../../../.gitbook/assets/imagen%20%28431%29.png)
+![](../../../.gitbook/assets/imagen%20%28437%29.png)
 

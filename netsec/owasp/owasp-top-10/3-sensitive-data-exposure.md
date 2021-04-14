@@ -16,7 +16,7 @@ Se pierde datos, se expone o se corrompen que pueden tener impactos y daños gra
 * Usar algoritmos criptograficos avanzados y no rotos \(como SHA-0 y SHA-1\) 
 * Usar salting para la encriptacion de contraseñas
 
-![](../../../.gitbook/assets/imagen%20%28422%29.png)
+![](../../../.gitbook/assets/imagen%20%28426%29.png)
 
-![](../../../.gitbook/assets/imagen%20%28425%29.png)
+![](../../../.gitbook/assets/imagen%20%28429%29.png)
 

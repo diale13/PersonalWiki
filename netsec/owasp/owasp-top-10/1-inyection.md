@@ -14,7 +14,7 @@
 
 La inyecion mas comun es la de SQL
 
-![](../../../.gitbook/assets/imagen%20%28421%29.png)
+![](../../../.gitbook/assets/imagen%20%28422%29.png)
 
 ![](../../../.gitbook/assets/imagen%20%28419%29.png)
 

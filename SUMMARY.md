@@ -26,6 +26,8 @@
     * [OWASP Top 10](netsec/owasp/owasp-top-10/README.md)
       * [1 - Inyection](netsec/owasp/owasp-top-10/1-inyection.md)
       * [2 - Broken Authentification](netsec/owasp/owasp-top-10/2-broken-authentification.md)
+      * [3 - Sensitive Data Exposure](netsec/owasp/owasp-top-10/3-sensitive-data-exposure.md)
+      * [4 - XML External Entities \(XXE\)](netsec/owasp/owasp-top-10/4-xml-external-entities-xxe.md)
   * [Protocolo](netsec/protocolo/README.md)
     * [Protocolo Needham-Schroeder](netsec/protocolo/protocolo-needham-schroeder.md)
   * [Ataques](netsec/ataques/README.md)

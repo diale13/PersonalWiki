@@ -56,7 +56,7 @@ Un driver es un programa que permite al sistema operativo interactuar con un per
 
 ### Que es IOCTL?
 
- **ioctl** es una llamada de sistema en [Unix](https://es.wikipedia.org/wiki/Unix) que permite a una [aplicación](https://es.wikipedia.org/wiki/Aplicaci%C3%B3n_inform%C3%A1tica) controlar o comunicarse con un [driver](https://es.wikipedia.org/wiki/Driver) de dispositivo, fuera de los usuales read/write de datos.
+ **ioctl** es una llamada de sistema en Unix que permite a una aplicación controlar o comunicarse con un [driver](https://es.wikipedia.org/wiki/Driver) de dispositivo, fuera de los usuales read/write de datos.
 
 Una llamada **ioctl** toma como parámetros:
 

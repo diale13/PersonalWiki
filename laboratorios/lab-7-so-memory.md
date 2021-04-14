@@ -114,9 +114,35 @@ Cambias el nombre del archivo con icono de ruedita por comodidad y lo ejecutas
 
 Como obtener el perfil de la imagen a analizar con volatility? \(ej Win7SPX64\)
 
-Como obtener procesos en volatility
+```text
+./volatility -f imagenAnalizar.vmem  imageinfo
+```
 
-Como obtener conexiones de red de volatility?
+### Como obtener procesos en volatility
+
+![](../.gitbook/assets/imagen%20%28419%29.png)
+
+
+
+```text
+volatility -f imagenAnalizar.vmem --profile=WinXPSP2x86 pslist
+```
+
+![](../.gitbook/assets/imagen%20%28418%29.png)
+
+Este trata de ver los procesos ocutltos:
+
+```text
+volatility -f imagenAnalizar.vmem --profile=WinXPSP2x86 psxview
+```
+
+### Como obtener conexiones de red de volatility?
+
+![](../.gitbook/assets/imagen%20%28420%29.png)
+
+```text
+volatility -f imagenAnalizar.vmem --profile=WinXPSP2x86 connscan
+```
 
 ## Ejercicio
 

@@ -28,6 +28,8 @@
       * [2 - Broken Authentification](netsec/owasp/owasp-top-10/2-broken-authentification.md)
       * [3 - Sensitive Data Exposure](netsec/owasp/owasp-top-10/3-sensitive-data-exposure.md)
       * [4 - XML External Entities \(XXE\)](netsec/owasp/owasp-top-10/4-xml-external-entities-xxe.md)
+      * [5 - Broken Access control](netsec/owasp/owasp-top-10/5-broken-access-control.md)
+      * [6 - Security Missconfiguration](netsec/owasp/owasp-top-10/6-security-missconfiguration.md)
   * [Protocolo](netsec/protocolo/README.md)
     * [Protocolo Needham-Schroeder](netsec/protocolo/protocolo-needham-schroeder.md)
   * [Ataques](netsec/ataques/README.md)

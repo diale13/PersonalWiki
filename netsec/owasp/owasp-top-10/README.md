@@ -6,5 +6,5 @@ No es un standar ya que puede no siempre afectar a todas las organizaciones pero
 
 Como todo evoluciona a lo largo del tiempo, a continuacion un ejemplo de como han variado algunos elementos del top:
 
-![](../../../.gitbook/assets/imagen%20%28426%29.png)
+![](../../../.gitbook/assets/imagen%20%28427%29.png)
 

@@ -10,7 +10,7 @@ Es una base documental, no usa views ni schemas, el beneficio es que se guarda e
 
 Bajas el installer de la base y del compass que es el viewer. Luego desde opciones avanzadas agregamos el path de mongo a las variables de ambiente
 
-![](../../../.gitbook/assets/imagen%20%28463%29.png)
+![](../../../.gitbook/assets/imagen%20%28464%29.png)
 
 Primero verificamos que la base se ha creado correctamente. Luego garantizamos que esta el path a la carpeta por defecto creandolo.
 

@@ -229,6 +229,7 @@
     * [Scopes](cursos-no-seguridad-udemy/node-js/7-repaso-prueba-irl/scopes.md)
   * [7 - Mongo Db](cursos-no-seguridad-udemy/node-js/7-mongo-db/README.md)
     * [1 - Intro](cursos-no-seguridad-udemy/node-js/7-mongo-db/1-intro.md)
+    * [2 - Iniciando proyecto y MongoDb](cursos-no-seguridad-udemy/node-js/7-mongo-db/2-iniciando-proyecto-y-mongodb.md)
   * [9999 - Extras](cursos-no-seguridad-udemy/node-js/9999-extras/README.md)
     * [Para ir haciendo el proyecto](cursos-no-seguridad-udemy/node-js/9999-extras/9999-para-ir-haciendo-el-proyecto.md)
     * [Visual Studio Code Extensions](cursos-no-seguridad-udemy/node-js/9999-extras/9999-visual-studio-code-extensions.md)

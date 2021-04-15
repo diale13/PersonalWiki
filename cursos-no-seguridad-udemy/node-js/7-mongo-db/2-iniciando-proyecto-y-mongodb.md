@@ -37,3 +37,5 @@ Para trabajar con un "objeto" de la base de datos utilizamos lo siguiente
 
 ![](../../../.gitbook/assets/imagen%20%28464%29.png)
 
+Con eso ya queda, se crea sin necesidad de preparar tablas, llamar contextos ni nada,
+

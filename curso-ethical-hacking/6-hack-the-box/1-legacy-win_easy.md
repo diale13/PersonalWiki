@@ -67,6 +67,7 @@ server username: NT AUTHORITY\SYSTEM    //Basicamente root
 Vemos que tiene almacenadoh
 
 ```bash
+help //muy bueno muestra comandos MUY PODEROSOS
 hashdump
 ```
 

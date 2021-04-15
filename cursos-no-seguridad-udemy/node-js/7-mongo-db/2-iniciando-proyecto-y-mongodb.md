@@ -19,7 +19,7 @@ mongoose.connect('mongodb://localhost/playground')
 
 ## Analizando MongoDb
 
-![](../../../.gitbook/assets/imagen%20%28468%29.png)
+![](../../../.gitbook/assets/imagen%20%28469%29.png)
 
 El nombre de la coleccion es como las tablas en una base de datos relacional.  Cada documento equivale a una fila en una relacional.
 

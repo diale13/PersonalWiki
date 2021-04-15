@@ -147,7 +147,7 @@
   * [Lab 6 - BufferOverflow](laboratorios/lab-6-bufferoverflow.md)
   * [Lab 7 - SO Memory](laboratorios/lab-7-so-memory.md)
   * [Lab 8 - OWASP](laboratorios/lab-8-owasp.md)
-  * [Untitled](laboratorios/untitled-1.md)
+  * [Lab 9 - Forensics \(cont\)](laboratorios/untitled-1.md)
 * [Virtualizacion](virtualizacion.md)
 
 ## Cursos no seguridad udemy

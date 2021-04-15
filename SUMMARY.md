@@ -113,6 +113,8 @@
       * [4 - Manual Explotation](curso-ethical-hacking/etapas-de-ethical-hacking/3-explotation/4-manual-explotation.md)
       * [5 - BruteForce attack](curso-ethical-hacking/etapas-de-ethical-hacking/3-explotation/5-bruteforce-attack.md)
       * [6 -Password spray && Credential stuffing -Burpsuit](curso-ethical-hacking/etapas-de-ethical-hacking/3-explotation/6-password-spray-and-and-credential-stuffing-burpsuit.md)
+  * [6 - Hack The Box](curso-ethical-hacking/6-hack-the-box/README.md)
+    * [1 - Legacy \(win\_easy\)](curso-ethical-hacking/6-hack-the-box/1-legacy-win_easy.md)
 * [5 - Others](others/README.md)
   * [Informe cyber en empresas chicas](others/informe-cyber-en-empresas-chicas.md)
   * [Clean git commits](others/clean-git-commits.md)

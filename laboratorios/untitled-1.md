@@ -2,7 +2,11 @@
 
 ## Introduccion
 
-![Analizar imagen](../.gitbook/assets/imagen%20%28465%29.png)
+### Analize imagen
+
+![](../.gitbook/assets/imagen%20%28465%29.png)
+
+**Arquitectura von neuman**. Modelo conceptual de la computacion que se sigue usando al dia de hoy.
 
 
 
@@ -129,6 +133,12 @@ También existen los registros bandera y de base.
 
 
 ### ¿Que es el prologo y el epilogo en este contexto?
+
+El **prologo** de la funcion son unas pocas lineas de codigo que preparan la pila y los registros para su uso dentro de la funcion. De manera similar el **epilogo** de la funcion aparece al final de la misma y restaura la pila y los registros al estado en el que estaban antes de que la funcion sea llamada.
+
+El prologo y el epilogo no son parte del lenguaje ensamblador en si, representan una convencion utilizada por los programadores de assembly y de los compiladores de niveles superiores.
+
+Dependiendo de la arquitectura el prologo puede realizar funciones de comandos como insertar punteros para restaurar ese punto mas tarde u asignar el valor de punteros base a la direccion de otro puntero en la pila.
 
 ### ¿Que instrucciones existen en el ensamblador para hacer comparaciones y tomar desiciones?
 

@@ -83,7 +83,7 @@ AND MASK1, 128
 
 Al hacer un JMP por ejemplo realiza lo siguiente
 
-![](../.gitbook/assets/imagen%20%28472%29.png)
+![](../.gitbook/assets/imagen%20%28473%29.png)
 
 ### Illegal opcode
 
@@ -91,11 +91,38 @@ Son aquellos opcodes no documentados que representan operaciones combinadas de l
 
 Suelen ser accidentales pero algunos pueden tener funcionalidades medianamente utiles. Entre los 70s y los 80s algunos juegos de computadora aceleraban los procesadores con opcodes no documentados y otras veces se esquivaba normas de proteccion de datos mediante estos opcodes.
 
-
-
 ### ¿A que refiere con el concepto de endianess?
 
+Es el orden de la secuencia de bytes \(o la palabra del procesador\). Solemos referirnos como **big-endian** \(**BE**\) o **little-endian** \(**LE**\). Un BE guarda el byte mas significativo de una palabra en el lugar mas pequeño de la memoria y el menos significativo en el mas grande. Por contrario un LE hace el opuesto.
+
+En otros contextos podemos referirnos a como se trasmite informacion en un canal de comunicacion.
+
+El concepto de endianess no comienza a ser relevante hasta la hora de mover archivos de una computadora a la otra ya que han de mantener una consitencia en como se lee. Tambien los [dumps de memoria](https://en.wikipedia.org/wiki/Core_dump) pueden tener complicaciones si no se los lee apropiadamente. Hoy muchas arquitecturas soportan **Bi-endianness** .
+
+Los protocolos de red suelen manejar el BE y los file formats varian.
+
+![](../.gitbook/assets/imagen%20%28472%29.png)
+
 ### ¿Que es el registro de la cpu y cuales registros existen?
+
+Registros en la cpu refieren a una memoria de alta velocidad y poca capacidad que es integrada en el microprocesador, guaran transitoriamente y acceden a valores muy reusados sobretodo para operaciones matematicas.
+
+Aparecen en lo mas aalto de la [jerarquía de memoria](https://es.wikipedia.org/wiki/Jerarqu%C3%ADa_de_memoria), y son la manera más rápida que tiene el sistema de almacenar datos.Los registros se miden generalmente por el número de [bits](https://es.wikipedia.org/wiki/Bit) que almacenan; por ejemplo, un "registro de 8 bits" o un "registro de 32 bits". 
+
+El término es usado generalmente para referirse al grupo de registros que pueden ser directamente indexados como operandos de una instrucción, como está definido en el [conjunto de instrucciones](https://es.wikipedia.org/wiki/Complex_instruction_set_computing). 
+
+![](../.gitbook/assets/imagen%20%28475%29.png)
+
+### Tipos de registros
+
+* Los **registros de datos** se usan para guardar números enteros. En algunas computadoras antiguas, existía un único registro donde se guardaba toda la información, llamado acumulador.
+* Los **registros de memoria** se usan para guardar exclusivamente direcciones de memoria. Eran muy usados en la arquitectura Harvard, ya que muchas veces las direcciones tenían un tamaño de palabra distinto que los datos.
+* Los **registros de propósito general** \(GPRs o General Purpose Registers\) pueden guardar tanto datos como direcciones. Son fundamentales en la arquitectura de von Neumann. La mayor parte de las computadoras modernas usa GPR.
+* Los **registros de coma flotante** se usan para guardar datos en formato de coma flotante.
+* Los **registros constantes** tienen valores creados por hardware de sólo lectura. Por ejemplo, en MIPS el registro cero siempre vale 0.
+* Los **registros de propósito específico** guardan información específica del estado del sistema, como el puntero de pila o el registro de estado.
+
+También existen los registros bandera y de base.
 
 ### ¿Que es una llamada a funcion y que tipos de llamada existen?
 

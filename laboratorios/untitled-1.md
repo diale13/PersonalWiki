@@ -126,6 +126,8 @@ También existen los registros bandera y de base.
 
 ### ¿Que es una llamada a funcion y que tipos de llamada existen?
 
+
+
 ### ¿Que es el prologo y el epilogo en este contexto?
 
 ### ¿Que instrucciones existen en el ensamblador para hacer comparaciones y tomar desiciones?

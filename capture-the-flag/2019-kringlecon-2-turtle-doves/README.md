@@ -39,7 +39,7 @@ Estaban en la student union. Luego vamos con santa.
 
 La carta esta tirada en un patio asi nomas, la lees copiando y pegando sus elementos.
 
-![](../../.gitbook/assets/imagen%20%28486%29.png)
+![](../../.gitbook/assets/imagen%20%28487%29.png)
 
 ### Carta
 

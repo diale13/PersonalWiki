@@ -64,8 +64,6 @@ const Course = mongoose.model(‘Course’, courseSchema);
  let course = new Course({ name: ‘…’ }); course = await course.save();
 ```
 
-### 
-
 ### Querying documents 
 
 ```javascript

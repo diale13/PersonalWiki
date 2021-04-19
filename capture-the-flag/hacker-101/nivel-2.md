@@ -1,6 +1,6 @@
 # Nivel 2
 
-![](../.gitbook/assets/imagen%20%2874%29.png)
+![](../../.gitbook/assets/imagen%20%2874%29.png)
 
 Agregar onclick a los botones implica que podes poner codigo tuyo ahi, flag al editar el index luego
 

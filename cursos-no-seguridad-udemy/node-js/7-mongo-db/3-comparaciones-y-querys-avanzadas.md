@@ -4,7 +4,7 @@
 
 Moongose trae los siguientes comparadores armados sobre mongodb
 
-![](../../../.gitbook/assets/imagen%20%28494%29.png)
+![](../../../.gitbook/assets/imagen%20%28496%29.png)
 
 Ejemplo de uso:
 

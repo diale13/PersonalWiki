@@ -36,7 +36,10 @@ Bueno tiramos metasploit bla bla
 
 Bum pop shell.
 
+```text
+locate root.txt
+locate user.txt
+```
 
-
-
+Ahi estan nuestras flags.
 

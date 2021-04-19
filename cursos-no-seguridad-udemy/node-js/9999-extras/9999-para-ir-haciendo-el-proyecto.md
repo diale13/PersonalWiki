@@ -23,3 +23,9 @@ npm -i helmet // seguridad
 npm -i morgan // logger de requests http
 ```
 
+## Notas buenas
+
+* Si tenes una funcion es buena practica ver si retorna una promesa, si lo hace ponerle await adelante.
+* 
+
+

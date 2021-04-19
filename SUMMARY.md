@@ -136,6 +136,7 @@
   * [For new vm](linux/for-new-vm.md)
 * [9 - Paginas y herramientas](paginas-recomendadas/README.md)
   * [NMap Cheatsheet](paginas-recomendadas/nmap-cheatsheet.md)
+  * [HashCat](paginas-recomendadas/hashcat.md)
 * [10 - Laboratorios](laboratorios/README.md)
   * [Lab 1 - Linux](laboratorios/lab-1-linux.md)
   * [Lab 2 - Linux 2](laboratorios/lab-2-linux-2.md)

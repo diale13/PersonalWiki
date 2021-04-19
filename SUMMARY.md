@@ -240,6 +240,7 @@
     * [3 - Comparaciones y querys avanzadas](cursos-no-seguridad-udemy/node-js/7-mongo-db/3-comparaciones-y-querys-avanzadas.md)
     * [4 - Ejercicio comparaciones](cursos-no-seguridad-udemy/node-js/7-mongo-db/4-ejercicio-comparaciones.md)
     * [5 - Update y delete](cursos-no-seguridad-udemy/node-js/7-mongo-db/untitled.md)
+    * [6 - Recap](cursos-no-seguridad-udemy/node-js/7-mongo-db/6-recap.md)
   * [8 - Validaciones](cursos-no-seguridad-udemy/node-js/validaciones.md)
   * [9999 - Extras](cursos-no-seguridad-udemy/node-js/9999-extras/README.md)
     * [Para ir haciendo el proyecto](cursos-no-seguridad-udemy/node-js/9999-extras/9999-para-ir-haciendo-el-proyecto.md)

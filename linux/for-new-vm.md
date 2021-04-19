@@ -11,7 +11,7 @@ sudo apt full-upgrade -y
 
 {% embed url="https://github.com/Dewalt-arch/pimpmykali" %}
 
-## Aptitude  \(opcional si tenes algo roto\)
+## Aptitude 
 
 Resuelve dependencias rotas 
 

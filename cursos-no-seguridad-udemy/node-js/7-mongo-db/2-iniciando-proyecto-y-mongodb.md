@@ -43,13 +43,15 @@ Con eso ya queda, se crea sin necesidad de preparar tablas, llamar contextos ni 
 
 Utilizando el metodo find sobre el modelo que planteamos podemos encontrar elementos.
 
-![](../../../.gitbook/assets/imagen%20%28488%29.png)
+![](../../../.gitbook/assets/imagen%20%28489%29.png)
 
 ### Query avanzada
 
 ![](../../../.gitbook/assets/imagen%20%28486%29.png)
 
 Aqui podemos hacer filtros, encontrar varios puntuales y mucho mas!!! emocionante.
+
+![](../../../.gitbook/assets/imagen%20%28488%29.png)
 
 
 

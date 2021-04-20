@@ -122,14 +122,14 @@ elf@ffba3960c30f:~$ ls
 This isn't the ls you're looking for
 ```
 
-Hmm, weird. It looks like the `ls` binary was replaced. Let's see which program is used using the `which` command:
+El binario de ls parece ser remplazado por otro. Podemos usar **which**
 
 ```text
 elf@ffba3960c30f:~$ which ls
 /usr/local/bin/ls
 ```
 
-Indeed, it does not seem to be the usual `ls` binary. Let's search for every file named `ls` at the root of the file system:
+Podemos buscar todos los files llamados ls para encontrarlo desde el root del sistema.
 
 ```text
 elf@ffba3960c30f:~$ find / -name ls -type f 2>/dev/null
@@ -137,19 +137,17 @@ elf@ffba3960c30f:~$ find / -name ls -type f 2>/dev/null
 /bin/ls
 ```
 
-The usual `ls` binary seems to be at `/bin/ls`. So let's call this binary directly:
+Parece estar en `/bin/ls`
+
+`podemos llamarlo directamente desde el lugar encontrado`
 
 ```text
 elf@ffba3960c30f:~$ /bin/ls
 ' '   rejected-elfu-logos.txt
 Loading, please wait......
 
-
-
 You did it! Congratulations!
 ```
-
-
 
 ### Keypad
 

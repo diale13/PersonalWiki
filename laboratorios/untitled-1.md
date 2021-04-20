@@ -8,8 +8,6 @@
 
 **Arquitectura von neuman**. Modelo conceptual de la computacion que se sigue usando al dia de hoy.
 
-
-
 ### ¿Que son los mnemonics \(instrucciones basicas\) de lenguaje ensamblador?
 
 Son las instruccions mas simples en el lenguaje assembly.  Lo que hacen es agrupar diferentes **opcodes** que con el fin de ejecutar un proposito. Se reservan los mnemonic para clases de opcodes con mismas funciones.

@@ -116,6 +116,7 @@
   * [6 - Hack The Box](curso-ethical-hacking/6-hack-the-box/README.md)
     * [1 - Legacy \(win\_easy\)](curso-ethical-hacking/6-hack-the-box/1-legacy-win_easy.md)
     * [2 - Lame \(Linx\_easy\)](curso-ethical-hacking/6-hack-the-box/2-lame-linx_easy.md)
+    * [3 - Blue \(win\_easy\)](curso-ethical-hacking/6-hack-the-box/3-blue-win_easy.md)
     * [999 - Extra notes](curso-ethical-hacking/6-hack-the-box/999-extra-notes.md)
 * [5 - Others](others/README.md)
   * [Informe cyber en empresas chicas](others/informe-cyber-en-empresas-chicas.md)

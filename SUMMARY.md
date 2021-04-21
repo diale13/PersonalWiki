@@ -139,6 +139,7 @@
   * [index](linux/untitled.md)
   * [For new vm](linux/for-new-vm.md)
 * [9 - Paginas y herramientas](paginas-recomendadas/README.md)
+  * [Windows cheatsheet \(wip\)](paginas-recomendadas/windows-cheatsheet-wip.md)
   * [NMap Cheatsheet](paginas-recomendadas/nmap-cheatsheet.md)
   * [HashCat](paginas-recomendadas/hashcat.md)
 * [10 - Laboratorios](laboratorios/README.md)

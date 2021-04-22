@@ -147,6 +147,13 @@ Loading, please wait......
 You did it! Congratulations!
 ```
 
+### Windows Log Analysis: Evaluate Attack Outcome
+
+* Lo vemos con event viewer
+* Filtramos eventos "4625 4648" -&gt; Inicio de sesion y fallo al iniciar sesion
+* Filtramos los de Kerberos y encontre 3 usuarios DC1$ \(que es workstation\), supratree y pminstix 
+* Era supratree.
+
 ### Keypad
 
 ![](../../.gitbook/assets/imagen%20%28484%29.png)

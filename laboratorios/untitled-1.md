@@ -148,13 +148,13 @@ Dependiendo de la arquitectura el prologo puede realizar funciones de comandos c
 
 ### Archivo 1
 
-![](../.gitbook/assets/imagen%20%28526%29.png)
+![](../.gitbook/assets/imagen%20%28532%29.png)
 
 ### Archivo 2
 
-![](../.gitbook/assets/imagen%20%28519%29.png)
+![](../.gitbook/assets/imagen%20%28520%29.png)
 
 ### Archivo 3
 
-![](../.gitbook/assets/imagen%20%28524%29.png)
+![](../.gitbook/assets/imagen%20%28526%29.png)
 

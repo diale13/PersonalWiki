@@ -8,13 +8,13 @@ Ver seccion NetSec Owasp para mejor orden.
 
 ### Broute force
 
-![](../.gitbook/assets/imagen%20%28518%29.png)
+![](../.gitbook/assets/imagen%20%28519%29.png)
 
-![](../.gitbook/assets/imagen%20%28520%29.png)
+![](../.gitbook/assets/imagen%20%28521%29.png)
 
 ### Command inyection
 
-![](../.gitbook/assets/imagen%20%28525%29.png)
+![](../.gitbook/assets/imagen%20%28529%29.png)
 
 ```text
 ; command
@@ -22,7 +22,7 @@ Ver seccion NetSec Owasp para mejor orden.
 
 ### CSRF
 
-![](../.gitbook/assets/imagen%20%28527%29.png)
+![](../.gitbook/assets/imagen%20%28533%29.png)
 
 SQLinyection
 
@@ -34,15 +34,15 @@ SQLinyection
 
 ![](../.gitbook/assets/imagen%20%28515%29.png)
 
-![](../.gitbook/assets/imagen%20%28522%29.png)
+![](../.gitbook/assets/imagen%20%28524%29.png)
 
 ### File upload \(not mine\)
 
-![](../.gitbook/assets/imagen%20%28523%29.png)
+![](../.gitbook/assets/imagen%20%28525%29.png)
 
-![](../.gitbook/assets/imagen%20%28517%29.png)
+![](../.gitbook/assets/imagen%20%28518%29.png)
 
 ### XSS
 
-![](../.gitbook/assets/imagen%20%28521%29.png)
+![](../.gitbook/assets/imagen%20%28522%29.png)
 

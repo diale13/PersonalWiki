@@ -55,5 +55,11 @@
 
 {% embed url="https://ctf.hacker101.com/" %}
 
+## Exploitation
+
+Msfvenom 
+
+{% embed url="https://netsec.ws/?p=331" %}
+
 
 

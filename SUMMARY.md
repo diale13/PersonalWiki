@@ -154,7 +154,7 @@
     * [Criptografia](laboratorios/lab-5/criptografia.md)
   * [Lab 6 - BufferOverflow](laboratorios/lab-6-bufferoverflow.md)
   * [Lab 7 - SO Memory](laboratorios/lab-7-so-memory.md)
-  * [Lab 8 - OWASP](laboratorios/lab-8-owasp.md)
+  * [Lab 8 - OWASP and DVWA](laboratorios/lab-8-owasp.md)
   * [Lab 9 - Forensics \(cont\)](laboratorios/untitled-1.md)
 * [Virtualizacion](virtualizacion.md)
 

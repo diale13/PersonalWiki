@@ -32,3 +32,33 @@ message: ‘A course should have at least 1 tag.’
 ]
 ```
 
+* If you need to talk to a database or a remote service to perform the validation,
+
+  you need to create an async validator:
+
+```javascript
+validate: {
+isAsync: true
+validator: function(v, callback) {
+// Do the validation, when the result is ready, call the callback
+callback(isValid);
+}
+}
+```
+
+
+
+* Other useful SchemaType properties:
+* Strings: lowercase, uppercase, trim
+* All types: get, set \(to define a custom getter/setter\)
+
+```javascript
+price: {
+type: Number,
+get: v => Math.round(v),
+set: v => Math.round(v)
+}
+```
+
+
+

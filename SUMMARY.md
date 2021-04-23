@@ -250,6 +250,8 @@
     * [1 - Validacion](cursos-no-seguridad-udemy/node-js/validaciones/1-validacion.md)
     * [2 - Schema options](cursos-no-seguridad-udemy/node-js/validaciones/2-schema-options.md)
     * [3 - Vidly mejorado](cursos-no-seguridad-udemy/node-js/validaciones/3-vidly-mejorado.md)
+    * [4 - Vidly reestructurado](cursos-no-seguridad-udemy/node-js/validaciones/4-vidly-reestructurado.md)
+    * [5 - Recap](cursos-no-seguridad-udemy/node-js/validaciones/5-recap.md)
   * [9999 - Extras](cursos-no-seguridad-udemy/node-js/9999-extras/README.md)
     * [Para ir haciendo el proyecto](cursos-no-seguridad-udemy/node-js/9999-extras/9999-para-ir-haciendo-el-proyecto.md)
     * [Visual Studio Code Extensions](cursos-no-seguridad-udemy/node-js/9999-extras/9999-visual-studio-code-extensions.md)

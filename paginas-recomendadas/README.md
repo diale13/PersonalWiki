@@ -57,9 +57,15 @@
 
 ## Exploitation
 
-Msfvenom 
+### Msfvenom 
+
+Generador de payloads
 
 {% embed url="https://netsec.ws/?p=331" %}
 
+### Sqlmap 
 
+detecta sqlinyections
+
+[https://gitlab.com/kalilinux/packages/sqlmap/](https://gitlab.com/kalilinux/packages/sqlmap/)
 

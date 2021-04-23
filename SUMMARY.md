@@ -118,6 +118,7 @@
     * [2 - Lame \(Linx\_easy\)](curso-ethical-hacking/6-hack-the-box/2-lame-linx_easy.md)
     * [3 - Blue \(win\_easy\)](curso-ethical-hacking/6-hack-the-box/3-blue-win_easy.md)
     * [4 - Devel \(win\_easyish\) - Msfvenom](curso-ethical-hacking/6-hack-the-box/4-devel-win_easyish-msfvenom.md)
+    * [5 - Jerry \(win\_easy\)](curso-ethical-hacking/6-hack-the-box/5-jerry-win_easy.md)
     * [999 - Extra notes](curso-ethical-hacking/6-hack-the-box/999-extra-notes.md)
 * [5 - Others](others/README.md)
   * [Informe cyber en empresas chicas](others/informe-cyber-en-empresas-chicas.md)

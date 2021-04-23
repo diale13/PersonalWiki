@@ -255,6 +255,7 @@
   * [9 - Modelando datos conectados](cursos-no-seguridad-udemy/node-js/9-modelando-datos-conectados/README.md)
     * [1 - Enfoques y modelado de relaciones](cursos-no-seguridad-udemy/node-js/9-modelando-datos-conectados/1-enfoques-y-modelado-de-relaciones.md)
     * [2 - Referenciando documentos](cursos-no-seguridad-udemy/node-js/9-modelando-datos-conectados/2-referenciando-documentos.md)
+    * [3 - Embedding doccuments](cursos-no-seguridad-udemy/node-js/9-modelando-datos-conectados/3-embedding-doccuments.md)
   * [9999 - Extras](cursos-no-seguridad-udemy/node-js/9999-extras/README.md)
     * [Para ir haciendo el proyecto](cursos-no-seguridad-udemy/node-js/9999-extras/9999-para-ir-haciendo-el-proyecto.md)
     * [Visual Studio Code Extensions](cursos-no-seguridad-udemy/node-js/9999-extras/9999-visual-studio-code-extensions.md)

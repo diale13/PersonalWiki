@@ -26,7 +26,7 @@ Si necesitamos velocidad real usamos esta forma.
 
 Es un poco lo mejor de dos mundos
 
-![](../../../.gitbook/assets/imagen%20%28551%29.png)
+![](../../../.gitbook/assets/imagen%20%28552%29.png)
 
 ## 
 

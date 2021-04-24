@@ -16,3 +16,9 @@ Esta mejora a ese codigo es para que se haga SOBRE LA BASE
 
 ![](../../../.gitbook/assets/imagen%20%28551%29.png)
 
+### De tener muchos authors
+
+![](../../../.gitbook/assets/imagen%20%28569%29.png)
+
+obviamente antes cambiamos todo a no ser solo author sino que authors= \[authorSchema\]
+

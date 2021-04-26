@@ -12,3 +12,7 @@ El objetivo de marcar estas zonas es no exponer en forma simultanea todo lo que 
 
 
 
+![](../../.gitbook/assets/imagen%20%28587%29.png)
+
+
+

@@ -121,6 +121,7 @@
     * [5 - Jerry \(win\_easy\)](curso-ethical-hacking/6-hack-the-box/5-jerry-win_easy.md)
     * [6 - Nibbles \(linux\_easy\)](curso-ethical-hacking/6-hack-the-box/6-nibbles-linux_easy.md)
     * [7 - Optimum - Manual escalation \(win\_med\)](curso-ethical-hacking/6-hack-the-box/optimum.md)
+    * [8 - Bashed \(linx\)](curso-ethical-hacking/6-hack-the-box/8-bashed-linx.md)
     * [999 - Extra notes](curso-ethical-hacking/6-hack-the-box/999-extra-notes.md)
 * [5 - Others](others/README.md)
   * [Informe cyber en empresas chicas](others/informe-cyber-en-empresas-chicas.md)

@@ -67,5 +67,13 @@ Generador de payloads
 
 detecta sqlinyections
 
-[https://gitlab.com/kalilinux/packages/sqlmap/](https://gitlab.com/kalilinux/packages/sqlmap/)
+{% embed url="https://gitlab.com/kalilinux/packages/sqlmap/" %}
+
+
+
+## Privilege escalation
+
+{% embed url="https://github.com/rasta-mouse/Sherlock" %}
+
+
 

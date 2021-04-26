@@ -73,7 +73,13 @@ detecta sqlinyections
 
 ## Privilege escalation
 
+Para viejos:
+
 {% embed url="https://github.com/rasta-mouse/Sherlock" %}
+
+Mas nuevo:
+
+{% embed url="https://github.com/rasta-mouse/Watson" %}
 
 
 

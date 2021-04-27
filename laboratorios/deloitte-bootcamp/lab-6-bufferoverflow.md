@@ -2,7 +2,7 @@
 
 ## Entendiendo la memoria \(linux\)
 
-![](../.gitbook/assets/imagen%20%28376%29.png)
+![](../../.gitbook/assets/imagen%20%28376%29.png)
 
 * **Kernel:** variables de ambiente u elementos de parametros para la terminal
 * **Text:** codigo de un programa, lo que compilamos \(read only\)
@@ -16,13 +16,13 @@ static int i = 1 //Se guarda en el data
 
 **Bss:** Uninitialized data segment often called the “bss” segment, named after an ancient assembler operator that stood for “block started by symbol.” Data in this segment is initialized by the kernel to arithmetic 0 before the program starts executing
 
-![](../.gitbook/assets/imagen%20%28394%29.png)
+![](../../.gitbook/assets/imagen%20%28394%29.png)
 
 Del stack sale el stackoverflow, y tambien los ataques a buffer suelen ir para ahi.
 
-![](../.gitbook/assets/imagen%20%28366%29.png)
+![](../../.gitbook/assets/imagen%20%28366%29.png)
 
-![](../.gitbook/assets/imagen%20%28386%29.png)
+![](../../.gitbook/assets/imagen%20%28386%29.png)
 
 Vemos que el stack crece hacia esa direccion, los parametros que agregamos se ponen en esa direccion.
 
@@ -33,7 +33,7 @@ Vemos que el stack crece hacia esa direccion, los parametros que agregamos se po
 3. Page Replacement Algorithm that is used in Windows is First In First Out\(F.I.F.O\) where as Linux uses Least Recently Used\(L.R.U\) Algorithm.
 4. Windows on 32-bit uses 4GB of physical memory which allows each process to have its own 4GB logical address \(upper 2Gb-Kernel Mode, lower 2Gb-User Mode\). In regard to Linux, 3Gb-User mode & 1Gb-Kernel Mode.
 
-![](../.gitbook/assets/imagen%20%28409%29.png)
+![](../../.gitbook/assets/imagen%20%28409%29.png)
 
 ## Buffer overflow
 
@@ -43,13 +43,13 @@ Los ejecutables son mantenidos en memoria.
 
 Ahora vamos a atacar:
 
-![](../.gitbook/assets/imagen%20%28389%29.png)
+![](../../.gitbook/assets/imagen%20%28389%29.png)
 
 Lo que hace es crear un buffer de 500 caracteres y colocar el parametro\(s\) de char en el mismo
 
 Asi queda nuestra memoria:
 
-![](../.gitbook/assets/imagen%20%28385%29.png)
+![](../../.gitbook/assets/imagen%20%28385%29.png)
 
 El base pointer no importa mucho pero el return es el valor de la variable que retornaremos y/o ejecutaremos. Lo que queremos lograr es pasarnos por completo del buffer y ejecutar en el return lo que nosotros querramos.
 
@@ -57,31 +57,31 @@ Usaremos el compilador **gdb**
 
 **C**orriendo eso con ayuda de un script de python no solo asigna los valores sino que se pasa
 
-![](../.gitbook/assets/imagen%20%28387%29.png)
+![](../../.gitbook/assets/imagen%20%28387%29.png)
 
 Obtenemos entonces un segmentation fault. Eso es bueno implica que linux se dio cuenta que tocamos algo que no deberiamos al retornar. Ver como le metimos 506 chars que manejan lo suficiente para pasarse de ese buffer pero no tanto para romper todo.
 
 Tenemos este payload que queremos ejecutar para atacar la shell:
 
-![](../.gitbook/assets/imagen%20%28384%29.png)
+![](../../.gitbook/assets/imagen%20%28384%29.png)
 
 Los x90 son espacios de memoria que dicen movete a la derecha basicamente
 
-![](../.gitbook/assets/imagen%20%28383%29.png)
+![](../../.gitbook/assets/imagen%20%28383%29.png)
 
-![](../.gitbook/assets/imagen%20%28392%29.png)
+![](../../.gitbook/assets/imagen%20%28392%29.png)
 
 Ademas el calcula cuanto se tiene que mover con estos agregados le da 425 
 
-![](../.gitbook/assets/imagen%20%28391%29.png)
+![](../../.gitbook/assets/imagen%20%28391%29.png)
 
 Viendo la memoria con el compilador tenemos lo siguiente:
 
-![](../.gitbook/assets/imagen%20%28390%29.png)
+![](../../.gitbook/assets/imagen%20%28390%29.png)
 
 Como es intel la lees al revez, pero lo clave es ver todos esos 0x90 que se repiten, elegimos uno que no es nuestro.
 
-![](../.gitbook/assets/imagen%20%28388%29.png)
+![](../../.gitbook/assets/imagen%20%28388%29.png)
 
 
 

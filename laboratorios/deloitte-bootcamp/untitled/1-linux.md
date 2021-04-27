@@ -13,7 +13,7 @@ printenv | less
 env //tambien funciona
 ```
 
-![](../../.gitbook/assets/imagen%20%28265%29.png)
+![](../../../.gitbook/assets/imagen%20%28265%29.png)
 
 Para crear una, verla y luego borrarla
 
@@ -23,7 +23,7 @@ echo $VARNAME
 unset VARNAME
 ```
 
-![](../../.gitbook/assets/imagen%20%28270%29.png)
+![](../../../.gitbook/assets/imagen%20%28270%29.png)
 
 Below are some of the most common environment variables:
 
@@ -85,9 +85,9 @@ TODOS LOS SCRIPTS EN   ****_**/etc/profile.d/**_  SE EJECUTAN CUANDO INICIALIZA 
 #echo $PS1
 ```
 
-![](../../.gitbook/assets/imagen%20%28267%29.png)
+![](../../../.gitbook/assets/imagen%20%28267%29.png)
 
-![](../../.gitbook/assets/imagen%20%28278%29.png)
+![](../../../.gitbook/assets/imagen%20%28278%29.png)
 
 Haremos un backup de la original
 
@@ -96,7 +96,7 @@ Haremos un backup de la original
 #PS1="WORLD BEST HACKER "
 ```
 
-![](../../.gitbook/assets/imagen%20%28273%29.png)
+![](../../../.gitbook/assets/imagen%20%28273%29.png)
 
 ```text
 WORLD BEST HACKER PS1 = $PS1_ORG
@@ -140,7 +140,7 @@ $ cat outScript | grep 80/open > grepPort.txt
 
 **NO ES MIO LO SIGUIENTE DEBO CORRELO AUN**
 
-![](../../.gitbook/assets/imagen%20%2899%29.png)
+![](../../../.gitbook/assets/imagen%20%2899%29.png)
 
 ### Comprimir salida a tar
 

@@ -103,7 +103,7 @@ service isc-dchp-server start
 service isc-dchp-server status
 ```
 
-![](../.gitbook/assets/imagen%20%28262%29.png)
+![](../../.gitbook/assets/imagen%20%28262%29.png)
 
 ### **Habilitar ssh en maquina y validar que puertos tengo abiertos**
 

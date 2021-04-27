@@ -110,5 +110,5 @@ TODO
 
 
 
-![](../../.gitbook/assets/imagen%20%28369%29.png)
+![](../../../.gitbook/assets/imagen%20%28369%29.png)
 

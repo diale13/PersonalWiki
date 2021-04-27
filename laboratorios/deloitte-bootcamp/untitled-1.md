@@ -4,7 +4,7 @@
 
 ### Analize imagen
 
-![](../.gitbook/assets/imagen%20%28465%29.png)
+![](../../.gitbook/assets/imagen%20%28465%29.png)
 
 **Arquitectura von neuman**. Modelo conceptual de la computacion que se sigue usando al dia de hoy.
 
@@ -85,7 +85,7 @@ AND MASK1, 128
 
 Al hacer un JMP por ejemplo realiza lo siguiente
 
-![](../.gitbook/assets/imagen%20%28473%29.png)
+![](../../.gitbook/assets/imagen%20%28473%29.png)
 
 ### Illegal opcode
 
@@ -103,7 +103,7 @@ El concepto de endianess no comienza a ser relevante hasta la hora de mover arch
 
 Los protocolos de red suelen manejar el BE y los file formats varian.
 
-![](../.gitbook/assets/imagen%20%28472%29.png)
+![](../../.gitbook/assets/imagen%20%28472%29.png)
 
 ### ¿Que es el registro de la cpu y cuales registros existen?
 
@@ -113,7 +113,7 @@ Aparecen en lo mas aalto de la [jerarquía de memoria](https://es.wikipedia.org/
 
 El término es usado generalmente para referirse al grupo de registros que pueden ser directamente indexados como operandos de una instrucción, como está definido en el [conjunto de instrucciones](https://es.wikipedia.org/wiki/Complex_instruction_set_computing). 
 
-![](../.gitbook/assets/imagen%20%28475%29.png)
+![](../../.gitbook/assets/imagen%20%28475%29.png)
 
 ### Tipos de registros
 
@@ -144,17 +144,17 @@ Dependiendo de la arquitectura el prologo puede realizar funciones de comandos c
 
 ## Compila y desensambla los siguientes codigos
 
-![](../.gitbook/assets/imagen%20%28463%29.png)
+![](../../.gitbook/assets/imagen%20%28463%29.png)
 
 ### Archivo 1
 
-![](../.gitbook/assets/imagen%20%28532%29.png)
+![](../../.gitbook/assets/imagen%20%28532%29.png)
 
 ### Archivo 2
 
-![](../.gitbook/assets/imagen%20%28520%29.png)
+![](../../.gitbook/assets/imagen%20%28520%29.png)
 
 ### Archivo 3
 
-![](../.gitbook/assets/imagen%20%28526%29.png)
+![](../../.gitbook/assets/imagen%20%28526%29.png)
 

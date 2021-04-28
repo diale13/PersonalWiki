@@ -177,6 +177,7 @@
       * [1 - UNION attack, determining the number of columns returned by the query](untitled-2/sql-injection/lab/1-union-attack-determining-the-number-of-columns-returned-by-the-query.md)
   * [Information Disclousure](untitled-2/untitled/README.md)
     * [Server version](untitled-2/untitled/server-version.md)
+    * [Debug page](untitled-2/untitled/debug-page.md)
 
 ## Cursos no seguridad udemy
 

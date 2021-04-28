@@ -28,7 +28,7 @@ Que sucede cuando hacemos log in con nuestro user= wiener y nuestro pass= bluech
 
 Curioso que pasaria si ponemos de usuario \(sin siquiera pas\) administrator'--
 
-![](../../.gitbook/assets/imagen%20%28605%29.png)
+![](../../.gitbook/assets/imagen%20%28606%29.png)
 
  `SELECT * FROM users WHERE username = 'administrator'--' AND password = ''`
 

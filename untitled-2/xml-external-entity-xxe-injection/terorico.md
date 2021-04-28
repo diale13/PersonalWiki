@@ -43,9 +43,16 @@ Aqui se define una entidad externa \(&xxe\) que tiene de valor el contenido de e
 
 ------------
 
+## Explotando XXE para realizar SSRF 
+
+Cuando una entidad es definida en la URL de un backend se pueden realizar estas acciones. Para realizarlo se necesita definir la XML external entity usando la url del objetivo a conectarse.
+
+En el ejemplo la entidad causa que el servidor realice una HTTP request a una pagina interna.
+
+ `<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "http://internal.vulnerable-website.com/"> ]>`
 
 
-*  [Exploiting XXE to retrieve files](https://portswigger.net/web-security/xxe#exploiting-xxe-to-retrieve-files), where an external entity is defined containing the contents of a file, and returned in the application's response.
+
 *  [Exploiting XXE to perform SSRF attacks](https://portswigger.net/web-security/xxe#exploiting-xxe-to-perform-ssrf-attacks), where an external entity is defined based on a URL to a back-end system.
 *  [Exploiting blind XXE exfiltrate data out-of-band](https://portswigger.net/web-security/xxe/blind#exploiting-blind-xxe-to-exfiltrate-data-out-of-band), where sensitive data is transmitted from the application server to a system that the attacker controls.
 *  [Exploiting blind XXE to retrieve data via error messages](https://portswigger.net/web-security/xxe/blind#exploiting-blind-xxe-to-retrieve-data-via-error-messages), where the attacker can trigger a parsing error message containing sensitive data.

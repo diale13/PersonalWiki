@@ -2,7 +2,7 @@
 
 Es un tipo de vulnerabilidad web que permite al atacante vulnerar como se procesar datos XML. Resulta en ver archivos del sistema, interactuar con el backend o sistemasa. Puede escalar a un SSRF.
 
-![](../../.gitbook/assets/imagen%20%28614%29.png)
+![](../../.gitbook/assets/imagen%20%28615%29.png)
 
 Muchas aplicaciones usan XML para trasmitir data entre el navegador y el server. La mayoria manejan apis de xml vulnerables desde la especificacion misma de xml.
 
@@ -36,6 +36,14 @@ Aqui se define una entidad externa \(&xxe\) que tiene de valor el contenido de e
  ...`
 
 > With real-world XXE vulnerabilities, there will often be a large number of data values within the submitted XML, any one of which might be used within the application's response. To test systematically for XXE vulnerabilities, you will generally need to test each data node in the XML individually, by making use of your defined entity and seeing whether it appears within the response.
+
+
+
+
+
+------------
+
+
 
 *  [Exploiting XXE to retrieve files](https://portswigger.net/web-security/xxe#exploiting-xxe-to-retrieve-files), where an external entity is defined containing the contents of a file, and returned in the application's response.
 *  [Exploiting XXE to perform SSRF attacks](https://portswigger.net/web-security/xxe#exploiting-xxe-to-perform-ssrf-attacks), where an external entity is defined based on a URL to a back-end system.

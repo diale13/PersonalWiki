@@ -10,7 +10,7 @@ Entonces al ver dentro de burp vemos como es enviada la peticion en formato xml
 
 Luego de un rato de hacer debug con el xml llego a esto
 
-![](../../../.gitbook/assets/imagen%20%28615%29.png)
+![](../../../.gitbook/assets/imagen%20%28616%29.png)
 
 Se coloca el &xxe como una forma de hacer referencia a la variable de arriba.
 

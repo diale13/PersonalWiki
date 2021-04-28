@@ -173,7 +173,8 @@
   * [SQL injection](untitled-2/sql-injection/README.md)
     * [1 - Teorico](untitled-2/sql-injection/1-teorico.md)
     * [2 - Cheatsheet](untitled-2/sql-injection/2-cheatsheet.md)
-    * [Lab](untitled-2/sql-injection/lab.md)
+    * [Lab](untitled-2/sql-injection/lab/README.md)
+      * [1 - UNION attack, determining the number of columns returned by the query](untitled-2/sql-injection/lab/1-union-attack-determining-the-number-of-columns-returned-by-the-query.md)
   * [Untitled](untitled-2/untitled.md)
 
 ## Cursos no seguridad udemy

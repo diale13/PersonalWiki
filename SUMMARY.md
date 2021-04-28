@@ -178,6 +178,7 @@
   * [Information Disclousure](untitled-2/untitled/README.md)
     * [Server version](untitled-2/untitled/server-version.md)
     * [Debug page](untitled-2/untitled/debug-page.md)
+    * [Disclosure via backup files](untitled-2/untitled/disclosure-via-backup-files.md)
 
 ## Cursos no seguridad udemy
 

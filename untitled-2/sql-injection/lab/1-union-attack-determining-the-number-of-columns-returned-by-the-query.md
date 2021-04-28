@@ -10,5 +10,5 @@ Esto marca que estan faltando parametros en nuestra peticion
 
 Al editar nos queda asi y capturamos la flag o el lab
 
-![](../../../.gitbook/assets/imagen%20%28601%29.png)
+![](../../../.gitbook/assets/imagen%20%28602%29.png)
 

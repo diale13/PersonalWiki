@@ -175,7 +175,8 @@
     * [2 - Cheatsheet](untitled-2/sql-injection/2-cheatsheet.md)
     * [Lab](untitled-2/sql-injection/lab/README.md)
       * [1 - UNION attack, determining the number of columns returned by the query](untitled-2/sql-injection/lab/1-union-attack-determining-the-number-of-columns-returned-by-the-query.md)
-  * [Untitled](untitled-2/untitled.md)
+  * [Information Disclousure](untitled-2/untitled/README.md)
+    * [Server version](untitled-2/untitled/server-version.md)
 
 ## Cursos no seguridad udemy
 

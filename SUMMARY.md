@@ -175,10 +175,15 @@
     * [2 - Cheatsheet](untitled-2/sql-injection/2-cheatsheet.md)
     * [Lab](untitled-2/sql-injection/lab/README.md)
       * [1 - UNION attack, determining the number of columns returned by the query](untitled-2/sql-injection/lab/1-union-attack-determining-the-number-of-columns-returned-by-the-query.md)
+  * [XXS](untitled-2/xxs/README.md)
+    * [1- Reflected XSS into HTML context with nothing encoded](untitled-2/xxs/1-reflected-xss-into-html-context-with-nothing-encoded.md)
+    * [2 - Reflected XSS into HTML context with most tags and attributes blocked](untitled-2/xxs/2-reflected-xss-into-html-context-with-most-tags-and-attributes-blocked.md)
   * [Information Disclousure](untitled-2/untitled/README.md)
     * [Server version](untitled-2/untitled/server-version.md)
     * [Debug page](untitled-2/untitled/debug-page.md)
     * [Disclosure via backup files](untitled-2/untitled/disclosure-via-backup-files.md)
+  * [File traversal](untitled-2/file-traversal/README.md)
+    * [Simple](untitled-2/file-traversal/simple.md)
 
 ## Cursos no seguridad udemy
 

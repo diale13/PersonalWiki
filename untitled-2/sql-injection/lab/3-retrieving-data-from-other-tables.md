@@ -14,3 +14,5 @@ SImilar a los anteriores cambio la categoria pero para incluir usuario y contras
 
 Nos logeamos y listo.
 
+**Nota clave: la coma entre username y password**
+

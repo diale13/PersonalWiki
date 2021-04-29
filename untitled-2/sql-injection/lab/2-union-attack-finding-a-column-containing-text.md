@@ -12,5 +12,5 @@ Luego el lab nos pide encontrar un random string, en mi caso wjvI9f. Eso es lo q
 
 `'+UNION+SELECT+'`wjvI9f`',NULL,NULL--` De no encontrarlo probamos mover el string y volver a poner el null
 
-![](../../../.gitbook/assets/imagen%20%28618%29.png)
+![](../../../.gitbook/assets/imagen%20%28620%29.png)
 

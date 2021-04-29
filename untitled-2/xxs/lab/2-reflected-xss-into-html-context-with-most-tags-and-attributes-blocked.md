@@ -1,6 +1,6 @@
 # 2 - Reflected XSS into HTML context with most tags and attributes blocked
 
-> This lab contains a [reflected cross-site scripting](https://portswigger.net/web-security/cross-site-scripting/reflected) vulnerability in the search functionality but uses a web application firewall \(WAF\) to protect against common [XSS](https://portswigger.net/web-security/cross-site-scripting) vectors.
+> This lab contains a [reflected cross-site scripting](https://portswigger.net/web-security/cross-site-scripting/reflected) vulnerability in the search functionality but uses a **web application firewall \(WAF\)** to protect against common [XSS](https://portswigger.net/web-security/cross-site-scripting) vectors.
 >
 >  To solve the lab, perform a cross-site scripting attack that bypasses the WAF and alerts `document.cookie`.
 
@@ -19,6 +19,8 @@ La unica que pasa sin recibir un HTTP400 es **body**.
 Cambiamos el search term dentro de positions a `<body%20=1>` 
 
 Luego hacemos que quede `<body%20§§=1>` y vamos nuevamente al cheatsheet, colocamos como nuevo payload "copy events to clipboard".
+
+Lo que pasa es que estan blacklisted algunos eventos, 
 
 
 

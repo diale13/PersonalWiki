@@ -176,6 +176,7 @@
     * [Lab](untitled-2/sql-injection/lab/README.md)
       * [1 - UNION attack, determining the number of columns returned by the query](untitled-2/sql-injection/lab/1-union-attack-determining-the-number-of-columns-returned-by-the-query.md)
       * [2 - UNION attack, finding a column containing text](untitled-2/sql-injection/lab/2-union-attack-finding-a-column-containing-text.md)
+      * [3 - Retrieving data from other tables](untitled-2/sql-injection/lab/3-retrieving-data-from-other-tables.md)
   * [2 - XXS](untitled-2/xxs/README.md)
     * [1- Reflected XSS into HTML context with nothing encoded](untitled-2/xxs/1-reflected-xss-into-html-context-with-nothing-encoded.md)
     * [2 - Reflected XSS into HTML context with most tags and attributes blocked](untitled-2/xxs/2-reflected-xss-into-html-context-with-most-tags-and-attributes-blocked.md)

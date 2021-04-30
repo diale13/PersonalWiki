@@ -35,7 +35,7 @@ asi que en kali: **wget -r lab.net/.git**
 
 ![](../../.gitbook/assets/imagen%20%28632%29.png)
 
-Hacemos el diff entre los archivos.
+Hacemos el **diff** entre los archivos.
 
 Nos logeamos con esa cuenta y borramos a carlos.
 

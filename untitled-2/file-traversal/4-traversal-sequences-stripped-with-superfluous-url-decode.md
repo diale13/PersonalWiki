@@ -8,7 +8,7 @@
 
  You might be able to use various non-standard encodings, such as `..%c0%af` or `..%252f`, to bypass the input filter.
 
-![](../../.gitbook/assets/imagen%20%28634%29.png)
+![](../../.gitbook/assets/imagen%20%28635%29.png)
 
 ```text
 GET /image?filename=..%252f..%252f..%252f/etc/passwd HTTP/1.1

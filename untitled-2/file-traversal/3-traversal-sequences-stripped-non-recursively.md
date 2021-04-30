@@ -6,6 +6,8 @@
 >
 >  To solve the lab, retrieve the contents of the `/etc/passwd` file.
 
+Recordar:  You might be able to use nested traversal sequences, such as `....//` or `....\/`, which will revert to simple traversal sequences when the inner sequence is stripped.
+
 ```text
 GET /image?filename=....//....//....//etc/passwd HTTP/1.1
 ```

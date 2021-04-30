@@ -197,6 +197,7 @@
     * [1 - Simple](untitled-2/file-traversal/simple.md)
     * [2 - Traversal sequences blocked with absolute path bypass](untitled-2/file-traversal/2-traversal-sequences-blocked-with-absolute-path-bypass.md)
     * [3 - Traversal sequences stripped non-recursively](untitled-2/file-traversal/3-traversal-sequences-stripped-non-recursively.md)
+    * [4 - Traversal sequences stripped with superfluous URL-decode](untitled-2/file-traversal/4-traversal-sequences-stripped-with-superfluous-url-decode.md)
   * [6 - Server-side request forgery \(SSRF\)](untitled-2/6-server-side-request-forgery-ssrf.md)
 
 ## Cursos no seguridad udemy

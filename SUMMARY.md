@@ -193,7 +193,10 @@
     * [Debug page](untitled-2/untitled/debug-page.md)
     * [Disclosure via backup files](untitled-2/untitled/disclosure-via-backup-files.md)
   * [5 - File traversal](untitled-2/file-traversal/README.md)
-    * [Simple](untitled-2/file-traversal/simple.md)
+    * [Teorico](untitled-2/file-traversal/teorico.md)
+    * [1 - Simple](untitled-2/file-traversal/simple.md)
+    * [2 - Traversal sequences blocked with absolute path bypass](untitled-2/file-traversal/2-traversal-sequences-blocked-with-absolute-path-bypass.md)
+    * [3 - Traversal sequences stripped non-recursively](untitled-2/file-traversal/3-traversal-sequences-stripped-non-recursively.md)
   * [6 - Server-side request forgery \(SSRF\)](untitled-2/6-server-side-request-forgery-ssrf.md)
 
 ## Cursos no seguridad udemy

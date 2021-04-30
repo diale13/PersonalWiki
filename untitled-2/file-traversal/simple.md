@@ -1,4 +1,4 @@
-# Simple
+# 1 - Simple
 
 Lo que hice fue cambiar el parametro de la obtencion de imagenes a  `../../../etc/passwd` Con eso la respuesta nos trae directamente el contenido de esta carpeta
 

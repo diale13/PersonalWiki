@@ -1,12 +1,12 @@
 # Teorico
 
-![](../../.gitbook/assets/imagen%20%28629%29.png)
+![](../../.gitbook/assets/imagen%20%28631%29.png)
 
 Permite al atacante leer archivos almacenados dentro del servidor. Incluso escribir sus propios ataques.
 
-![](../../.gitbook/assets/imagen%20%28630%29.png)
+![](../../.gitbook/assets/imagen%20%28632%29.png)
 
-![](../../.gitbook/assets/imagen%20%28628%29.png)
+![](../../.gitbook/assets/imagen%20%28630%29.png)
 
 ![en windows](../../.gitbook/assets/imagen%20%28626%29.png)
 
@@ -14,7 +14,7 @@ Permite al atacante leer archivos almacenados dentro del servidor. Incluso escri
 
 Vueltas clasicas
 
-![](../../.gitbook/assets/imagen%20%28631%29.png)
+![](../../.gitbook/assets/imagen%20%28633%29.png)
 
 Si requiere inicio absoluto
 
@@ -22,5 +22,5 @@ Si requiere inicio absoluto
 
 Si tiene que terminar con nombre de archivo podemos poner un nullbyte
 
-![](../../.gitbook/assets/imagen%20%28627%29.png)
+![](../../.gitbook/assets/imagen%20%28628%29.png)
 

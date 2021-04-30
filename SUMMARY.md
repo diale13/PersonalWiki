@@ -193,6 +193,7 @@
     * [Server version](untitled-2/untitled/server-version.md)
     * [Debug page](untitled-2/untitled/debug-page.md)
     * [Disclosure via backup files](untitled-2/untitled/disclosure-via-backup-files.md)
+    * [Authentication bypass](untitled-2/untitled/authentication-bypass.md)
   * [5 - File traversal](untitled-2/file-traversal/README.md)
     * [Teorico](untitled-2/file-traversal/teorico.md)
     * [1 - Simple](untitled-2/file-traversal/simple.md)

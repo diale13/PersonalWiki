@@ -177,6 +177,7 @@
       * [1 - UNION attack, determining the number of columns returned by the query](untitled-2/sql-injection/lab/1-union-attack-determining-the-number-of-columns-returned-by-the-query.md)
       * [2 - UNION attack, finding a column containing text](untitled-2/sql-injection/lab/2-union-attack-finding-a-column-containing-text.md)
       * [3 - Retrieving data from other tables](untitled-2/sql-injection/lab/3-retrieving-data-from-other-tables.md)
+      * [4 - UNION attack, retrieving multiple values in a single column](untitled-2/sql-injection/lab/4-union-attack-retrieving-multiple-values-in-a-single-column.md)
   * [2 - XXS](untitled-2/xxs/README.md)
     * [Teorico](untitled-2/xxs/teorico.md)
     * [Lab](untitled-2/xxs/lab/README.md)

@@ -1,4 +1,4 @@
-# Debug page
+# 2 - Debug page
 
 Este es un poco mas complejo, desde el inspect element se ve una pagina de debug que no aparece a simple vista, entramos y vemos toda la informacion
 

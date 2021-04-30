@@ -4,7 +4,7 @@
 
 Permite al atacante leer archivos almacenados dentro del servidor. Incluso escribir sus propios ataques.
 
-![](../../.gitbook/assets/imagen%20%28632%29.png)
+![](../../.gitbook/assets/imagen%20%28633%29.png)
 
 ![](../../.gitbook/assets/imagen%20%28630%29.png)
 
@@ -14,7 +14,7 @@ Permite al atacante leer archivos almacenados dentro del servidor. Incluso escri
 
 Vueltas clasicas
 
-![](../../.gitbook/assets/imagen%20%28633%29.png)
+![](../../.gitbook/assets/imagen%20%28634%29.png)
 
 Si requiere inicio absoluto
 

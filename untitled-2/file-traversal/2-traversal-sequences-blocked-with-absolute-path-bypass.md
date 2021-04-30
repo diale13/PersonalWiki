@@ -6,5 +6,5 @@
 >
 >  To solve the lab, retrieve the contents of the `/etc/passwd` file.
 
-![](../../.gitbook/assets/imagen%20%28637%29.png)
+![](../../.gitbook/assets/imagen%20%28638%29.png)
 

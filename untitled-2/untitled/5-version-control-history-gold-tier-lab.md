@@ -33,6 +33,8 @@ Luego necesitamos bajar ese file para hacer la comparacion entre los archivos:
 
 asi que en kali: **wget -r lab.net/.git**
 
+**Nota:** para ver hidden folders es control+h o ls -a.
+
 ![](../../.gitbook/assets/imagen%20%28632%29.png)
 
 Hacemos el **diff** entre los archivos.

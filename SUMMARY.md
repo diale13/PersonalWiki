@@ -302,6 +302,8 @@
     * [2 - Referenciando documentos](cursos-no-seguridad-udemy/node-js/9-modelando-datos-conectados/2-referenciando-documentos.md)
     * [3 - Embedding doccuments](cursos-no-seguridad-udemy/node-js/9-modelando-datos-conectados/3-embedding-doccuments.md)
     * [4 - Transacciones](cursos-no-seguridad-udemy/node-js/9-modelando-datos-conectados/4-transacciones.md)
+    * [5 - Object ID](cursos-no-seguridad-udemy/node-js/9-modelando-datos-conectados/5-object-id.md)
+    * [6 - Recap](cursos-no-seguridad-udemy/node-js/9-modelando-datos-conectados/6-recap.md)
   * [9999 - Extras](cursos-no-seguridad-udemy/node-js/9999-extras/README.md)
     * [Para ir haciendo el proyecto](cursos-no-seguridad-udemy/node-js/9999-extras/9999-para-ir-haciendo-el-proyecto.md)
     * [Visual Studio Code Extensions](cursos-no-seguridad-udemy/node-js/9999-extras/9999-visual-studio-code-extensions.md)

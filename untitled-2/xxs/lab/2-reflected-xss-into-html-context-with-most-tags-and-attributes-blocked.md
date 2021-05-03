@@ -20,20 +20,15 @@ Cambiamos el search term dentro de positions a `<body%20=1>`
 
 Luego hacemos que quede `<body%20§§=1>` y vamos nuevamente al cheatsheet, colocamos como nuevo payload "copy events to clipboard".
 
-Lo que pasa es que estan blacklisted algunos eventos, 
-
-
-
-
-
-1.  Place the cursor before the `=` character and click "Add §" twice, to create a payload position. The value of the search term should now look like: 
-2.  Visit the [XSS cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet) and click "copy events to clipboard".
-3.  In Burp Intruder, in the Payloads tab, click "Clear" to remove the previous payloads. Then click "Paste" to paste the list of attributes into the payloads list. Click "Start attack".
-4.  When the attack is finished, review the results. Note that all payloads caused an HTTP 400 response, except for the `onresize` payload, which caused a 200 response.
-5.  Go to the exploit server and paste the following code, replacing `your-lab-id` with your lab ID:  `<iframe src="https://your-lab-id.web-security-academy.net/?search=%22%3E%3Cbody%20onresize=alert(document.cookie)%3E" onload=this.style.width='100px'>`
-6.  Click "Store" and "Deliver exploit to victim".
+Lo que pasa es que estan blacklisted algunos eventos, realizamos lo mismo para los eventos y llegamos a que el onresize es el unico que causa un 200.
 
 ![](../../../.gitbook/assets/imagen%20%28624%29.png)
+
+Vamos al exploit server y ponemos: 
+
+`<iframe src="https://acab1fc11f6a4bb3818e083000280033.web-security-academy.net/?search=%22%3E%3Cbody%20onresize=alert(document.cookie)%3E" onload=this.style.width='100px'>`
+
+Deliver to victim y gg.
 
 ![](../../../.gitbook/assets/imagen%20%28618%29.png)
 

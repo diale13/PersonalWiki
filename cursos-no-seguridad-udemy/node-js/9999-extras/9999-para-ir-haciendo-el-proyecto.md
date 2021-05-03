@@ -14,6 +14,7 @@ npm install mongoose //bd
 npm i express  // para api
 npm i -g nodemon // para no tener que "recompliar"
 npm i joi // validador de elementos de api
+npm install lodash // clave para retornar bodys no reveladores en la api (ej no retornar pass del user creado)
 ```
 
 ## Paquetes bastante opcionales

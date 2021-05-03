@@ -1,6 +1,6 @@
 # 1 - Intro
 
-![](../../../.gitbook/assets/imagen%20%28650%29.png)
+![](../../../.gitbook/assets/imagen%20%28651%29.png)
 
 ## Modelo de usuarios
 
@@ -49,7 +49,7 @@ Ver ese .email\(\) para la validacion
 
 No olvidar agregar los controllers creados al index:
 
-![](../../../.gitbook/assets/imagen%20%28652%29.png)
+![](../../../.gitbook/assets/imagen%20%28653%29.png)
 
 Volviendo al controlador puntual vamos a empezar con el post:
 
@@ -88,7 +88,7 @@ No queremos que retorne su contraseña por ejemplo.
 
 1 enfoque seria retornar una custom response:
 
-![](../../../.gitbook/assets/imagen%20%28649%29.png)
+![](../../../.gitbook/assets/imagen%20%28650%29.png)
 
 Esta bien pero hay librerias mejores para hacer eso: **Lodash**
 
@@ -98,7 +98,17 @@ Desde la terminal:
 npm install lodash
 ```
 
+Y esto permite hacer:
 
+```javascript
+  user = new User(_.pick(req.body, ['name', 'email', 'password']));
+```
+
+A notar este modulo:
+
+![](../../../.gitbook/assets/imagen%20%28649%29.png)
+
+Mejora notoriamente la seguridad requerida en la password.
 
 
 

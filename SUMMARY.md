@@ -206,6 +206,10 @@
     * [6 - Validation of file extension with null byte bypass](untitled-2/file-traversal/6-validation-of-file-extension-with-null-byte-bypass.md)
     * [WIP - Como prevenir](untitled-2/file-traversal/wip-como-prevenir.md)
   * [6 - Server-side request forgery \(SSRF\)](untitled-2/6-server-side-request-forgery-ssrf.md)
+  * [7 - Authentication](untitled-2/7-authentication/README.md)
+    * [1 - Teorico](untitled-2/7-authentication/1-teorico.md)
+    * [2 - Labs](untitled-2/7-authentication/2-labs/README.md)
+      * [Username enumeration via different responses](untitled-2/7-authentication/2-labs/username-enumeration-via-different-responses.md)
 
 ## Cursos no seguridad udemy
 

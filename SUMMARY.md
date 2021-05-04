@@ -308,6 +308,7 @@
   * [10 - Authentication and Authorization](cursos-no-seguridad-udemy/node-js/10-authentication-and-authorization/README.md)
     * [1 - Intro](cursos-no-seguridad-udemy/node-js/10-authentication-and-authorization/1-intro.md)
     * [2 - Hashing passwords](cursos-no-seguridad-udemy/node-js/10-authentication-and-authorization/2-hashing-passwords.md)
+    * [Recap del codigo](cursos-no-seguridad-udemy/node-js/10-authentication-and-authorization/recap-del-codigo.md)
   * [9999 - Extras](cursos-no-seguridad-udemy/node-js/9999-extras/README.md)
     * [Para ir haciendo el proyecto](cursos-no-seguridad-udemy/node-js/9999-extras/9999-para-ir-haciendo-el-proyecto.md)
     * [Visual Studio Code Extensions](cursos-no-seguridad-udemy/node-js/9999-extras/9999-visual-studio-code-extensions.md)

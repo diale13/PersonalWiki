@@ -229,7 +229,11 @@ moscow
 
 Dadas las dos listas de candidate usernames y pass hice un ataque con el intruder probando las correspondientes. No dio resultado exitoso pero si marca cual usuario existe
 
+![](../../../.gitbook/assets/imagen%20%28657%29.png)
+
+Con esto luego hacemos un ataque sniper para conseguir la contraseña. 
+
+It was cheese all along
+
 ![](../../../.gitbook/assets/imagen%20%28655%29.png)
-
-
 

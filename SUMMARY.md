@@ -210,6 +210,7 @@
     * [1 - Teorico](untitled-2/7-authentication/1-teorico.md)
     * [2 - Labs](untitled-2/7-authentication/2-labs/README.md)
       * [Username enumeration via different responses](untitled-2/7-authentication/2-labs/username-enumeration-via-different-responses.md)
+      * [Username enumeration via subtly different responses](untitled-2/7-authentication/2-labs/username-enumeration-via-subtly-different-responses.md)
 
 ## Cursos no seguridad udemy
 

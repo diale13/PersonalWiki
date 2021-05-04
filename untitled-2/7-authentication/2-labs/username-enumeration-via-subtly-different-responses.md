@@ -9,7 +9,7 @@
 
 Haciendo lo mismo que la vez anterior no nos lleva a nada pero agregamos un Grep-Extract desde options que nos marca si dice  Invalid username or password. Hay uno que es distinto porque tiene un pequeño espacio.
 
-![](../../../.gitbook/assets/imagen%20%28656%29.png)
+![](../../../.gitbook/assets/imagen%20%28657%29.png)
 
 ae es nuestro user entonces. Probemos bruteforcearle la pass 
 

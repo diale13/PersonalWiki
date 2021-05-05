@@ -186,6 +186,8 @@
       * [1- Reflected XSS into HTML context with nothing encoded](untitled-2/xxs/lab/1-reflected-xss-into-html-context-with-nothing-encoded.md)
       * [2 - Reflected XSS into HTML context with most tags and attributes blocked](untitled-2/xxs/lab/2-reflected-xss-into-html-context-with-most-tags-and-attributes-blocked.md)
       * [3 - Reflected XSS into HTML context with all tags blocked except custom ones](untitled-2/xxs/lab/3-reflected-xss-into-html-context-with-all-tags-blocked-except-custom-ones.md)
+      * [4 - TODO Reflected XSS with event handlers and href attributes blocked](untitled-2/xxs/lab/4-todo-reflected-xss-with-event-handlers-and-href-attributes-blocked.md)
+      * [5 - SVG markup allowed](untitled-2/xxs/lab/5-svg-markup-allowed.md)
       * [Notes](untitled-2/xxs/lab/notes.md)
   * [3 - XML external entity \(XXE\) injection](untitled-2/xml-external-entity-xxe-injection/README.md)
     * [Terorico](untitled-2/xml-external-entity-xxe-injection/terorico.md)

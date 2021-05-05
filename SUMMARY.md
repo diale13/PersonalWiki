@@ -318,6 +318,7 @@
     * [3 - JWT](cursos-no-seguridad-udemy/node-js/10-authentication-and-authorization/3-jwt.md)
     * [4 - Moviendo al ambiente](cursos-no-seguridad-udemy/node-js/10-authentication-and-authorization/4-moviendo-al-ambiente.md)
     * [5 - Poniendo nuestro metodo de auth en header](cursos-no-seguridad-udemy/node-js/10-authentication-and-authorization/5-poniendo-nuestro-metodo-de-auth-en-header.md)
+    * [6 - Authorization Middleware](cursos-no-seguridad-udemy/node-js/10-authentication-and-authorization/6-authorization-middleware.md)
   * [9999 - Extras](cursos-no-seguridad-udemy/node-js/9999-extras/README.md)
     * [Para ir haciendo el proyecto](cursos-no-seguridad-udemy/node-js/9999-extras/9999-para-ir-haciendo-el-proyecto.md)
     * [Visual Studio Code Extensions](cursos-no-seguridad-udemy/node-js/9999-extras/9999-visual-studio-code-extensions.md)

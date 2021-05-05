@@ -9,7 +9,7 @@
 
 Ahora un tema con eso es que cada vez que necesitamos mandar un token para auth de user tenemos que crear una funcion o encapsularla en algun lado. El information expert aca es user asi que esa funcion queda para user.js
 
-![](../../../.gitbook/assets/imagen%20%28672%29.png)
+![](../../../.gitbook/assets/imagen%20%28674%29.png)
 
 ```javascript
 userSchema.methods.generateAuthToken = function() { 

@@ -322,6 +322,7 @@
     * [7 - Protegiendo rutas](cursos-no-seguridad-udemy/node-js/10-authentication-and-authorization/7-protegiendo-rutas.md)
     * [8 - Getting the Current User](cursos-no-seguridad-udemy/node-js/10-authentication-and-authorization/8-getting-the-current-user.md)
     * [9 - Logging Out Users](cursos-no-seguridad-udemy/node-js/10-authentication-and-authorization/9-logging-out-users.md)
+    * [10 - Role Based Authorization](cursos-no-seguridad-udemy/node-js/10-authentication-and-authorization/10-role-based-authorization.md)
   * [9999 - Extras](cursos-no-seguridad-udemy/node-js/9999-extras/README.md)
     * [Para ir haciendo el proyecto](cursos-no-seguridad-udemy/node-js/9999-extras/9999-para-ir-haciendo-el-proyecto.md)
     * [Visual Studio Code Extensions](cursos-no-seguridad-udemy/node-js/9999-extras/9999-visual-studio-code-extensions.md)

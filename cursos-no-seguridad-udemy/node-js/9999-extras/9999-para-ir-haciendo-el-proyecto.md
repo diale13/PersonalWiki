@@ -19,6 +19,7 @@ npm i bcript //permite hacer el hasheo de contraseñas.
 
 npm i jsonwebtoken //jwt
 npm -i config
+npm -i Fawn  //hace two face commits
 ```
 
 ## Paquetes bastante opcionales

@@ -6,7 +6,7 @@
 
 
 
-![](../../../.gitbook/assets/imagen%20%28681%29.png)
+![](../../../.gitbook/assets/imagen%20%28682%29.png)
 
 Luego vemos tags validas 
 

@@ -178,6 +178,8 @@
       * [2 - UNION attack, finding a column containing text](untitled-2/sql-injection/lab/2-union-attack-finding-a-column-containing-text.md)
       * [3 - Retrieving data from other tables](untitled-2/sql-injection/lab/3-retrieving-data-from-other-tables.md)
       * [4 - UNION attack, retrieving multiple values in a single column](untitled-2/sql-injection/lab/4-union-attack-retrieving-multiple-values-in-a-single-column.md)
+      * [5 - Querying the database type and version on Oracle](untitled-2/sql-injection/lab/5-querying-the-database-type-and-version-on-oracle.md)
+      * [6 - Idem on mysql](untitled-2/sql-injection/lab/6-idem-on-mysql.md)
   * [2 - XXS](untitled-2/xxs/README.md)
     * [Teorico](untitled-2/xxs/teorico.md)
     * [Lab](untitled-2/xxs/lab/README.md)

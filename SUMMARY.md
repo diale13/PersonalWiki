@@ -214,6 +214,8 @@
       * [Username enumeration via different responses](untitled-2/7-authentication/2-labs/username-enumeration-via-different-responses.md)
       * [Username enumeration via subtly different responses](untitled-2/7-authentication/2-labs/username-enumeration-via-subtly-different-responses.md)
       * [Username enumeration via response timing](untitled-2/7-authentication/2-labs/username-enumeration-via-response-timing.md)
+  * [8 - Business logic vulnerabilities](untitled-2/8-business-logic-vulnerabilities/README.md)
+    * [Lab 1 - Comprar chaquetas baratas](untitled-2/8-business-logic-vulnerabilities/lab-1-comprar-chaquetas-baratas.md)
 
 ## Cursos no seguridad udemy
 

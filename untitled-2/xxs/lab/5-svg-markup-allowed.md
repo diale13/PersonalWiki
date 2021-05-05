@@ -6,11 +6,11 @@
 
 
 
-![](../../../.gitbook/assets/imagen%20%28678%29.png)
+![](../../../.gitbook/assets/imagen%20%28681%29.png)
 
 Luego vemos tags validas 
 
-![](../../../.gitbook/assets/imagen%20%28676%29.png)
+![](../../../.gitbook/assets/imagen%20%28679%29.png)
 
 Luego editamos nuestro ataque:
 
@@ -20,7 +20,7 @@ GET /?search=<svg><animatetransform%20§§=1> HTTP/1.1
 
 Como permite svg permite rendirazar lo que esta dentro, en ese renderizado ejecuta etiquetas \(como animate que esta permitida\). Ahora con eso veremos que podemos incluir dentro, nos fijamos que eventos soportaa.
 
-![](../../../.gitbook/assets/imagen%20%28675%29.png)
+![](../../../.gitbook/assets/imagen%20%28678%29.png)
 
 
 

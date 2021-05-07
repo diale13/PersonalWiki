@@ -34,5 +34,11 @@ $ sudo apt install gedit
 dpkg -i Nessus.(aca-version).deb
 ```
 
+## Impacket
+
+Permite hacer cosas de networking un poco mejores que las de metasploit. Ver Hack the box netmon.
+
+{% embed url="https://github.com/SecureAuthCorp/impacket" %}
+
 
 

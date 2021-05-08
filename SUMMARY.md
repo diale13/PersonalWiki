@@ -342,6 +342,7 @@
     * [3 - Loggin](cursos-no-seguridad-udemy/node-js/11-handling-and-logging-errors/3-loggin.md)
     * [4 - Logging to mongo db](cursos-no-seguridad-udemy/node-js/11-handling-and-logging-errors/4-logging-to-mongo-db.md)
     * [5 -Uncaught Exceptions](cursos-no-seguridad-udemy/node-js/11-handling-and-logging-errors/5-uncaught-exceptions.md)
+    * [6 - Error handle recap](cursos-no-seguridad-udemy/node-js/11-handling-and-logging-errors/6-error-handle-recap.md)
   * [9999 - Extras](cursos-no-seguridad-udemy/node-js/9999-extras/README.md)
     * [Para ir haciendo el proyecto](cursos-no-seguridad-udemy/node-js/9999-extras/9999-para-ir-haciendo-el-proyecto.md)
     * [Visual Studio Code Extensions](cursos-no-seguridad-udemy/node-js/9999-extras/9999-visual-studio-code-extensions.md)

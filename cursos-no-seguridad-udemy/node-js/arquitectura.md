@@ -250,7 +250,7 @@ Create user
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="x-auth-token" type="string" required=false %}
+{% api-method-parameter name="x-auth-token" type="string" required=true %}
 JWT del usuario administrador registrado
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
@@ -313,7 +313,7 @@ Crea el vacunatorio
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="x-auth-token" type="string" required=false %}
+{% api-method-parameter name="x-auth-token" type="string" required=true %}
 JWT que identifica al usuario
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
@@ -368,7 +368,7 @@ Departamento asignado segun codigo de codificacion
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="put" host="https://api" path="/v1/vaccunatory/quota" %}
+{% api-method method="put" host="api" path="/v1/vaccunatory/quota" %}
 {% api-method-summary %}
 Actualizar cupos de vacunatorio
 {% endapi-method-summary %}
@@ -380,7 +380,7 @@ Actualizar cupos de vacunatorio
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="x-auth-token" type="string" required=false %}
+{% api-method-parameter name="x-auth-token" type="string" required=true %}
 JWT del usuario
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
@@ -440,6 +440,68 @@ En caso de no cumplirse una validacion o de no poner ni AgeGroup ni PriorityGrou
 
 ```
 "message": error message
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+## Vaccunacion
+
+{% api-method method="post" host="api" path="/v1/vaccination/" %}
+{% api-method-summary %}
+Registrar vacunacion
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="x-auth-token" type="string" required=true %}
+JWT que identifica a usuario vacunador
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="Date" type="object" required=false %}
+Fecha de vacunacion
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="DocumentId" type="string" required=true %}
+Cedula de identidad del vacunado, sin puntos ni guion con codigo verificador
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="VacunatoryId" type="string" required=true %}
+Codigo unico del vacunatorio
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=201 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{
+Date,
+DocumentId,
+VaccunatoryId
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=400 %}
+{% api-method-response-example-description %}
+En caso de tener un error de validacion se retorna un mensaje explicativo
+{% endapi-method-response-example-description %}
+
+```
+{message: mensaje explicativo}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

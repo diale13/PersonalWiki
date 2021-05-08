@@ -250,7 +250,7 @@ Create user
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=false %}
+{% api-method-parameter name="x-auth-token" type="string" required=false %}
 JWT del usuario administrador registrado
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
@@ -293,6 +293,153 @@ Se crea usuario
 {
 "error message" : mensaje explicativo de error en validacion
 }
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+## Vacunatorio
+
+{% api-method method="post" host="https://api" path="/v1/vaccination/" %}
+{% api-method-summary %}
+Crear vacunatorio
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Crea el vacunatorio 
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="x-auth-token" type="string" required=false %}
+JWT que identifica al usuario
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="Name" type="string" required=true %}
+Nombre del vacunatorio
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Schedule " type="integer" required=true %}
+Horario de vacunacion \(1- todo el dia, 2- matutino, 3 - vespertino\)
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Zone" type="integer" required=true %}
+Zona del departamento o codigo de dos digitos entre 1 y 50 inclusive
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="State" type="integer" required=true %}
+Departamento asignado segun codigo de codificacion
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{
+"id" : identificador unico del vacunatorio a nivel pais
+"name": nombre del vacunatorio
+"schedule" : horario del vacunatorio
+"state" : departamento del vacunatorio
+"zone" : zona dentro del departamento
+"quota" : cupo del vacunatorio, por defecto 0
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=400 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+"message" : mensaje explicativo de error
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="put" host="https://api" path="/v1/vaccination/quota" %}
+{% api-method-summary %}
+Actualizar cupos de vacunatorio
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="x-auth-token" type="string" required=false %}
+JWT del usuario
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="AgeGroup" type="object" required=false %}
+Array que marca franja etaria.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="PriorityGroup" type="integer" required=false %}
+Grupo prioritario del 1 al 4.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Quota" type="integer" required=true %}
+Cupos que se disponibilizan
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="ToDate" type="object" required=true %}
+Fecha en la que se terminan los cupos disponibles
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="FromDate" type="object" required=true %}
+Fecha desde la que hay cupos disponibles
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="id" type="string" required=true %}
+Codigo unico del vacunatorio
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Zone" type="integer" required=true %}
+Zona del vacunatorio dentro del departamento
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="State" type="integer" required=true %}
+Codigo del departamento del vacunatorio
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{
+"message": mensaje de exito
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=400 %}
+{% api-method-response-example-description %}
+En caso de no cumplirse una validacion o de no poner ni AgeGroup ni PriorityGroup \(o de marcar ambos en simultaneo\) se produce un error.
+{% endapi-method-response-example-description %}
+
+```
+"message": error message
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

@@ -1,8 +1,10 @@
 # Arquitectura
 
-{% api-method method="post" host="https://api" path="/v1/booking/" %}
+## Booking
+
+{% api-method method="post" host="https://api" path="/v1/bookings/" %}
 {% api-method-summary %}
-Booking
+Create Booking
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -85,5 +87,98 @@ En caso de que algun parametro no sea valido se retorna un mensaje explicativo
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% api-method method="get" host="https://api" path="/v1/bookings/:documentId" %}
+{% api-method-summary %}
+Get booking info
+{% endapi-method-summary %}
 
+{% api-method-description %}
+Consultar dia de agendado
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="documentId" type="string" required=false %}
+Documento de identidad a consultar reserva.
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+Informacion de reserva solicitada
+{% endapi-method-response-example-description %}
+
+```
+{
+"id": "Codigo de reserva", 
+"VaccineInfo": ["place", "date"],
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=404 %}
+{% api-method-response-example-description %}
+No existe reserva asociada para ese documento
+{% endapi-method-response-example-description %}
+
+```
+{
+"ErrorMessage" : Mensaje explicativo de error.
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="delete" host="https://api" path="/v1/bookings/" %}
+{% api-method-summary %}
+Delete booking
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Se elimina la reserva asociada al documento
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-body-parameters %}
+{% api-method-parameter name="bookingId" type="string" required=false %}
+
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="documentId" type="string" required=true %}
+
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+Se elimina la reserva asociada
+{% endapi-method-response-example-description %}
+
+```
+{
+"message": Reserva {$ Código de reserva} para la Cédula de Identidad {$ Cédula de identidad} ha sido cancelada
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=404 %}
+{% api-method-response-example-description %}
+En caso de no encontrar reserva asociada
+{% endapi-method-response-example-description %}
+
+```
+"message" : mensaje explicando lo sucedido.
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
 

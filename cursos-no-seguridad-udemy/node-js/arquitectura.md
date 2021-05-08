@@ -466,7 +466,7 @@ JWT que identifica a usuario vacunador
 {% endapi-method-path-parameters %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="Date" type="object" required=false %}
+{% api-method-parameter name="Date" type="object" required=true %}
 Fecha de vacunacion
 {% endapi-method-parameter %}
 
@@ -508,5 +508,109 @@ En caso de tener un error de validacion se retorna un mensaje explicativo
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% api-method method="get" host="api" path="/v1/vaccination/:Vaccunatoryid" %}
+{% api-method-summary %}
+Consulta sobre plan de vacunacion
+{% endapi-method-summary %}
 
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="VaccunatoryId" type="string" required=true %}
+Id del vacunatorio a consultar
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
+{% api-method-headers %}
+{% api-method-parameter name="x-auth-token" type="string" required=true %}
+JWT del usuario
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name="ToDate" type="object" required=true %}
+Fecha final a consultar
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="FromDate" type="object" required=true %}
+Fecha inicial a consultar
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{
+VaccunatoryInfo: ["id","state","zone","name"]
+VaccinatedQuantity: "cantidad de vacunas"
+RemainingVaccines: "cantidad de vacunas restantes"
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=400 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+"message": error de fecha o de algun campo
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=404 %}
+{% api-method-response-example-description %}
+De no encontrar el vacunatorio se retorna esto
+{% endapi-method-response-example-description %}
+
+```
+"message": mensaje explicativo
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="api" path="/v1/vaccination/" %}
+{% api-method-summary %}
+Consulta 2
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="x-auth-token" type="string" required=false %}
+JWT del usuario
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+Lista por departamento y zona la cantidad de reservas pendientes por asignar
+{% endapi-method-response-example-description %}
+
+```
+{
+ RemainingList: ["state", "zone", "remainingCount"]
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
 

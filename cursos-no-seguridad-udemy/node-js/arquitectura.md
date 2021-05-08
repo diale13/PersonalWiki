@@ -182,3 +182,122 @@ En caso de no encontrar reserva asociada
 {% endapi-method-spec %}
 {% endapi-method %}
 
+## Users
+
+{% api-method method="get" host="https://api" path="/v1/users/:id" %}
+{% api-method-summary %}
+Get user
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="id" type="string" required=false %}
+User id
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=false %}
+Token identificador del usuario administrador
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{
+"id": "identificador unico del usuario",
+"isAdmin" : "marca si es un usuario administrador"
+"email": "correo del usuario"
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=404 %}
+{% api-method-response-example-description %}
+Usuario no encontrado
+{% endapi-method-response-example-description %}
+
+```
+{
+"message": texto explicativo
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://api" path="/v1/users/" %}
+{% api-method-summary %}
+Create user
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=false %}
+JWT del usuario administrador registrado
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="isAdmin" type="boolean" required=true %}
+Indicador de si es un usuario administrador o no
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="password" type="string" required=true %}
+contraseña del usuario
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="email" type="string" required=true %}
+Email valido para la creacion del usuario
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=201 %}
+{% api-method-response-example-description %}
+Se crea usuario
+{% endapi-method-response-example-description %}
+
+```
+{
+"email" : correo del usuario creado,
+"isAdmin" : indicador del usuario creado
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=400 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{
+"error message" : mensaje explicativo de error en validacion
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+
+

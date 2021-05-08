@@ -301,7 +301,7 @@ Se crea usuario
 
 ## Vacunatorio
 
-{% api-method method="post" host="https://api" path="/v1/vaccination/" %}
+{% api-method method="post" host="https://api" path="/v1/vaccunatory/" %}
 {% api-method-summary %}
 Crear vacunatorio
 {% endapi-method-summary %}
@@ -368,7 +368,7 @@ Departamento asignado segun codigo de codificacion
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="put" host="https://api" path="/v1/vaccination/quota" %}
+{% api-method method="put" host="https://api" path="/v1/vaccunatory/quota" %}
 {% api-method-summary %}
 Actualizar cupos de vacunatorio
 {% endapi-method-summary %}

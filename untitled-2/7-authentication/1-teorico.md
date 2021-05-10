@@ -4,7 +4,7 @@
 
  Conceptualmente son snecillas. Se busca hacer bypass de las protecciones inpuestas para loggearse.
 
-![](../../.gitbook/assets/imagen%20%28716%29.png)
+![](../../.gitbook/assets/imagen%20%28720%29.png)
 
 Conceptos manejados:
 

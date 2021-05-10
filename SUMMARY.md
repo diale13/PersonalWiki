@@ -223,7 +223,7 @@
       * [Broken brute-force protection, multiple credentials per request](untitled-2/7-authentication/2-labs/broken-brute-force-protection-multiple-credentials-per-request.md)
     * [3 - Labs 2FA](untitled-2/7-authentication/3-labs-2fa/README.md)
       * [1 - 2FA simple bypass](untitled-2/7-authentication/3-labs-2fa/1-2fa-simple-bypass.md)
-      * [2 -](untitled-2/7-authentication/3-labs-2fa/2.md)
+      * [2 - 2FA broken logic](untitled-2/7-authentication/3-labs-2fa/2.md)
   * [8 - Business logic vulnerabilities](untitled-2/8-business-logic-vulnerabilities/README.md)
     * [1 - Comprar chaquetas baratas](untitled-2/8-business-logic-vulnerabilities/lab-1-comprar-chaquetas-baratas.md)
     * [2 - High-level logic vulnerability](untitled-2/8-business-logic-vulnerabilities/2-high-level-logic-vulnerability.md)

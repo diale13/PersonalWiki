@@ -7,11 +7,11 @@
 
 Lo que realizamos aqui es un ataque a todas las cuentas de la lista buscando ver cuales se bloquean tras muchos intentos. Hacemos un ataque cluster bomb con 5 payloads en null en la zona de passwords.
 
-![Also me cambie al pro](../../../.gitbook/assets/imagen%20%28715%29.png)
+![Also me cambie al pro](../../../.gitbook/assets/imagen%20%28719%29.png)
 
 Luego hacemos un ataque sniper con las passwords. Lo que se destaca es que una no ocasiona el error de espera.
 
-![](../../../.gitbook/assets/imagen%20%28714%29.png)
+![](../../../.gitbook/assets/imagen%20%28715%29.png)
 
 Entramos con la misma para resolver nuestro lab.
 

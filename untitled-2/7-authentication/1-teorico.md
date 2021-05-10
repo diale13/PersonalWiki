@@ -65,5 +65,7 @@ En esa ocasion se puede cambiar la cookie a la victima y hacer bypass.
 
 El poder de esto radica en que la victima ni necesita ser accedida realmente, solo con saber su usario es suficiente.
 
+### Brute-forcing 2FA verification codes <a id="brute-forcing-2fa-verification-codes"></a>
 
+Los codigos se pueden bruteforcear. Algunas paginas intentan solventar esto haciendo que tras un par de intentos se bloquee ese codigo pero los mejores hackers crean macros para el brup o usan Turbo Intruder.
 

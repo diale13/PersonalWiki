@@ -218,6 +218,7 @@
       * [Username enumeration via different responses](untitled-2/7-authentication/2-labs/username-enumeration-via-different-responses.md)
       * [Username enumeration via subtly different responses](untitled-2/7-authentication/2-labs/username-enumeration-via-subtly-different-responses.md)
       * [Username enumeration via response timing](untitled-2/7-authentication/2-labs/username-enumeration-via-response-timing.md)
+      * [Username enumeration via account lock](untitled-2/7-authentication/2-labs/username-enumeration-via-account-lock.md)
       * [Broken brute-force protection, IP block](untitled-2/7-authentication/2-labs/broken-brute-force-protection-ip-block.md)
       * [Broken brute-force protection, multiple credentials per request](untitled-2/7-authentication/2-labs/broken-brute-force-protection-multiple-credentials-per-request.md)
   * [8 - Business logic vulnerabilities](untitled-2/8-business-logic-vulnerabilities/README.md)

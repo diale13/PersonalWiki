@@ -1,2 +1,2 @@
-# 2 - Labs
+# 2 - Labs username ennumeration & bruteforce
 

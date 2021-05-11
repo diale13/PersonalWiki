@@ -15,7 +15,7 @@ npm i express  // para api
 npm i -g nodemon // para no tener que "recompliar". Lo corres con nodemon y no con node.
 npm i joi // validador de elementos de api
 npm i lodash // clave para retornar bodys no reveladores en la api (ej no retornar pass del user creado)
-npm i bcript //permite hacer el hasheo de contraseñas.
+npm i bcrypt //permite hacer el hasheo de contraseñas.
 
 npm i jsonwebtoken //jwt
 npm -i config

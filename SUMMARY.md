@@ -229,6 +229,8 @@
     * [1 - Comprar chaquetas baratas](untitled-2/8-business-logic-vulnerabilities/lab-1-comprar-chaquetas-baratas.md)
     * [2 - High-level logic vulnerability](untitled-2/8-business-logic-vulnerabilities/2-high-level-logic-vulnerability.md)
     * [3 - Low-level logic flaw](untitled-2/8-business-logic-vulnerabilities/3-low-level-logic-flaw.md)
+  * [9 - Access control vulnerabilities and privilege escalation](untitled-2/9-access-control-vulnerabilities-and-privilege-escalation/README.md)
+    * [1 - Teorico](untitled-2/9-access-control-vulnerabilities-and-privilege-escalation/1-teorico.md)
 
 ## Cursos no seguridad udemy
 

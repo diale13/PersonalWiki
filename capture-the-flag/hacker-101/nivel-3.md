@@ -21,6 +21,10 @@ Sigue generando el error asi que probemos con otra tool.
 
 Le tiramos desde **sqlmap** la siguiente query
 
+```text
+sqlmap -u http://35.190.155.168/5a75132eac/login --data "username=&password=" --dbms mysql
+```
+
 ![](../../.gitbook/assets/imagen%20%28725%29.png)
 
 

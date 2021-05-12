@@ -13,5 +13,15 @@ Traceback (most recent call last):
 UnicodeEncodeError: 'latin-1' codec can't encode character u'\u2026' in position 298: ordinal not in range(256)
 ```
 
-Entonces probemos
+Entonces enumeremos ahi tenemos una query y ambos motores mysql y mariadb. Desde burp vemos que usa parametros como username and password para el login simple. 
+
+![](../../.gitbook/assets/imagen%20%28724%29.png)
+
+Sigue generando el error asi que probemos con otra tool.
+
+Le tiramos desde **sqlmap** la siguiente query
+
+![](../../.gitbook/assets/imagen%20%28725%29.png)
+
+
 

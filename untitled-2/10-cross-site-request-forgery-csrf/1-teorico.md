@@ -2,7 +2,7 @@
 
 Vulnerabilidad que permite inducir al usuario a hacer acciones que no quiere realizar realmente. Permite a un atacante bypasear la same origin policy tambien.
 
-![](../../.gitbook/assets/imagen%20%28726%29.png)
+![](../../.gitbook/assets/imagen%20%28727%29.png)
 
 ### What is the impact of a CSRF attack? <a id="what-is-the-impact-of-a-csrf-attack"></a>
 

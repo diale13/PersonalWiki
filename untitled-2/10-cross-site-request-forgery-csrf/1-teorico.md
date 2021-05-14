@@ -12,8 +12,8 @@ Si el ataque es exitoso la victima puede realizar acciones involuntarias como en
 
 Se cumplen las siguientes claves:
 
-*  **A relevant action.** Hay una accion dentro de la aplicacion que es inducida
-* * There is an action within the application that the attacker has a reason to induce. This might be a privileged action \(such as modifying permissions for other users\) or any action on user-specific data \(such as changing the user's own password\).
+*  **A relevant action.** Hay una accion dentro de la aplicacion que es inducida por el atacante. Esta puede ser privilegiada \(como modificar permisios o llevar a alguien a cambiar su contraseña\).
+* There is an action within the application that the attacker has a reason to induce. This might be a privileged action \(such as modifying permissions for other users\) or any action on user-specific data \(such as changing the user's own password\).
 *  **Cookie-based session handling.** Performing the action involves issuing one or more HTTP requests, and the application relies solely on session cookies to identify the user who has made the requests. There is no other mechanism in place for tracking sessions or validating user requests.
 *  **No unpredictable request parameters.** The requests that perform the action do not contain any parameters whose values the attacker cannot determine or guess. For example, when causing a user to change their password, the function is not vulnerable if an attacker needs to know the value of the existing password.
 

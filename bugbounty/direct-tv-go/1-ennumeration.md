@@ -2,7 +2,7 @@
 
 ## Ennumeration
 
-## General - Information disclousure
+### General - Information disclousure
 
 ![](../../.gitbook/assets/imagen%20%28733%29.png)
 

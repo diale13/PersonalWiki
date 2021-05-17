@@ -90,5 +90,13 @@
 
 ## SQLi
 
+## Information disclosure
 
+Accediendo a /.git
+
+![](../../.gitbook/assets/imagen%20%28741%29.png)
+
+/admin 
+
+![](../../.gitbook/assets/imagen%20%28740%29.png)
 

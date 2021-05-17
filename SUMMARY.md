@@ -233,6 +233,8 @@
     * [1 - Teorico](untitled-2/9-access-control-vulnerabilities-and-privilege-escalation/1-teorico.md)
   * [10 - Cross-site request forgery \(CSRF \)](untitled-2/10-cross-site-request-forgery-csrf/README.md)
     * [1 - Teorico](untitled-2/10-cross-site-request-forgery-csrf/1-teorico.md)
+    * [2 - Labs](untitled-2/10-cross-site-request-forgery-csrf/2-labs/README.md)
+      * [1 - Lab 1](untitled-2/10-cross-site-request-forgery-csrf/2-labs/1-lab-1.md)
 
 ## Cursos no seguridad udemy
 

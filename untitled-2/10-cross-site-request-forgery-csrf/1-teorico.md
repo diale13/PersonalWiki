@@ -13,27 +13,28 @@ Si el ataque es exitoso la victima puede realizar acciones involuntarias como en
 Se cumplen las siguientes claves:
 
 *  **A relevant action.** Hay una accion dentro de la aplicacion que es inducida por el atacante. Esta puede ser privilegiada \(como modificar permisios o llevar a alguien a cambiar su contraseña\).
-* There is an action within the application that the attacker has a reason to induce. This might be a privileged action \(such as modifying permissions for other users\) or any action on user-specific data \(such as changing the user's own password\).
-*  **Cookie-based session handling.** Performing the action involves issuing one or more HTTP requests, and the application relies solely on session cookies to identify the user who has made the requests. There is no other mechanism in place for tracking sessions or validating user requests.
-*  **No unpredictable request parameters.** The requests that perform the action do not contain any parameters whose values the attacker cannot determine or guess. For example, when causing a user to change their password, the function is not vulnerable if an attacker needs to know the value of the existing password.
+*  **Cookie-based session handling.** performa una accion usando una o mas requests http, la aplicacion utiliza solamente session cookies para identificar quien lo hace. No hay mecanismo para validar sesiones ni de tracking.
+*  **No unpredictable request parameters.** Los parametros de la request no contienen parametros vulnerables a ataques donde se han de adivinar o detemrminar. 
 
- For example, suppose an application contains a function that lets the user change the email address on their account. When a user performs this action, they make an HTTP request like the following:
+Por ejemplo si una aplicacion contiene un cambio de correo para su cuenta donde se realiza el cambio de correo de la siguiente forma:
 
- `POST /email/change HTTP/1.1  
- Host: vulnerable-website.com  
- Content-Type: application/x-www-form-urlencoded  
- Content-Length: 30  
- Cookie: session=yvthwsztyeQkAPzeQ5gHgTvlyxHfsAfE  
-  
- email=wiener@normal-user.com`
+```http
+ POST /email/change HTTP/1.1
+ Host: vulnerable-website.com
+ Content-Type: application/x-www-form-urlencoded
+ Content-Length: 30
+ Cookie: session=yvthwsztyeQkAPzeQ5gHgTvlyxHfsAfE
 
- This meets the conditions required for CSRF:
+ email=wiener@normal-user.com
+```
 
-*  The action of changing the email address on a user's account is of interest to an attacker. Following this action, the attacker will typically be able to trigger a password reset and take full control of the user's account.
-*  The application uses a session cookie to identify which user issued the request. There are no other tokens or mechanisms in place to track user sessions.
-*  The attacker can easily determine the values of the request parameters that are needed to perform the action.
+`Esto cumple las condiciones de CSRF`
 
- With these conditions in place, the attacker can construct a web page containing the following HTML:
+* La accion de cambiar el correo es algo deseable para el atacante ya que puede llegar a tomar control completo de la cuenta de usuario.
+* La aplicacion usa unicamente una session cookie para identificar la request, no hay otros mecanismos en juego para identificar la sesion.
+*  El atacante puede determinar rapidamente los parametros requeridos para realizar la accion.
+
+Con esto el atacante podria construir una pagina de la siguiente forma:
 
  `<html>  
    <body>  
@@ -46,9 +47,53 @@ Se cumplen las siguientes claves:
    </body>  
  </html>`
 
- If a victim user visits the attacker's web page, the following will happen:
+ Suponiendo que la pagina sea suceptible a CSRF:
 
-*  The attacker's page will trigger an HTTP request to the vulnerable web site.
-*  If the user is logged in to the vulnerable web site, their browser will automatically include their session cookie in the request \(assuming [SameSite cookies](https://portswigger.net/web-security/csrf/samesite-cookies) are not being used\).
-*  The vulnerable web site will process the request in the normal way, treat it as having been made by the victim user, and change their email address.
+* El atacante provoca una HTTP request al sitio objetivo desde el creado
+* Si el usuario esta logeado incluye su **session cookie** en la peticion. \(De no existir el sistema _SameSites cookies_\)
+* El sitio vulnerable procesa la request como una normal.
+
+## SameSite cookies
+
+Existe un atributo llamado **SameSite** para controlar aspectos de las cookies relacionados a las peticiones cross-site. Con este atributo la aplicacion previene al browser de agregar de forma automatica cookies sin importar su origen.
+
+Es un atributo agregado al **Set-Cookie** que puede incluir valores como **Strict o Lax**.
+
+  `Set-Cookie: SessionId=sYMnfCUrAlmqVVZn9dqevxyFpKZt30NN; SameSite=Strict;`
+
+ `Set-Cookie: SessionId=sYMnfCUrAlmqVVZn9dqevxyFpKZt30NN; SameSite=Lax;`
+
+ Si SS esta colocado en **strict** el navegador no incluye cookies en peticiones originadas desde otro sitio, Esta es la opcion mas defenisva pero puede colocarse en medio de la comididad del usuario ya que si esta siguiendo un link de terceros no se podra logear. 
+
+Si esta en Lax el browser si incluye la cookie cuando se cumplen las siguientes condiciones:
+
+*  _The request uses the GET method. Requests with other methods, such as POST, will not include the cookie._
+*  _The request resulted from a top-level navigation by the user, such as clicking a link. Other requests, such as those initiated by scripts, will not include the cookie._
+
+ Usar las cookies con Lax provee  defensa parcial ante CSRF ya que  la mayoria de las que causan problemas son relacionados al POST. Los problemaas posibles son:
+
+*  _Some applications do implement sensitive actions using GET requests._
+*  _Many applications and frameworks are tolerant of different HTTP methods. In this situation, even if the application itself employs the POST method by design, it will in fact accept requests that are switched to use the GET method._
+
+SS cookies provee defensa adicional pero no es suficiente por si sola para protejer a un sitio sobre CSRF. Se han de combinar con tokens.
+
+## Profundizando
+
+La politica que evita que los iframes dentro de la misma pagina se comuniquen entre ellos es la siguiente por ejemplo:
+
+![](../../.gitbook/assets/imagen%20%28734%29.png)
+
+Usando TOKENS
+
+![](../../.gitbook/assets/imagen%20%28728%29.png)
+
+![](../../.gitbook/assets/imagen%20%28732%29.png)
+
+### De HTML a JSON
+
+![](../../.gitbook/assets/imagen%20%28733%29.png)
+
+![](../../.gitbook/assets/imagen%20%28735%29.png)
+
+![](../../.gitbook/assets/imagen%20%28731%29.png)
 

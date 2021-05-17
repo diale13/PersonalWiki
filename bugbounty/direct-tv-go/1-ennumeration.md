@@ -78,6 +78,10 @@
 {% endtab %}
 {% endtabs %}
 
+### Burp result
+
+![](../../.gitbook/assets/imagen%20%28739%29.png)
+
 ## CSRF
 
 * Posible mala configuracion de SameSite

@@ -81,21 +81,21 @@ SS cookies provee defensa adicional pero no es suficiente por si sola para prote
 
 La politica que evita que los iframes dentro de la misma pagina se comuniquen entre ellos es la siguiente por ejemplo:
 
-![](../../.gitbook/assets/imagen%20%28734%29.png)
+![](../../.gitbook/assets/imagen%20%28737%29.png)
 
 Usando TOKENS
 
 ![](../../.gitbook/assets/imagen%20%28728%29.png)
 
-![](../../.gitbook/assets/imagen%20%28732%29.png)
+![](../../.gitbook/assets/imagen%20%28734%29.png)
 
 ### De HTML a JSON
 
-![](../../.gitbook/assets/imagen%20%28733%29.png)
+![](../../.gitbook/assets/imagen%20%28736%29.png)
 
-![](../../.gitbook/assets/imagen%20%28735%29.png)
+![](../../.gitbook/assets/imagen%20%28738%29.png)
 
-![](../../.gitbook/assets/imagen%20%28731%29.png)
+![](../../.gitbook/assets/imagen%20%28732%29.png)
 
 ## Como iniciar un ataque 
 

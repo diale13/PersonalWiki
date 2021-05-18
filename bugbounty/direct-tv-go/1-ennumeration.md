@@ -82,6 +82,12 @@
 
 ![](../../.gitbook/assets/imagen%20%28739%29.png)
 
+### Robots.txt
+
+{% embed url="https://www.directvgo.com/robots.txt" %}
+
+![](../../.gitbook/assets/imagen%20%28742%29.png)
+
 ## CSRF
 
 * Posible mala configuracion de SameSite

@@ -236,6 +236,7 @@
     * [2 - Labs](untitled-2/10-cross-site-request-forgery-csrf/2-labs/README.md)
       * [1 - Lab 1](untitled-2/10-cross-site-request-forgery-csrf/2-labs/1-lab-1.md)
 * [BugBounty](bugbounty/README.md)
+  * [OWASP testing guide](bugbounty/owasp-testing-guide.md)
   * [Direct Tv Go](bugbounty/direct-tv-go/README.md)
     * [1 - Ennumeration](bugbounty/direct-tv-go/1-ennumeration.md)
 

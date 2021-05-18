@@ -98,11 +98,76 @@
 
 ## Information disclosure
 
-Accediendo a /.git
+![](../../.gitbook/assets/imagen%20%28743%29.png)
+
+Accediendo a /.git o /admin 
 
 ![](../../.gitbook/assets/imagen%20%28741%29.png)
 
-/admin 
+Code disclosure:
 
-![](../../.gitbook/assets/imagen%20%28740%29.png)
+```text
+const COUNTRY_CODES_NUANCE = {
+	BRAZIL : 'br',
+	COLOMBIA : 'co',
+	CHILE : 'cl',
+	MEXICO : 'mx'
+}
+
+const regionLanguageNuance = (countryCode) => {
+	if (countryCode === COUNTRY_CODES_NUANCE.BRAZIL) {
+		return 'PT';
+	} else {
+		return 'ES';
+	}
+}
+
+function setNuanceDataVariable() {
+	
+	const country = document.getElementById("dtv-country-geo-code") ? 
+			document.getElementById("dtv-country-geo-code").value : 'co';
+        
+    let language = regionLanguageNuance(country);
+    
+    let userObj = {}
+    let renewEntitlements = {};
+    let deviceId = '';
+    try {
+        let userStr = localStorage.getItem('user');
+        userObj = JSON.parse(userStr);
+        
+        let renewEnt = localStorage.getItem('renewEntitlements');
+        renewEntitlements = JSON.parse(renewEnt);
+
+        deviceId = localStorage.getItem('deviceId');
+    } catch (e) {
+        console.error("Can't parse stored user:", userStr);
+    }
+    
+    let isLoggedIn = false;
+    let userName = '';
+    let userId = '';
+    let profile = {};
+    
+    if(userObj) {
+    	profile = userObj.profile;
+        userName = profile.firstName + ' ' + profile.lastName;
+        userId = userObj.uid;
+    }
+
+    if(userId) {
+        isLoggedIn = true;
+    }
+    
+    window.nuanceData = {
+            USER_NAME: userName,
+            USER_UUID: userId,
+            LOCATION: country,
+            AUTHENTICATION_FLAG: isLoggedIn,
+            LANGUAGE: language
+          };
+}
+
+window.setTimeout(setNuanceDataVariable, 2000);
+```
 

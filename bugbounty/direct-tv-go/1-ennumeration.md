@@ -94,7 +94,7 @@
 
 ![](../../.gitbook/assets/imagen%20%28735%29.png)
 
-## SQLi
+Esto no importa porque no son cookies de sesion, sino de tracking.
 
 ## Information disclosure
 

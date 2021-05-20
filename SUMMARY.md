@@ -243,6 +243,7 @@
   * [0 - Intro](owasp-testing-guide/0-intro.md)
   * [1 - Information Gathering](owasp-testing-guide/1-information-gathering/README.md)
     * [Uso de search engines](owasp-testing-guide/1-information-gathering/uso-de-search-engines.md)
+    * [Fingerprint Web Server](owasp-testing-guide/1-information-gathering/fingerprint-web-server.md)
 
 ## Cursos no seguridad udemy
 

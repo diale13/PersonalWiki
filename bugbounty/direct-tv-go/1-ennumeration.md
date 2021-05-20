@@ -78,9 +78,11 @@
 {% endtab %}
 {% endtabs %}
 
-![](../../.gitbook/assets/imagen%20%28745%29.png)
+Al entrar a directvgo.com/.../ revela informacion
 
-Grave revela version
+![](../../.gitbook/assets/imagen%20%28746%29.png)
+
+
 
 
 
@@ -114,5 +116,19 @@ Accediendo a /.git o /admin
 
 YAERA
 
-![](../../.gitbook/assets/imagen%20%28746%29.png)
+![](../../.gitbook/assets/imagen%20%28747%29.png)
+
+### Logeados
+
+Sorprendentemente no necesita completar el proceso de facturacion para crear una cuenta. Creamos una con null@null.com
+
+![](../../.gitbook/assets/imagen%20%28745%29.png)
+
+No hay necesidad de verificar el correo.
+
+La el reset de contraseña no deslogea a los demas 
+
+No hay verificacion de correo.
+
+
 

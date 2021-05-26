@@ -132,6 +132,8 @@
   * [Hacker 101](capture-the-flag/hacker-101/README.md)
     * [Nivel 2](capture-the-flag/hacker-101/nivel-2.md)
     * [Nivel 3](capture-the-flag/hacker-101/nivel-3.md)
+  * [Hack The Box](capture-the-flag/hack-the-box/README.md)
+    * [Archetype](capture-the-flag/hack-the-box/archetype.md)
   * [2019 KringleCon 2: Turtle Doves](capture-the-flag/2019-kringlecon-2-turtle-doves/README.md)
     * [Untitled](capture-the-flag/2019-kringlecon-2-turtle-doves/untitled.md)
 * [7 - Apuntes](apuntes/README.md)

@@ -38,23 +38,23 @@ En el modo texto lo vemos en XML.
 
 Si le ponemos **NoActionBar** se va la barra.
 
-![](../../.gitbook/assets/imagen%20%28762%29.png)
+![](../../.gitbook/assets/imagen%20%28772%29.png)
 
 Cambiando esas propiedades va a poner un I AM RICH grande y centrado.
 
 Ahora con eso nos saltara un warning que nos avisa de porque esta mal tener strings harcodeados. 
 
-![](../../.gitbook/assets/imagen%20%28759%29.png)
+![](../../.gitbook/assets/imagen%20%28769%29.png)
 
 Para corregir nuestras infracciones debemos ir y modificarlo directamente sobre **strings.xml** dentro de la carpeta values.
 
 En carpeta strings
 
-![](../../.gitbook/assets/imagen%20%28764%29.png)
+![](../../.gitbook/assets/imagen%20%28776%29.png)
 
 Nuevamente en layout:
 
-![](../../.gitbook/assets/imagen%20%28763%29.png)
+![](../../.gitbook/assets/imagen%20%28774%29.png)
 
 ## Adding Graphics to a Project and using ImageViews
 
@@ -62,37 +62,37 @@ Bajamos los assets para el proyecto \(basicamente la foto del diamante\) y la mi
 
 Luego basta con poner una **image view** que sea nuestro diamante. La misma apunta al archivo colocado en drawable.
 
-![](../../.gitbook/assets/imagen%20%28753%29.png)
+![](../../.gitbook/assets/imagen%20%28758%29.png)
 
 Si pintamos el fondo podemos ver como estan colocados los archivos, con la imagen adelante del texto.
 
-![](../../.gitbook/assets/imagen%20%28755%29.png)
+![](../../.gitbook/assets/imagen%20%28762%29.png)
 
 Aqui muestra como asignando distintas propiedades al layout se logran diferentes estilos y objetivos. Desde centrar el layout a ponerlo en horizontal.
 
 ## XML and How Does it Work?
 
-![Component tree](../../.gitbook/assets/imagen%20%28754%29.png)
+![Component tree](../../.gitbook/assets/imagen%20%28759%29.png)
 
-![](../../.gitbook/assets/imagen%20%28756%29.png)
+![](../../.gitbook/assets/imagen%20%28765%29.png)
 
 Facil de buscar por tags, prety easy
 
 ## Setting a Custom Launcher Icon
 
-![](../../.gitbook/assets/imagen%20%28760%29.png)
+![](../../.gitbook/assets/imagen%20%28770%29.png)
 
 Hay muchas versiones del mismo logo pues varian segun la resolucion del telefono y que tanto soporta.
 
 Lo que hace es cambiar por logos propios \(con la foto del diamante\) cada uno de esos con su sustituto apropiado \(varias veces\).  Luego para actualizar el logo debemos ir a **android manifest.**
 
-![](../../.gitbook/assets/imagen%20%28758%29.png)
+![](../../.gitbook/assets/imagen%20%28767%29.png)
 
-![](../../.gitbook/assets/imagen%20%28761%29.png)
+![](../../.gitbook/assets/imagen%20%28771%29.png)
 
 ## Editando la home screen 
 
-![](../../.gitbook/assets/imagen%20%28766%29.png)
+![](../../.gitbook/assets/imagen%20%28781%29.png)
 
 Podemos elegir el posicionamiento de forma mas precisa editando el xml 
 

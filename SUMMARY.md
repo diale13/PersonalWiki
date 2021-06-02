@@ -257,6 +257,8 @@
   * [5 - Quiz App and MVCDesign Pattern](cursos-no-seguridad-udemy/curso-android/5-quiz-app-and-mvcdesign-pattern.md)
   * [5.1 - Activity life cicle](cursos-no-seguridad-udemy/curso-android/5.1-activity-life-cicle.md)
   * [5.2 Guardando el estado antes de la rotacion de pantalla](cursos-no-seguridad-udemy/curso-android/5.2-guardando-el-estado-antes-de-la-rotacion-de-pantalla.md)
+  * [6- Weather App - Use GPS and APIs toGet Data from the Web](cursos-no-seguridad-udemy/curso-android/6-weather-app-use-gps-and-apis-toget-data-from-the-web.md)
+  * [Notas generales](cursos-no-seguridad-udemy/curso-android/notas-generales.md)
 * [Blockchain Fundamentals](cursos-no-seguridad-udemy/blockchain-fundamentals/README.md)
   * [1 - ¿Que es blockchain?](cursos-no-seguridad-udemy/blockchain-fundamentals/1-que-es-blockchain.md)
   * [2 - ¿Que es bitcoin?](cursos-no-seguridad-udemy/blockchain-fundamentals/2-que-es-bitcoin.md)

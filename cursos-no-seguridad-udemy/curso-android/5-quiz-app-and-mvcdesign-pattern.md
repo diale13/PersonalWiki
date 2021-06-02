@@ -90,7 +90,43 @@ Luego como es java y es horrible tenes que hacer los get y set.
 
 Coloca las preguntas en un array acorde a un indice que esta colocado como global. Luego al hacer .setText en la view coloca el texto de la pregunta en la misma. 
 
+## Update Questions on Screen and Interpret Errors in the Logcat
 
+Generamos un metodo update question
+
+![](../../.gitbook/assets/imagen%20%28814%29.png)
+
+Ahora esto claramente se cae una vez que llegamos al final.
+
+![](../../.gitbook/assets/imagen%20%28820%29.png)
+
+Luego cambiamos ese 13 por una constante.
+
+Generamos este metodo
+
+![](../../.gitbook/assets/imagen%20%28818%29.png)
+
+![](../../.gitbook/assets/imagen%20%28821%29.png)
+
+## Working with the Progress Bar and Tracking Score
+
+Ahora para esta seccion incluimos nuevos componentes que manejen la barra y el score
+
+![](../../.gitbook/assets/imagen%20%28815%29.png)
+
+En update question sumamos un tamañano a la barra y en el check answer sumamos uno si la tiene bien a la variable global
+
+![](../../.gitbook/assets/imagen%20%28816%29.png)
+
+
+
+Esto sumado a un cambio del progress bar increment ya nos deja con una app casi completa
+
+![](../../.gitbook/assets/imagen%20%28817%29.png)
+
+La app funciona correctamente \(sin terminar el programa ya que una vez llega a 13 vuelve a 0\) pero tambien presenta el problema de que si se rota vuelve a la primer pregunta y pone nuestro score en 0.
+
+![](../../.gitbook/assets/imagen%20%28819%29.png)
 
 
 

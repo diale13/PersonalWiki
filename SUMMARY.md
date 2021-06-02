@@ -258,6 +258,7 @@
   * [5.1 - Activity life cicle](cursos-no-seguridad-udemy/curso-android/5.1-activity-life-cicle.md)
   * [5.2 Guardando el estado antes de la rotacion de pantalla](cursos-no-seguridad-udemy/curso-android/5.2-guardando-el-estado-antes-de-la-rotacion-de-pantalla.md)
   * [6- Weather App - Use GPS and APIs toGet Data from the Web](cursos-no-seguridad-udemy/curso-android/6-weather-app-use-gps-and-apis-toget-data-from-the-web.md)
+  * [6.1 Manage App Permissions in the Android Manifest](cursos-no-seguridad-udemy/curso-android/6.1-manage-app-permissions-in-the-android-manifest.md)
   * [Notas generales](cursos-no-seguridad-udemy/curso-android/notas-generales.md)
 * [Blockchain Fundamentals](cursos-no-seguridad-udemy/blockchain-fundamentals/README.md)
   * [1 - ¿Que es blockchain?](cursos-no-seguridad-udemy/blockchain-fundamentals/1-que-es-blockchain.md)

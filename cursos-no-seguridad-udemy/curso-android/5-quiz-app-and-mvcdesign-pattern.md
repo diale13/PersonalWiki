@@ -98,15 +98,15 @@ Generamos un metodo update question
 
 Ahora esto claramente se cae una vez que llegamos al final.
 
-![](../../.gitbook/assets/imagen%20%28820%29.png)
+![](../../.gitbook/assets/imagen%20%28822%29.png)
 
 Luego cambiamos ese 13 por una constante.
 
 Generamos este metodo
 
-![](../../.gitbook/assets/imagen%20%28818%29.png)
+![](../../.gitbook/assets/imagen%20%28819%29.png)
 
-![](../../.gitbook/assets/imagen%20%28821%29.png)
+![](../../.gitbook/assets/imagen%20%28823%29.png)
 
 ## Working with the Progress Bar and Tracking Score
 
@@ -116,17 +116,27 @@ Ahora para esta seccion incluimos nuevos componentes que manejen la barra y el s
 
 En update question sumamos un tamañano a la barra y en el check answer sumamos uno si la tiene bien a la variable global
 
-![](../../.gitbook/assets/imagen%20%28816%29.png)
+![](../../.gitbook/assets/imagen%20%28817%29.png)
 
 
 
 Esto sumado a un cambio del progress bar increment ya nos deja con una app casi completa
 
-![](../../.gitbook/assets/imagen%20%28817%29.png)
+![](../../.gitbook/assets/imagen%20%28818%29.png)
 
 La app funciona correctamente \(sin terminar el programa ya que una vez llega a 13 vuelve a 0\) pero tambien presenta el problema de que si se rota vuelve a la primer pregunta y pone nuestro score en 0.
 
-![](../../.gitbook/assets/imagen%20%28819%29.png)
+![](../../.gitbook/assets/imagen%20%28820%29.png)
 
+## Fixing the Screen Orientation and Displaying an AlertDialog
 
+La mejor forma es prevenir directamente que se gire la pantalla, apps como tinder o instagram no lo dejan y les va bien, porq a ti no?
+
+![](../../.gitbook/assets/imagen%20%28821%29.png)
+
+Aqui en el seguiente codigo crea una alerta para mostrarle al usuario que se termino el juego. Al aceptar cierra la app.
+
+![](../../.gitbook/assets/imagen%20%28816%29.png)
+
+![](../../.gitbook/assets/imagen%20%28824%29.png)
 

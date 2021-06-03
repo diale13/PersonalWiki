@@ -4,7 +4,7 @@
 
 Una app para ver el tiempo, vamos a ver gradle dependencies, coneccion a apis
 
-![](../../.gitbook/assets/imagen%20%28891%29.png)
+![](../../.gitbook/assets/imagen%20%28892%29.png)
 
 Tambien trae multiples pantallas ****al tocar el boton de arriba a la derecha.
 
@@ -29,7 +29,7 @@ Diferencia entre build.gradle de proyect y de app:
 
 El del proyecto es general a todos los dispositivos donde se implemente esta solucion. Este en particular es de celular pero podria ser usado por smart watches:
 
-![](../../.gitbook/assets/imagen%20%28894%29.png)
+![](../../.gitbook/assets/imagen%20%28895%29.png)
 
 De incluirlo aqui tendriamos lo siguiente:
 
@@ -41,11 +41,11 @@ Como no nos interesa hacer un modulo de wear lo borramos.
 
 ### En gradle app 
 
-![](../../.gitbook/assets/imagen%20%28886%29.png)
+![](../../.gitbook/assets/imagen%20%28887%29.png)
 
 Aqui vemos como se controla el minSdk y elementos similares, tambien podemos obtener una nocion de como se veria nuestra app de usar un sdk anterior cambiando los themes.
 
-![](../../.gitbook/assets/imagen%20%28889%29.png)
+![](../../.gitbook/assets/imagen%20%28890%29.png)
 
 Es importante notar como esto es antes de **material design \(**lo cual deberia incluir en este resumen\).
 

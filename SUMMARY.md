@@ -268,6 +268,7 @@
   * [7.4 - Handling User Login with FirebaseAuth](cursos-no-seguridad-udemy/curso-android/7.4-handling-user-login-with-firebaseauth.md)
   * [7.5 - Obteniendo contenido de shared preferences y accediendo a objetos guardados en fb](cursos-no-seguridad-udemy/curso-android/7.5-obteniendo-contenido-de-shared-preferences-y-accediendo-a-objetos-guardados-en-fb.md)
   * [7.6 ListViews, Adapters & ArrayLists](cursos-no-seguridad-udemy/curso-android/7.6-listviews-adapters-and-arraylists.md)
+  * [Styling Views with 9 Patch Images](cursos-no-seguridad-udemy/curso-android/styling-views-with-9-patch-images.md)
   * [Notas generales](cursos-no-seguridad-udemy/curso-android/notas-generales.md)
 * [Blockchain Fundamentals](cursos-no-seguridad-udemy/blockchain-fundamentals/README.md)
   * [1 - ¿Que es blockchain?](cursos-no-seguridad-udemy/blockchain-fundamentals/1-que-es-blockchain.md)

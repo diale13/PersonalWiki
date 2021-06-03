@@ -261,6 +261,7 @@
   * [6.1 Manage App Permissions in the Android Manifest](cursos-no-seguridad-udemy/curso-android/6.1-manage-app-permissions-in-the-android-manifest.md)
   * [6.2  Making the HTTP Request for Weather Data](cursos-no-seguridad-udemy/curso-android/6.2-making-the-http-request-for-weather-data.md)
   * [6.3 Segunda pantalla](cursos-no-seguridad-udemy/curso-android/6.3-segunda-pantalla.md)
+  * [7 -  WhatsApp Clone and learn to useCloud Data Storage](cursos-no-seguridad-udemy/curso-android/7-whatsapp-clone-and-learn-to-usecloud-data-storage.md)
   * [Notas generales](cursos-no-seguridad-udemy/curso-android/notas-generales.md)
 * [Blockchain Fundamentals](cursos-no-seguridad-udemy/blockchain-fundamentals/README.md)
   * [1 - ¿Que es blockchain?](cursos-no-seguridad-udemy/blockchain-fundamentals/1-que-es-blockchain.md)

@@ -390,6 +390,8 @@
   * [9999 - Extras](cursos-no-seguridad-udemy/node-js/9999-extras/README.md)
     * [Para ir haciendo el proyecto](cursos-no-seguridad-udemy/node-js/9999-extras/9999-para-ir-haciendo-el-proyecto.md)
     * [Visual Studio Code Extensions](cursos-no-seguridad-udemy/node-js/9999-extras/9999-visual-studio-code-extensions.md)
+* [Automate the Boring Stuff with Python Programming](cursos-no-seguridad-udemy/automate-the-boring-stuff-with-python-programming/README.md)
+  * [Basics](cursos-no-seguridad-udemy/automate-the-boring-stuff-with-python-programming/basics.md)
 
 ## Random
 

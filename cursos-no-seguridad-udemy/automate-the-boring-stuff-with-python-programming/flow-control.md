@@ -49,5 +49,14 @@ else:
     print("Why would you not enter a name :(")
 ```
 
+### While loop
 
+```python
+spam = 0
+while spam < 5
+    print(spam)
+    spam = spam + 1
+```
+
+* Con break salimos del loop
 

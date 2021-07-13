@@ -58,5 +58,14 @@ while spam < 5
     spam = spam + 1
 ```
 
-* Con break salimos del loop
+* Con break salimos del loop y con **continue** volvemos al inicio
+
+```python
+spam = 0
+while spam < 5
+      spam = spam + 1
+      if spam == 3:
+            continue
+      print(str(spam))
+```
 

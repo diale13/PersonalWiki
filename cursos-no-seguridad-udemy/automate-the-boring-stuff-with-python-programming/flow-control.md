@@ -69,3 +69,16 @@ while spam < 5
       print(str(spam))
 ```
 
+## For loop
+
+```python
+for i in range(5):
+    print("AA " + str(i))
+```
+
+La palabra clave range puede ser usadacomo un rango tradicional y ademas marcar incrementos
+
+* range\(10,20\)
+* range\(10,20,2\)
+* range\(20,10,-1\)
+

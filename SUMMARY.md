@@ -396,6 +396,7 @@
 * [Automate the Boring Stuff with Python Programming](cursos-no-seguridad-udemy/automate-the-boring-stuff-with-python-programming/README.md)
   * [Basics](cursos-no-seguridad-udemy/automate-the-boring-stuff-with-python-programming/basics.md)
   * [Flow Control](cursos-no-seguridad-udemy/automate-the-boring-stuff-with-python-programming/flow-control.md)
+  * [Functions](cursos-no-seguridad-udemy/automate-the-boring-stuff-with-python-programming/functions.md)
 
 ## Random
 

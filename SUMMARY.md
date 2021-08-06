@@ -397,6 +397,8 @@
   * [Basics](cursos-no-seguridad-udemy/automate-the-boring-stuff-with-python-programming/basics.md)
   * [Flow Control](cursos-no-seguridad-udemy/automate-the-boring-stuff-with-python-programming/flow-control.md)
   * [Functions](cursos-no-seguridad-udemy/automate-the-boring-stuff-with-python-programming/functions.md)
+  * [Handling Errors with try/except](cursos-no-seguridad-udemy/automate-the-boring-stuff-with-python-programming/handling-errors-with-try-except.md)
+  * [Lists](cursos-no-seguridad-udemy/automate-the-boring-stuff-with-python-programming/lists.md)
 
 ## Random
 

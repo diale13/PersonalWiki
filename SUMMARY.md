@@ -204,6 +204,7 @@
     * [3 - Disclosure via backup files](untitled-2/untitled/disclosure-via-backup-files.md)
     * [4 - Authentication bypass](untitled-2/untitled/authentication-bypass.md)
     * [5 - Version control history \(gold tier lab\)](untitled-2/untitled/5-version-control-history-gold-tier-lab.md)
+    * [Extra](untitled-2/untitled/extra.md)
   * [5 - File traversal](untitled-2/file-traversal/README.md)
     * [Teorico](untitled-2/file-traversal/teorico.md)
     * [1 - Simple](untitled-2/file-traversal/simple.md)

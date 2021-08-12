@@ -60,7 +60,7 @@ Un atacante puede tomar el valor del input y construir codigo malicioso:
 
 `You searched for: <img src=1 onerror='/* Bad stuff here... */'>`
 
- `Fuentes comunes`
+ **Fuentes comunes**
 
  `document.URL  
  document.documentURI  
@@ -102,7 +102,7 @@ Cuando buscamos **reflected** o **stored** xss se ha de identificar el contexto:
 
 ## Mitigaciones
 
-
+Content security policy \(CSP\) es un mecanismo del navegador apuntado a mitigar el impacto de xss. Si una app usa CSP esta puede prevenir alguna explotacion del mismo. Por ejemplo puede forzar a la pagina a ejecutar scripts unicamente provenientes de 
 
 
 
@@ -118,9 +118,7 @@ Cuando buscamos **reflected** o **stored** xss se ha de identificar el contexto:
 
  [Cross-site scripting contexts](https://portswigger.net/web-security/cross-site-scripting/contexts)
 
-### Content security policy <a id="content-security-policy"></a>
-
- Content security policy \([CSP](https://portswigger.net/web-security/cross-site-scripting/content-security-policy)\) is a browser mechanism that aims to mitigate the impact of cross-site scripting and some other vulnerabilities. If an application that employs CSP contains XSS-like behavior, then the CSP might hinder or prevent exploitation of the vulnerability. Often, the CSP can be circumvented to enable exploitation of the underlying vulnerability.
+###  <a id="content-security-policy"></a>
 
 **Read more**
 

@@ -1,5 +1,7 @@
 # Teorico
 
+## Introduccion
+
 El cross site es una vulnerabilidad web que permite al atacante comprometer las interaciones de los usuarios con las aplicaciones vulnerables.
 
 Puede pasar por encima de las politicas de same origin, designadas para separar las distintas paginas entre ellas. XXS permite hacerse pasar por otra persona, aceder datos. La victima gana un acceso privilegiado a la aplicacion y el atacante puede ganar control completo sobre las funcionalidades.
@@ -10,9 +12,9 @@ XXS funciona manipulando una web para que haga ejecutar codigo JS malicioso al u
 
 ## Tipos de XSS
 
-*  [Reflected XSS](https://portswigger.net/web-security/cross-site-scripting#reflected-cross-site-scripting), where the malicious script comes from the current HTTP request.
-*  [Stored XSS](https://portswigger.net/web-security/cross-site-scripting#stored-cross-site-scripting), where the malicious script comes from the website's database.
-*  [DOM-based XSS](https://portswigger.net/web-security/cross-site-scripting#dom-based-cross-site-scripting), where the vulnerability exists in client-side code rather than server-side code.
+*  [**Reflected XSS**](https://portswigger.net/web-security/cross-site-scripting#reflected-cross-site-scripting), where the malicious script comes from the current HTTP request.
+*  [**Stored XSS**](https://portswigger.net/web-security/cross-site-scripting#stored-cross-site-scripting), where the malicious script comes from the website's database.
+*  [**DOM-based XSS**](https://portswigger.net/web-security/cross-site-scripting#dom-based-cross-site-scripting), where the vulnerability exists in client-side code rather than server-side code.
 
 ### Reflected
 
@@ -46,7 +48,7 @@ Que pasa si se incrusta un script no sanitizado
 
 ### DOM-Based
 
-Ocurre cuando la aplicacion contiene js del lado del cliente procesando datos de forma insegura y los retorna al DOM.
+Ocurre cuando la aplicacion contiene js del lado del cliente procesando datos de forma insegura y los retorna al DOM. Recordar que Document Object Model \(DOM\) es la representacion jerarquía de los elementos de una pagina; esta misma usa JavaScript para manipularse. 
 
  Por ejemplo aqui lee el valor del input y lo manda al html
 
@@ -58,42 +60,59 @@ Un atacante puede tomar el valor del input y construir codigo malicioso:
 
 `You searched for: <img src=1 onerror='/* Bad stuff here... */'>`
 
- 
+ `Fuentes comunes`
+
+ `document.URL  
+ document.documentURI  
+ document.URLUnencoded  
+ document.baseURI  
+ location  
+ document.cookie  
+ document.referrer  
+ window.name  
+ history.pushState  
+ history.replaceState  
+ localStorage  
+ sessionStorage  
+ IndexedDB (mozIndexedDB, webkitIndexedDB, msIndexedDB)  
+ Database`
+
+##  Impactos y existencias
+
+Un ataque real puede llevar a un usuario malicioso a:
+
+* Hacerse pasar por un usuario distinto
+* Llevar a un usuario a hacer una accion que no pretende
+* Leer data del usuario
+* Inyectar codigo
+
+Esto hace que el ataque exitoso pueda tener un alto impacto en la aplicacion sobretodo al tratar con informacion sensible.
+
+## Encontrando vulnerabilidades
+
+* Muchas de las vulnerabilidades pueden ser detectadas utilizando el **web vulnerability scanner** de burpsuit.
+* Adicionalmente se han de testear todos los lugares donde se ingresen elementos por el usuario a fin de buscar estos puntos debiles.
+
+Cuando buscamos **reflected** o **stored** xss se ha de identificar el contexto:
+
+* Lugar donde se puede manipular datos
+* Input validations o porcesos que se realizan en la aplicacion.
+
+ Luego para DOM-Based muchas salen de los url con sus parametros. Hay otras que emergen de imput como document.cookie o de set timeouts.
+
+## Mitigaciones
 
 
 
 
 
-### What can XSS be used for? <a id="what-can-xss-be-used-for"></a>
 
- An attacker who exploits a cross-site scripting vulnerability is typically able to:
 
-*  Impersonate or masquerade as the victim user.
-*  Carry out any action that the user is able to perform.
-*  Read any data that the user is able to access.
-*  Capture the user's login credentials.
-*  Perform virtual defacement of the web site.
-*  Inject trojan functionality into the web site.
 
-### Impact of XSS vulnerabilities <a id="impact-of-xss-vulnerabilities"></a>
-
- The actual impact of an XSS attack generally depends on the nature of the application, its functionality and data, and the status of the compromised user. For example:
-
-*  In a brochureware application, where all users are anonymous and all information is public, the impact will often be minimal.
-*  In an application holding sensitive data, such as banking transactions, emails, or healthcare records, the impact will usually be serious.
-*  If the compromised user has elevated privileges within the application, then the impact will generally be critical, allowing the attacker to take full control of the vulnerable application and compromise all users and their data.
-
-**Read more**
 
  [Exploiting cross-site scripting vulnerabilities](https://portswigger.net/web-security/cross-site-scripting/exploiting)
 
-### How to find and test for XSS vulnerabilities <a id="how-to-find-and-test-for-xss-vulnerabilities"></a>
-
- The vast majority of XSS vulnerabilities can be found quickly and reliably using Burp Suite's [web vulnerability scanner](https://portswigger.net/burp/vulnerability-scanner).
-
- Manually testing for reflected and stored XSS normally involves submitting some simple unique input \(such as a short alphanumeric string\) into every entry point in the application, identifying every location where the submitted input is returned in HTTP responses, and testing each location individually to determine whether suitably crafted input can be used to execute arbitrary JavaScript. In this way, you can determine the [context](https://portswigger.net/web-security/cross-site-scripting/contexts) in which the XSS occurs and select a suitable payload to exploit it.
-
- Manually testing for DOM-based XSS arising from URL parameters involves a similar process: placing some simple unique input in the parameter, using the browser's developer tools to search the DOM for this input, and testing each location to determine whether it is exploitable. However, other types of DOM XSS are harder to detect. To find [DOM-based vulnerabilities](https://portswigger.net/web-security/dom-based) in non-URL-based input \(such as `document.cookie`\) or non-HTML-based sinks \(like `setTimeout`\), there is no substitute for reviewing JavaScript code, which can be extremely time-consuming. Burp Suite's web vulnerability scanner combines static and dynamic analysis of JavaScript to reliably automate the detection of DOM-based vulnerabilities.
+###  <a id="how-to-find-and-test-for-xss-vulnerabilities"></a>
 
 **Read more**
 

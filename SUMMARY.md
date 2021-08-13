@@ -182,7 +182,7 @@
       * [4 - UNION attack, retrieving multiple values in a single column](untitled-2/sql-injection/lab/4-union-attack-retrieving-multiple-values-in-a-single-column.md)
       * [5 - Querying the database type and version on Oracle](untitled-2/sql-injection/lab/5-querying-the-database-type-and-version-on-oracle.md)
       * [6 - Idem on mysql](untitled-2/sql-injection/lab/6-idem-on-mysql.md)
-  * [2 - XXS](untitled-2/xxs/README.md)
+  * [2 - XSS](untitled-2/xxs/README.md)
     * [Teorico](untitled-2/xxs/teorico.md)
     * [Lab](untitled-2/xxs/lab/README.md)
       * [1- Reflected XSS into HTML context with nothing encoded](untitled-2/xxs/lab/1-reflected-xss-into-html-context-with-nothing-encoded.md)

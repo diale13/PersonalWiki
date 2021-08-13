@@ -4,9 +4,9 @@
 
 El cross site es una vulnerabilidad web que permite al atacante comprometer las interaciones de los usuarios con las aplicaciones vulnerables.
 
-Puede pasar por encima de las politicas de same origin, designadas para separar las distintas paginas entre ellas. XXS permite hacerse pasar por otra persona, aceder datos. La victima gana un acceso privilegiado a la aplicacion y el atacante puede ganar control completo sobre las funcionalidades.
+Puede pasar por encima de las politicas de same origin, designadas para separar las distintas paginas entre ellas. XSS permite hacerse pasar por otra persona, aceder datos. La victima gana un acceso privilegiado a la aplicacion y el atacante puede ganar control completo sobre las funcionalidades.
 
-XXS funciona manipulando una web para que haga ejecutar codigo JS malicioso al usuario. 
+XSS funciona manipulando una web para que haga ejecutar codigo JS malicioso al usuario. 
 
 ![](../../.gitbook/assets/imagen%20%28623%29.png)
 

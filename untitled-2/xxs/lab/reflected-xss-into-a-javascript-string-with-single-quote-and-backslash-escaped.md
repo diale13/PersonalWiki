@@ -6,7 +6,10 @@
 
 
 
-* Si ponemos algo se realiza un encode y 
+* Si ponemos algo se realiza un encode a url.
+* Probando con `test'payload` vemos que se encodea **test%27payload** evitando romper el string con comillas
+* Ahora, de cerrar el script antes se puede ejecutar el nuestro
+* &lt;/script&gt;&lt;script&gt;alert\(1\)&lt;/script&gt;
 
 
 

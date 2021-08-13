@@ -2,7 +2,7 @@
 
 Seguridad/Privacidad
 
-1. [ ] [https://dev.to/lordghostx/a-friendly-introduction-to-cybersecurity-1e3a?utm\_source=digest\_mailer&utm\_medium=email&utm\_campaign=digest\_email](https://dev.to/lordghostx/a-friendly-introduction-to-cybersecurity-1e3a?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email)
+1. [x] [https://dev.to/lordghostx/a-friendly-introduction-to-cybersecurity-1e3a?utm\_source=digest\_mailer&utm\_medium=email&utm\_campaign=digest\_email](https://dev.to/lordghostx/a-friendly-introduction-to-cybersecurity-1e3a?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email)
 2. [ ] https://www.ted.com/talks/glenn\_greenwald\_why\_privacy\_matters
 3. [ ] https://www.privacytools.io/
 4. [ ] https://bitwarden.com/

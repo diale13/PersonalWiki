@@ -1,4 +1,4 @@
-# index
+# Cheatsheet 2
 
 ## [Filesystem Hierarchy Standard](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)
 

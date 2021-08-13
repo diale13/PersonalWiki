@@ -108,7 +108,6 @@ cat file.txt
 
 nano file.txt
 vim file.txt
-
 ```
 
 ## Filesystem

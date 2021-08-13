@@ -1,4 +1,4 @@
-# Asesoria \(Electiva 1 ort\)
+# Asesoria
 
 ## Comprando productos de seguridad
 

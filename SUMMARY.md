@@ -137,15 +137,15 @@
   * [2019 KringleCon 2: Turtle Doves](capture-the-flag/2019-kringlecon-2-turtle-doves/README.md)
     * [Untitled](capture-the-flag/2019-kringlecon-2-turtle-doves/untitled.md)
 * [7 - Apuntes](apuntes/README.md)
-  * [Asesoria \(Electiva 1 ort\)](apuntes/asesoria.md)
-  * [Apuntes De Clase](apuntes/apuntesclase/README.md)
+  * [Asesoria](apuntes/asesoria.md)
+  * [Apuntes De Clase \(revisar/borrar\)](apuntes/apuntesclase/README.md)
     * [Apuntes ASSI parte 1](apuntes/apuntesclase/apuntes-de-clases-1.md)
   * [Apuntes Libros](apuntes/apuntes-libros/README.md)
     * [Kevin Mitnick- The Art of Intrusion](apuntes/apuntes-libros/kevin-mitnick-the-art-of-intrusion/README.md)
       * [Chapter 3: The Texas Prison Hack](apuntes/apuntes-libros/kevin-mitnick-the-art-of-intrusion/chapter-3-the-texas-prison-hack.md)
 * [8 - Linux](linux/README.md)
   * [Cheatsheet](linux/cheatsheet.md)
-  * [index](linux/untitled.md)
+  * [Cheatsheet 2](linux/untitled.md)
   * [For new vm](linux/for-new-vm.md)
 * [9 - Paginas y herramientas](paginas-recomendadas/README.md)
   * [Web Attack cheatsheet](paginas-recomendadas/web-attack-cheatsheet/README.md)
@@ -170,7 +170,6 @@
     * [Lab 7 - SO Memory](laboratorios/deloitte-bootcamp/lab-7-so-memory.md)
     * [Lab 8 - OWASP and DVWA](laboratorios/deloitte-bootcamp/lab-8-owasp.md)
     * [Lab 9 - Forensics \(cont\)](laboratorios/deloitte-bootcamp/untitled-1.md)
-* [Virtualizacion](virtualizacion.md)
 * [Portswigger Academy](untitled-2/README.md)
   * [1 - SQL injection](untitled-2/sql-injection/README.md)
     * [1 - Teorico](untitled-2/sql-injection/1-teorico.md)
@@ -192,6 +191,7 @@
       * [5 - SVG markup allowed](untitled-2/xxs/lab/5-svg-markup-allowed.md)
       * [7 - Attribute with angle brackets HTML-encoded](untitled-2/xxs/lab/7-attribute-with-angle-brackets-html-encoded.md)
       * [8 - Anchor href attribute with double quotes HTML-encoded](untitled-2/xxs/lab/8-anchor-href-attribute-with-double-quotes-html-encoded.md)
+      * [Reflected XSS into a JavaScript string with single quote and backslash escaped](untitled-2/xxs/lab/reflected-xss-into-a-javascript-string-with-single-quote-and-backslash-escaped.md)
       * [Notes](untitled-2/xxs/lab/notes.md)
   * [3 - XML external entity \(XXE\) injection](untitled-2/xml-external-entity-xxe-injection/README.md)
     * [Terorico](untitled-2/xml-external-entity-xxe-injection/terorico.md)
@@ -390,7 +390,6 @@
     * [4 - Logging to mongo db](cursos-no-seguridad-udemy/node-js/11-handling-and-logging-errors/4-logging-to-mongo-db.md)
     * [5 -Uncaught Exceptions](cursos-no-seguridad-udemy/node-js/11-handling-and-logging-errors/5-uncaught-exceptions.md)
     * [6 - Error handle recap](cursos-no-seguridad-udemy/node-js/11-handling-and-logging-errors/6-error-handle-recap.md)
-  * [Arquitectura](cursos-no-seguridad-udemy/node-js/arquitectura.md)
   * [9999 - Extras](cursos-no-seguridad-udemy/node-js/9999-extras/README.md)
     * [Para ir haciendo el proyecto](cursos-no-seguridad-udemy/node-js/9999-extras/9999-para-ir-haciendo-el-proyecto.md)
     * [Visual Studio Code Extensions](cursos-no-seguridad-udemy/node-js/9999-extras/9999-visual-studio-code-extensions.md)
@@ -403,7 +402,6 @@
 
 ## Random
 
-* [Recursos](random/recursos.md)
 * [GitHub repos](random/github-repos.md)
 
 ## TODO

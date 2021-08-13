@@ -102,62 +102,12 @@ Cuando buscamos **reflected** o **stored** xss se ha de identificar el contexto:
 
 ## Mitigaciones
 
-Content security policy \(CSP\) es un mecanismo del navegador apuntado a mitigar el impacto de xss. Si una app usa CSP esta puede prevenir alguna explotacion del mismo. Por ejemplo puede forzar a la pagina a ejecutar scripts unicamente provenientes de 
+Content security policy \(CSP\) es un mecanismo del navegador apuntado a mitigar el impacto de xss. Si una app usa CSP esta puede prevenir alguna explotacion del mismo. Por ejemplo puede forzar a la pagina a ejecutar scripts unicamente provenientes del mismo sitio.
 
+## Previniendo XSS
 
-
-
-
-
-
- [Exploiting cross-site scripting vulnerabilities](https://portswigger.net/web-security/cross-site-scripting/exploiting)
-
-###  <a id="how-to-find-and-test-for-xss-vulnerabilities"></a>
-
-**Read more**
-
- [Cross-site scripting contexts](https://portswigger.net/web-security/cross-site-scripting/contexts)
-
-###  <a id="content-security-policy"></a>
-
-**Read more**
-
- [Content security policy](https://portswigger.net/web-security/cross-site-scripting/content-security-policy)
-
-### Dangling markup injection <a id="dangling-markup-injection"></a>
-
- Dangling markup injection is a technique that can be used to capture data cross-domain in situations where a full cross-site scripting exploit is not possible, due to input filters or other defenses. It can often be exploited to capture sensitive information that is visible to other users, including CSRF tokens that can be used to perform unauthorized actions on behalf of the user.
-
-**Read more**
-
- [Dangling markup injection](https://portswigger.net/web-security/cross-site-scripting/dangling-markup)
-
-### How to prevent XSS attacks <a id="how-to-prevent-xss-attacks"></a>
-
- Preventing cross-site scripting is trivial in some cases but can be much harder depending on the complexity of the application and the ways it handles user-controllable data.
-
- In general, effectively preventing XSS vulnerabilities is likely to involve a combination of the following measures:
-
-*  **Filter input on arrival.** At the point where user input is received, filter as strictly as possible based on what is expected or valid input.
-*  **Encode data on output.** At the point where user-controllable data is output in HTTP responses, encode the output to prevent it from being interpreted as active content. Depending on the output context, this might require applying combinations of HTML, URL, JavaScript, and CSS encoding.
-*  **Use appropriate response headers.** To prevent XSS in HTTP responses that aren't intended to contain any HTML or JavaScript, you can use the `Content-Type` and `X-Content-Type-Options` headers to ensure that browsers interpret the responses in the way you intend.
-*  **Content Security Policy.** As a last line of defense, you can use Content Security Policy \(CSP\) to reduce the severity of any XSS vulnerabilities that still occur.
-
-**Read more**
-
- [How to prevent XSS](https://portswigger.net/web-security/cross-site-scripting/preventing) [Find XSS vulnerabilities using Burp Suite's web vulnerability scanner](https://portswigger.net/burp/vulnerability-scanner)
-
-### Common questions about cross-site scripting <a id="common-questions-about-cross-site-scripting"></a>
-
- **How common are XSS vulnerabilities?** XSS vulnerabilities are very common, and XSS is probably the most frequently occurring web security vulnerability.
-
- **How common are XSS attacks?** It is difficult to get reliable data about real-world XSS attacks, but it is probably less frequently exploited than other vulnerabilities.
-
- **What is the difference between XSS and CSRF?** XSS involves causing a web site to return malicious JavaScript, while CSRF involves inducing a victim user to perform actions they do not intend to do.
-
- **What is the difference between XSS and SQL injection?** XSS is a client-side vulnerability that targets other application users, while SQL injection is a server-side vulnerability that targets the application's database.
-
- **How do I prevent XSS in PHP?** Filter your inputs with a whitelist of allowed characters and use type hints or type casting. Escape your outputs with `htmlentities` and `ENT_QUOTES` for HTML contexts, or JavaScript Unicode escapes for JavaScript contexts.
-
- **How do I prevent XSS in Java?** Filter your inputs with a whitelist of allowed characters and use a library such as Google Guava to HTML-encode your output for HTML contexts, or use JavaScript Unicode escapes for JavaScript contexts.
+* Filtrar inputs al arrivar
+* Encode data on output: a fin de eliminar el control del usuario
+* Uso de headers de respuesta: Content-Type o X-Content-Type-Options para asegurar que el navegador haga lo requerido
+* CSP
 

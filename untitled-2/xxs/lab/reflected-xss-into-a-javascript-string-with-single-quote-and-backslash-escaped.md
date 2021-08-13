@@ -11,6 +11,20 @@
 * Ahora, de cerrar el script antes se puede ejecutar el nuestro
 * &lt;/script&gt;&lt;script&gt;alert\(1\)&lt;/script&gt;
 
+## Takeaway
+
+Si escapan nuestros caracteres probar cerrar scripts para el caso que nos esten escapando antes
+
+`<script>  
+...  
+var input = 'controllable data here';  
+...  
+</script>`
+
+Rompemos el script que pusieron antes ellos.
+
+`</script><img src=1 onerror=alert(document.domain)>`
+
 
 
 

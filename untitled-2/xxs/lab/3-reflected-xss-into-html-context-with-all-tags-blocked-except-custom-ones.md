@@ -1,4 +1,4 @@
-# 3 - Reflected XSS into HTML context with all tags blocked except custom ones
+# REVIEW - Reflected XSS into HTML context with all tags blocked except custom ones
 
 > This lab blocks all HTML tags except custom ones.
 >

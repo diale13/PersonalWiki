@@ -179,9 +179,7 @@ datos y de la misma.
 
 **Integridad:** propiedad de mantener los datos libres de modificaciones no autorizadas. Busca mantener con exactitud la información tal cual fue generada, sin ser manipulada ni alterada por personas o procesos no autorizados.
 
-**Disponibilidad:** la información está disponible a quienes \(personas, procesos o
-
-aplicaciones\) deban acceder a ella.
+**Disponibilidad:** la información está disponible a quienes \(personas, procesos o aplicaciones\) deban acceder a ella.
 
 **Autenticación:** soy quien digo ser.
 

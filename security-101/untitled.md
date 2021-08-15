@@ -72,6 +72,87 @@ Existen muchas fuentes de información, algunas incluso en la red Tor, esto hace
 * Consiste en TAXII servers y clientes
 * Constituye amenazas en tiempo real y feeds.
 
+## Risk Management Concepts
+
+**Risk vector**
+
+Identificamos los puntos clave donde el riesgo afectaria mas a nuestra organizacion
+
+* Mission-critical IT systems
+  * Sistemas de pago
+  * RH
+  * Emergencia
+* Datos sensibles
+* Acceso de terceros
+* Accesos fisicos
+* Server room access
+* Limitar USB 
+
+Para controlar estos vectores de riesgo se introducen los **Risk Management Frameworks \(RMFs\)**
+
+* Center for Internet Security \(CIS\): publica mejores practicas
+* NIST Risk Management Framework
+* ISO \(internation Organizzation For Standarization\); 27001/27002/27701/3100
+  * IT system and information security
+
+**Data Privacy Regulations and Standards**
+
+* General Data Protection Regulation \(GDPR\)
+* Health Insurance Portability and Accountability Act \(HIPAA\)
+* Payment Card Industry Data Security Standard \(PCI DSS\)
+
+### Security Controls
+
+* Solucion que mitiga ameenaza/riesgos
+  * Ejemplo: antivirus que mitiga infecciones de malware
+
+**Security Control Categories • Managerial/administrative**
+
+* What should be done?
+* Employee background checks
+
+  • Operational
+
+* How often must we do it?
+* Periodic review of security policies
+
+  • Technical
+
+* How exactly will we do it?
+* Firewall rule configuration
+
+**Security Control Types • Physical**
+
+* Access control vestibule \(mantrap\)
+
+  • Detective
+
+* Log analysis
+
+  • Corrective
+
+* Patching known vulnerabilities
+
+**Risk Example • Risk**
+
+* Theft of online banking credentials
+
+  • Attack vector
+
+* Spoofed e-mail message with link to spoofed Web site tricking
+
+  an end user
+
+  • Mitigation through security controls
+
+* User security awareness
+* Antivirus software
+* Spam filters
+
+  CompTIA Security+
+
+
+
 
 
 

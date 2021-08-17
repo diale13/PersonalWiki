@@ -20,7 +20,7 @@ Puede ocurrir en un parametro, en un campo a ingresar texto que se refleja como 
 
 En este lab se nos presenta un buscador al que inyectamos el siguiente codigo JS
 
-![](../../.gitbook/assets/imagen%20%28601%29.png)
+![](../../../.gitbook/assets/imagen%20%28601%29.png)
 
 ## Impacto de XSS Reflejado
 

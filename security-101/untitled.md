@@ -101,59 +101,48 @@ Para controlar estos vectores de riesgo se introducen los **Risk Management Fram
 * Health Insurance Portability and Accountability Act \(HIPAA\)
 * Payment Card Industry Data Security Standard \(PCI DSS\)
 
-### Security Controls
+## Security Controls
 
 * Solucion que mitiga ameenaza/riesgos
   * Ejemplo: antivirus que mitiga infecciones de malware
 
-**Security Control Categories • Managerial/administrative**
+### **Security Control Categories • Managerial/administrative**
 
-* What should be done?
-* Employee background checks
+* Que debe hacerce?
+* Check de background
+* Cada cuanto?
+* Revision de politicas de seguridad y tecnicas
 
-  • Operational
+### **Security Control Types • Physical**
 
-* How often must we do it?
-* Periodic review of security policies
+* Ingreso aal vestibulo o recepcion
+* Logs
+* Correccion de vulnerabilidades
 
-  • Technical
+### **Risk Example • Risk**
 
-* How exactly will we do it?
-* Firewall rule configuration
+* Robo de identidades
+* Correos maliciosos
+* Conocimiento de seguridad de empleados
+* Filtros de spam
+* Antivirus
 
-**Security Control Types • Physical**
+## Risk Assessments and Treatments
 
-* Access control vestibule \(mantrap\)
+* Un risk assestment busca determinar la probabilidad de que ocurra una amenaza
+* Los riesgos pueden ser ambientales \(terremotos\), causados por personas, internas o externas
+* Los tratamientos sobre estos riesgos \(management\) incluyen aceptacion, mitigacion, transferencia y el evitarlos.
 
-  • Detective
+## Quantitative Risk Assessments
 
-* Log analysis
+* Aqui entra el concepto de Single Loss Expectancy \(SLE\): cuanta perdida podemos esperar con un incidente negativo? 
+  * Se toma el valor de un asset y se multiplica por el valor de exposicion
 
-  • Corrective
+![](../.gitbook/assets/imagen%20%28931%29.png)
 
-* Patching known vulnerabilities
+Calculado esto se hace la multiplicacion de arriba: 24000x0,125
 
-**Risk Example • Risk**
-
-* Theft of online banking credentials
-
-  • Attack vector
-
-* Spoofed e-mail message with link to spoofed Web site tricking
-
-  an end user
-
-  • Mitigation through security controls
-
-* User security awareness
-* Antivirus software
-* Spam filters
-
-  CompTIA Security+
-
-
-
-
+Se puede expandir esto a una version anual, multiiplicando este valor anterior obtenido X la frecuencia de ocurrencias 
 
 
 

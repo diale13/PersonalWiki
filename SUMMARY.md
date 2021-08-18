@@ -192,6 +192,7 @@
       * [3- Reflected XSS into HTML context with all tags blocked except custom ones](untitled-2/xxs/reflected-xss/3-reflected-xss-into-html-context-with-all-tags-blocked-except-custom-ones.md)
     * [Exploiting cross-site scripting vulnerabilities](untitled-2/xxs/exploiting-cross-site-scripting-vulnerabilities/README.md)
       * [Exploiting cross-site scripting to steal cookies](untitled-2/xxs/exploiting-cross-site-scripting-vulnerabilities/exploiting-cross-site-scripting-to-steal-cookies.md)
+      * [Exploiting cross-site scripting to capture passwords](untitled-2/xxs/exploiting-cross-site-scripting-vulnerabilities/exploiting-cross-site-scripting-to-capture-passwords.md)
     * [Cheatsheet XSS](untitled-2/xxs/cheatsheet-xss.md)
     * [Lab](untitled-2/xxs/lab/README.md)
       * [4 - TODO Reflected XSS with event handlers and href attributes blocked](untitled-2/xxs/lab/4-todo-reflected-xss-with-event-handlers-and-href-attributes-blocked.md)

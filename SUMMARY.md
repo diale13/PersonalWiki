@@ -192,6 +192,7 @@
       * [3- Reflected XSS into HTML context with all tags blocked except custom ones](untitled-2/xxs/reflected-xss/3-reflected-xss-into-html-context-with-all-tags-blocked-except-custom-ones.md)
       * [Reflected XSS into a JavaScript string with single quote and backslash escaped](untitled-2/xxs/reflected-xss/reflected-xss-into-a-javascript-string-with-single-quote-and-backslash-escaped.md)
       * [Reflected XSS into a JavaScript string with angle brackets HTML encoded](untitled-2/xxs/reflected-xss/reflected-xss-into-a-javascript-string-with-angle-brackets-html-encoded.md)
+    * [Stored XSS](untitled-2/xxs/stored-xss.md)
     * [Exploiting cross-site scripting vulnerabilities](untitled-2/xxs/exploiting-cross-site-scripting-vulnerabilities/README.md)
       * [Exploiting cross-site scripting to steal cookies](untitled-2/xxs/exploiting-cross-site-scripting-vulnerabilities/exploiting-cross-site-scripting-to-steal-cookies.md)
       * [Exploiting cross-site scripting to capture passwords](untitled-2/xxs/exploiting-cross-site-scripting-vulnerabilities/exploiting-cross-site-scripting-to-capture-passwords.md)

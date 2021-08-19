@@ -244,6 +244,7 @@
     * [3 - Low-level logic flaw](untitled-2/8-business-logic-vulnerabilities/3-low-level-logic-flaw.md)
   * [9 - Access control vulnerabilities and privilege escalation](untitled-2/9-access-control-vulnerabilities-and-privilege-escalation/README.md)
     * [1 - Teorico](untitled-2/9-access-control-vulnerabilities-and-privilege-escalation/1-teorico.md)
+    * [User role can be modified in user profile](untitled-2/9-access-control-vulnerabilities-and-privilege-escalation/user-role-can-be-modified-in-user-profile.md)
   * [10 - Cross-site request forgery \(CSRF \)](untitled-2/10-cross-site-request-forgery-csrf/README.md)
     * [1 - Teorico](untitled-2/10-cross-site-request-forgery-csrf/1-teorico.md)
     * [2 - Labs](untitled-2/10-cross-site-request-forgery-csrf/2-labs/README.md)

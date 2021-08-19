@@ -35,13 +35,13 @@ Un ejemplo de uso:
 
 Out of band resource load es cuando una app puede ser inducida a cargar contenido de una fuente externa arbitraria para luego incluirla en su respuesta. Burp Suite detecta esto induciendo al collaborator server a retornar data especifica en sus respuestas para la interaccion externa y ver como se comporta
 
-![ponele...](../../.gitbook/assets/imagen%20%28941%29.png)
+![ponele...](../../.gitbook/assets/imagen%20%28942%29.png)
 
 ### **Detecting blind SQL injection**
 
 Si llevas a interactuar a la app inyectando codigo el collaborator te avisa
 
-![](../../.gitbook/assets/imagen%20%28943%29.png)
+![](../../.gitbook/assets/imagen%20%28944%29.png)
 
 **Detecting blind cross-site scripting**
 

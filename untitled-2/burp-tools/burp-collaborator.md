@@ -41,7 +41,7 @@ Out of band resource load es cuando una app puede ser inducida a cargar contenid
 
 Si llevas a interactuar a la app inyectando codigo el collaborator te avisa
 
-![](../../.gitbook/assets/imagen%20%28942%29.png)
+![](../../.gitbook/assets/imagen%20%28943%29.png)
 
 **Detecting blind cross-site scripting**
 

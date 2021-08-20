@@ -216,7 +216,7 @@
     * [4 - Authentication bypass](untitled-2/untitled/authentication-bypass.md)
     * [5 - Version control history \(gold tier lab\)](untitled-2/untitled/5-version-control-history-gold-tier-lab.md)
     * [Extra](untitled-2/untitled/extra.md)
-  * [5 - File traversal](untitled-2/file-traversal/README.md)
+  * [5 - Directory traversal](untitled-2/file-traversal/README.md)
     * [Teorico](untitled-2/file-traversal/teorico.md)
     * [1 - Simple](untitled-2/file-traversal/simple.md)
     * [2 - Traversal sequences blocked with absolute path bypass](untitled-2/file-traversal/2-traversal-sequences-blocked-with-absolute-path-bypass.md)

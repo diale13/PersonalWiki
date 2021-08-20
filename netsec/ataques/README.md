@@ -2,6 +2,8 @@
 
 ## Forms of Cyber Attacks
 
+![](../../.gitbook/assets/imagen%20%28947%29.png)
+
 There are various ways cyber-attacks are carried out depending on the nature of what is being attacked. Some of which include:
 
 ###  Phishing Attacks

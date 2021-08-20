@@ -1,2 +1,2 @@
-# Security 101
+# CompTIA Security+
 

@@ -144,5 +144,61 @@ Calculado esto se hace la multiplicacion de arriba: 24000x0,125
 
 Se puede expandir esto a una version anual, multiiplicando este valor anterior obtenido X la frecuencia de ocurrencias 
 
+## Qualitative Risk Assessments
+
+Es basado en elementos subjetivos como son:
+
+* Probabilidad
+* Impacto de la amenaza \(threat\)
+
+Se asigna luego un score basado en esto. Es subjetivo por lo que dos personas pueden llegar a distintos resultados.
+
+![Risk register example](../.gitbook/assets/imagen%20%28945%29.png)
+
+Podemos generar un Risk Heat Map donde tomamos riesgo e impacto
+
+![Risk Heat Map ](../.gitbook/assets/imagen%20%28946%29.png)
+
+Una matriz es similar pero es sin los colores y llevado a los riesgos.
+
+## Business Impact Analysis \(BIA\)
+
+Hacemos una priorizacion de los procesos critiocs para el negocio, por ejemplo los sistemas de pago  en retail o los registros de pacientes en un hospital.
+
+* Financiero
+* Reputacional
+* Perdida de datos
+
+**Field component**: son elementos de campo como el mismo software O puede ser elementos de hardware como servidores
+
+* **Mean time between failures \(MTBF\)**
+  *  Average time between repairable component failures
+  * Software patching
+* **Mean time to failure \(MTTF\)**
+  * Average time between NON-repairable component failures
+  * Hard disks, switches, routers
+* **Mean time to repair \(MTTR\)**
+  * Time required to repair a failed component
+
+Ubicar recursos criticos:
+
+* Donde estan los datos
+* Realizar Privacy Threashold Assesment \(PTA\)
+* Privacy impact assesment
+
+**Recovery time objetivce \(RTO\):** define maximo tolerable de downtime
+
+**Recovery point objective \(RPO\):** maximo tolerable de perdida de datos
+
+
+
+\*\*\*\*
+
+
+
+
+
+
+
 
 

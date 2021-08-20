@@ -10,13 +10,9 @@ Permite introducir codigo sql donde normalmente no estaria permitido y obtener i
 
 Un ataque exitoso puede resultar en el acceso sin autorizacion o la obtencion de informacion. El atacante puede incluso dejar un backdoor a la organizacion llevando a un impacto a largo tiempo.
 
-
-
 ## Atacando la URI
 
 Supongamos que tenemos la siguiente URL que genera la siguiente consulta:
-
-
 
 ```text
 https://insecure-website.com/products?category=Gifts

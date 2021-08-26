@@ -262,6 +262,7 @@
 * [Forensics](forensics/README.md)
   * [Intro](forensics/intro.md)
   * [HashFiles](forensics/hashfiles.md)
+  * [Relacion con hardware](forensics/relacion-con-hardware.md)
 * [Cisco Courses](cisco-courses/README.md)
   * [Fundamentals](cisco-courses/fundamentals/README.md)
     * [Sign of the Times \(Stuxnet\)](cisco-courses/fundamentals/untitled.md)
